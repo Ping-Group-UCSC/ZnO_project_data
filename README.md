@@ -1,6 +1,3 @@
 # ZnO_project_data
-The supplementary data for Zhang, S., E. Perez, T. Park, K. Li, X. Wang, M. Mansouri, Y. Wang,
-J. D. Vega Bazantes, R. Zhang, J. Sun, K.-M. C. Fu, H. Seo, and Y. Ping,
-``Deep spin defects in zinc oxide for high-fidelity single-shot readout,''
-\textit{PRX Quantum} (2026).
-\href{https://doi.org/10.1103/v3fp-821b}{https://doi.org/10.1103/v3fp-821b}
+The supplementary data of Zhang, S., Perez, E., Park, T., Li, K., Wang, X., Mansouri, M., Wang, Y., Bazantes, J. D. V., Zhang, R., Sun, J., Fu, K.-M. C., Seo, H., & Ping, Y. (2026).
+Deep spin defects in zinc oxide for high-fidelity single-shot readout. PRX Quantum. https://doi.org/10.1103/v3fp-821b
