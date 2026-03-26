@@ -1,0 +1,71 @@
+#!/bin/bash
+#SBATCH --job-name=west
+#SBATCH --output=out.%j
+#SBATCH --time=6:00:00
+#SBATCH --account=m4507
+#SBATCH --constraint=gpu
+#SBATCH --qos=regular
+#SBATCH --nodes=12
+#SBATCH --ntasks-per-node=4
+#SBATCH --gpus-per-task=1
+#SBATCH --gpu-bind=none
+#SBATCH --mail-user=szhan213@ucsc.edu
+#SBATCH --mail-type=ALL
+
+
+#-c, --cpus-per-task, for gpu node, should be 128/ntask-per-node;
+#if it is not a int, use 2*int(64/ntask-per-node)
+#usually ntask-per-node = gpus-per-node.
+#maximum numbers of GPU=4
+
+export LC_ALL=C
+module load gpu
+module load PrgEnv-nvidia
+module load nvidia/23.9
+module unload cray-libsci
+module unload darshan
+module load cudatoolkit/12.2
+module load craype-accel-nvidia80
+module load cray-python/3.11.5
+module load cray-fftw
+
+export LD_LIBRARY_PATH=/opt/cray/pe/python/3.11.5/lib:$LD_LIBRARY_PATH
+export OMP_NUM_THREADS=1
+export SLURM_CPU_BIND=cores
+export MPICH_GPU_SUPPORT_ENABLED=1
+
+MPICMD="srun -n $SLURM_NTASKS"
+WESTPW=/global/common/software/m4507/szhan213/WEST_GPU/qe-7.3-west6.0_compile2/bin
+
+ENV=/global/homes/s/szhan213/.conda/envs/Testwest2/bin
+#ENV="/work2/08504/tg878036/stampede2/code/miniconda3/bin/"
+#I used developer version of pyscf: need to include the path manually
+export PYTHONPATH=/global/homes/s/szhan213/Code/pyscf:$PYTHONPATH
+module load intel-oneapi/2023.2.0
+
+###############################################################
+echo "Start:"; date
+echo Run pw
+# $MPICMD $WESTPW/pw.x -nk 1 -nb 2  -inp pw.in > pw.out
+#echo Run nscf
+# $MPICMD $WESTPW/pw.x -nk 1 -nb 8  -inp nscf.in > nscf.out
+#echo Run wstat
+#$MPICMD $WESTPW/wstat.x -ni 16 -i west_512.in > wstat_512.out
+#echo Done; cat wstat_512.out | tail -5
+
+#echo Run wfreq
+#$MPICMD $WESTPW/wfreq.x -ni 16 -i west_512.in > wfreq_512.out
+#echo Done; cat wfreq_512.out | tail -5
+
+echo Run bse init
+$MPICMD $WESTPW/wbse_init.x -ni 3 -i wbse_init.in > wbse_init.out
+echo Done; cat wbse_init.out | tail -5
+#
+echo Run bse
+$MPICMD $WESTPW/wbse.x -ni 3 -i wbse.in > wbse.out
+echo Done; cat wbse.out | tail -5 
+echo Run westpp
+$MPICMD $WESTPW/westpp.x -i westpp.in > westpp.out
+echo Run 
+
+

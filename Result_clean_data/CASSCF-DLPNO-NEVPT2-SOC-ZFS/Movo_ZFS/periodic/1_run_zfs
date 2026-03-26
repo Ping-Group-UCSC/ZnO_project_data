@@ -1,0 +1,57 @@
+#!/bin/bash
+#SBATCH --job-name=pwx
+#SBATCH --output=qe.%j
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=2
+#SBATCH --time=24:00:00
+#SBATCH --partition=ping
+# SBATCH --dependency=afterany:48083
+#SBATCH --account=ping
+# SBATCH --account=cfn307395
+#SBATCH --requeue
+
+# QE save file is too large to be included in Git repo. Therefore, to run this test, an actual QE calculation will be performed to obtain the wavefunction.
+# This example was tested with QE 6.4.1.
+
+# To install QE, please follow instructions on https://www.quantum-espresso.org/Doc/user_guide/
+# Note that the compilation of QE can be technical and users unfamiliar with the process may find it helpful to consult experts first.
+# QE must be compiled with HDF5 flag enabled, i.e. when configuring QE one needs to specify HDF5 library (--with-hdf5=/path/to/hdf5/lib/).
+
+#################################### Lux ############################################################################################################
+ hostname
+ echo "Running program on $SLURM_JOB_NUM_NODES nodes with $SLURM_NTASKS total tasks, with each node getting $SLURM_NTASKS_PER_NODE running on cores."
+ module load intel/impi
+ MPICMD="mpirun -n $SLURM_NTASKS"
+ PWDIR=/data/groups/ping/kli103/programs/qe-6.4.1_hdf5/bin
+# PWDIR="/data/groups/ping/szhan213/Programs/qe-7.1-hdf5/bin"
+ mpirun=/cm/shared/apps/intel/compilers_and_libraries/linux/mpi/intel64/bin/mpirun
+ENV=/home/szhan213/miniconda3/envs/pyzfs/bin
+#####################################################################################################################################################
+
+
+# Run QE to generate wavefunction
+#$MPICMD $PWDIR/pw.x -i pw.in > pw.out
+
+# Run PyZFS to compute the ZFS tensor
+$MPICMD $ENV/pyzfs --wfcfmt qeh5 > zfs.out
+# An equivalent command is:
+# mpirun python -m pyzfs.run --wfcfmt qeh5 > zfs.out
+
+D=`grep --color=never "D unit" zfs.xml | grep --color=never -Eoh '[+-]?[0-9]+([.][0-9]+)?'`
+Dref=`grep --color=never "D unit" zfs_ref.xml | grep --color=never -Eoh '[+-]?[0-9]+([.][0-9]+)?'`
+
+E=`grep --color=never "E unit" zfs.xml | grep --color=never -Eoh '[+-]?[0-9]+([.][0-9]+)?'`
+Eref=`grep --color=never "E unit" zfs_ref.xml | grep --color=never -Eoh '[+-]?[0-9]+([.][0-9]+)?'`
+
+echo "D = " $D
+echo "Ref D = " $Dref
+echo "E = " $E
+echo "Ref E = " $Eref
+
+if [ `python -c "print(int(abs($D - $Dref) < 1 and abs($E - $Eref) < 1))"` -ne 0 ]
+then 
+    exit 0
+else
+    exit 1
+fi
+

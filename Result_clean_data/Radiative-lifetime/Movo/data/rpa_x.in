@@ -1,0 +1,63 @@
+#                                                                     
+#  ____  ____     _       ____    ____  ______      ___               
+# |_  _||_  _|   / \     |_   \  /   _||_   _ \   ."   `.             
+#   \ \  / /    / _ \      |   \/   |    | |_) | /  .-.  \            
+#    \ \/ /    / ___ \     | |\  /| |    |  __". | |   | |            
+#    _|  |_  _/ /   \ \_  _| |_\/_| |_  _| |__) |\  `-"  /            
+#   |______||____| |____||_____||_____||_______/  `.___."             
+#                                                                     
+#                                                                     
+#                                                                     
+# Version 5.1.0 Revision 22561 Hash (prev commit) 785b4fd6f           
+#                      Branch is 5.2                                  
+#                  MPI+HDF5_MPI_IO Build                              
+#                http://www.yambo-code.org                            
+#
+optics                           # [R] Linear Response optical properties
+em1s                             # [R][Xs] Statically Screened Interaction
+bss                              # [R] BSE solver
+bse                              # [R][BSE] Bethe Salpeter Equation.
+dipoles                          # [R] Oscillator strenghts (or dipoles)
+FFTGvecs= 30           Ry
+NLogCPUs=0                       # [PARALLEL] Live-timing CPU`s (0 for all)
+PAR_def_mode= "balanced"         # [PARALLEL] Default distribution mode ("balanced"/"memory"/"workload"/"KQmemory")
+DIP_CPU= ""                      # [PARALLEL] CPUs for each role
+DIP_ROLEs= ""                    # [PARALLEL] CPUs roles (k,c,v)
+X_and_IO_CPU= ""                 # [PARALLEL] CPUs for each role
+X_and_IO_ROLEs= ""               # [PARALLEL] CPUs roles (q,g,k,c,v)
+X_and_IO_nCPU_LinAlg_INV=-1      # [PARALLEL] CPUs for Linear Algebra (if -1 it is automatically set)
+BS_CPU= ""                       # [PARALLEL] CPUs for each role
+BS_ROLEs= ""                     # [PARALLEL] CPUs roles (k,eh,t)
+BS_nCPU_LinAlg_INV=-1            # [PARALLEL] CPUs for Linear Algebra (if -1 it is automatically set)
+BS_nCPU_LinAlg_DIAGO=-1          # [PARALLEL] CPUs for Linear Algebra (if -1 it is automatically set)
+Chimod= "HARTREE"                # [X] IP/Hartree/ALDA/LRC/PF/BSfxc
+BSKmod= "HARTREE"                # [BSE] IP/Hartree/HF/ALDA/SEX/BSfxc
+BSEmod= "resonant"               # [BSE] resonant/retarded/coupling
+BSSmod= "d"                      # [BSS] (h)aydock/(d)iagonalization/(s)lepc/(i)nversion/(t)ddft`
+BSENGexx= 30          Ry    # [BSK] Exchange components
+% BSEQptR
+ 1 | 1 |                             # [BSK] Transferred momenta range
+%
+% BSEBands
+    1 | 3000 |                       # [BSK] Bands range
+%
+% BEnRange
+  0.00000 | 6.00000 |         eV    # [BSS] Energy range
+%
+% BDmRange
+ 0.020000 | 0.020000 |         eV    # [BSS] Damping range
+%
+BEnSteps= 6000                   # [BSS] Energy steps
+% BLongDir
+ 1.000000 | 0.000000 | 0.000000 |        # [BSS] [cc] Electric Field
+%
+BSEprop= "abs"                   # [BSS] Can be any among abs/jdos/kerr/magn/dich/photolum/esrt
+BSEdips= "none"                  # [BSS] Can be "trace/none" or "xy/xz/yz" to define off-diagonal rotation plane
+WRbsWF                        # [BSS] Write to disk excitonic the WFs
+% BndsRnXs
+    1 | 3000 |                       # [Xs] Polarization function bands
+%
+NGsBlkXs= 8                Ry    # [Xs] Response block size
+% LongDrXs
+ 1.000000 | 0.000000 | 0.000000 |        # [Xs] [cc] Electric Field
+%

@@ -1,0 +1,9 @@
+formation_energies.xlsx: Formation energy values of all defects at fermi level = 0 (VBM)
+
+plot_formation_energies.py: Script to plot the formation energies of all defects, complex defects combined with their single substitution and additionally the center population of the complex defects
+plot_charge_transition_levels.py: Script to plot the charge transition levels
+
+formation_energies_ctls3.pdf: Plot in paper with formation energies and CTLs
+FE_Sum2.pdf: Plot in SI with defect complexes and single substitutions.
+center_population_percent.png: Plot in SI for the complex vacancy probabilities
+

@@ -1,0 +1,60 @@
+##################
+PES Data for Nb min
+##################
+dQ: 3.83629 Ang.amu^1/2
+ZPL: 1.7229 eV
+gs curve: 
+omega_eff: 20.26498284990815 meV
+Huang-Rhys:  35.67074031237306
+ 
+es curve: 
+omega_eff: 20.290425079508747 meV
+Huang-Rhys:  35.71552412353009
+Number of phonons:  84
+
+
+##################
+PES Data for Nb maj
+##################
+dQ: 1.8 Ang.amu^1/2
+ZPL: 1.0746 eV
+gs curve: 
+omega_eff: 39.64085507377251 meV
+Huang-Rhys:  15.361408801666668
+ 
+es curve: 
+omega_eff: 34.31993705454413 meV
+Huang-Rhys:  13.299475557759402
+Number of phonons:  31
+
+
+##################
+PES Data for Mo min
+##################
+dQ: 5.04901 Ang.amu^1/2
+ZPL: 1.56144 eV
+gs curve: 
+omega_eff: 16.609131582307704 meV
+Huang-Rhys:  50.64101599468816
+ 
+es curve: 
+omega_eff: 17.125441014641346 meV
+Huang-Rhys:  52.215236422255124
+Number of phonons:  91
+
+
+##################
+PES Data for Mo maj
+##################
+dQ: 1.19486 Ang.amu^1/2
+ZPL: 1.98601 eV
+gs curve: 
+omega_eff: 29.036434368899307 meV
+Huang-Rhys:  4.9581578907070325
+ 
+es curve: 
+omega_eff: 27.709556721516577 meV
+Huang-Rhys:  4.7315849997731485
+Number of phonons:  71
+
+

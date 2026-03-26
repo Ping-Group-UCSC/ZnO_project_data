@@ -1,0 +1,6 @@
+This file sets will
+1. diagonalize the QDET solution (with symmetry included), and save the solution in a csv file.(required wfreq.json file)
+2. Print out slater determinant(result solution in step 1) into a "QDET_Slater.txt" file
+3. Plot the slater determinant of each states, with pictures in a directory. (require two xlsx file with spinup and spindn chanracter listed (or label of the states))
+
+

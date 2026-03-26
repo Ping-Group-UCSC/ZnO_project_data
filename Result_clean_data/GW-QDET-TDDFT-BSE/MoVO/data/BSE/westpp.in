@@ -1,0 +1,16 @@
+input_west:
+   west_prefix: pdep_4992 
+
+wstat_control:
+   wstat_calculation: S
+   n_pdep_eigen: 4992
+   trev_pdep: 0.001
+
+westpp_control:
+   westpp_calculation: C
+   westpp_n_pdep_eigen_to_use: 4992
+   westpp_n_liouville_to_use: 10
+   westpp_l_spin_flip: False
+   westpp_l_compute_tdm: False
+   westpp_range: [1000,1260]
+

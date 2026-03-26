@@ -1,0 +1,70 @@
+Start:
+Tue Dec 17 15:55:04 PST 2024
+
+Beginning Calculation and reading input
+         path_gs   = ../../../relax_gs_Mosv
+         path_ex   = ../../../relax_cdftdn_Mosv
+         phonon_interface   = phonopy
+         file_phonon   = ../../../2_Run_phonon_onlygamma/band.yaml
+         zpl (eV)     = from input
+         skfile       = None
+         smear (eV)   = 5.000000e-03
+         limit (s)    = 3.500000e-13
+         gamma (s^-1) = 7.253968e+11
+         gamma (eV) = 3.000000e-03 (E=hf)
+         tolerance    = 1.000000e-18
+         hw_min (eV)  =   0.000000
+         hw_max (eV)  =   5.000000
+         resolution   = 2000
+         cal_method   = FFT
+         PL_hw_xim = 5.000000e-01
+         PL_hw_xmax = 2.000000e+00
+         S_hw_xmin = 0.000000e+00
+         S_hw_xmax = 2.000000e-01
+
+    >> Computing method is 'FFT'
+
+Zero-phonon Line calculated from VASP output
+electron convergence reached? False. Ionic convergence reached? True 
+electron convergence reached? False. Ionic convergence reached? True 
+     ZPL =   1.561445
+
+Calculating Sk
+Read phonon from ../../../2_Run_phonon_onlygamma/band.yaml
+     Inverse Participation Ratios saved to ipr.dat
+     Huang-Rhys factor =  44.642898
+
+	You choose the FFT method to compute the A_hw!
+	So, plotting of S_t and G_t is passed..
+
+plot S(hw), hw sampling =  None make sure you use large enough sampling for FFT
+hw_xlim= (0.0, 200.0)
+
+Calculating A(ZPL - E)
+     time before calculate A_hw:  0:01:24.603655
+     now computing A_hw ...
+time_array : -1000.1000100010001 1000.1000100010001
+S_hw : 0.0 2970.991029413463
+S_t : (-3.946979399820274+2.0756885032326j) (8.899635578990422+0j)
+G_t : (-57084.1450588606+44052.293894519666j) (78838.839908015+0j)
+gamma : 0.003
+tmp_A_hw_1 : (-57032.782173010295-44012.656742375206j) ~ (78815.18707381484+0j)
+tmp_A_hw_2 : (-938468.9701286304+10.436871446443385j) ~ (938465.7707852273-9.766916795806264j)
+/home/szhan213/miniconda3/envs/west/lib/python3.11/site-packages/matplotlib/cbook.py:1699: ComplexWarning: Casting complex values to real discards the imaginary part
+  return math.isfinite(val)
+/home/szhan213/miniconda3/envs/west/lib/python3.11/site-packages/matplotlib/cbook.py:1345: ComplexWarning: Casting complex values to real discards the imaginary part
+  return np.asarray(x, float)
+zpl_ev : 1.5614449400000012
+A_hw : (-938468.9701286304+10.436871446443385j) (938465.7707852273-9.766916795806264j)
+pl_hw : 0.0 956699.3783064092
+     time after calculate A_hw:  0:01:25.991841
+
+    PL calculation finished
+
+    Data saved to 'pl.dat' and plot saved to 'pl.png'
+
+Total time cost for computing :  0:01:26.229321
+
+Done!
+Done:
+Tue Dec 17 15:56:33 PST 2024

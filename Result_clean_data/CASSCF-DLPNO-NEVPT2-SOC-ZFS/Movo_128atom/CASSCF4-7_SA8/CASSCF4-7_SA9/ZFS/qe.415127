@@ -1,0 +1,10 @@
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 43 with PID 235350 on node node038 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 458]: 
+  .... aborting the run
+

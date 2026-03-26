@@ -1,0 +1,99 @@
+           ZERO-FIELD SPLITTING
+(2ND ORDER SPIN-ORBIT COUPLING CONTRIBUTION)
+--------------------------------------------
+
+Second order D-tensor: component '0'
+    0.000000     0.000000     0.000000 
+    0.000000     0.000000     0.000000 
+    0.000000     0.000000     0.000000 
+
+Second order D-tensor: component '-'
+    0.000000     0.000000    -0.000699 
+    0.000000     0.000000    -0.000335 
+   -0.000699    -0.000335     8.612074 
+
+Second order D-tensor: component '+'
+    0.000000     0.000000     0.000000 
+    0.000000     0.000000     0.000000 
+    0.000000     0.000000     0.000000 
+
+Raw matrix (cm-1):
+    0.000000     0.000000    -0.000699 
+    0.000000     0.000000    -0.000335 
+   -0.000699    -0.000335     8.612074 
+
+Eigenvalues (cm-1):
+    0.000000     0.000000     8.612074 
+
+Eigenvalues (traceless) (cm-1):
+   -2.870691    -2.870691     5.741383 
+
+Eigenvectors:
+   -0.697797    -0.716296    -0.000081 
+   -0.716296     0.697797    -0.000039 
+   -0.000084    -0.000031     1.000000 
+
+Euler angles w.r.t. molecular frame (degrees):
+    -45.7495       0.0052       0.0000
+
+D   =    8.612074  cm-1
+E/D =    0.000000
+
+Individual contributions to D-tensor:
+Block  Mult  Root          D          E
+    0     3     0      0.000      0.000
+    1     1     0      0.000     -0.000
+    1     1     1      0.000      0.000
+    1     1     2      8.612      0.000
+Norm of projected state 0 of the effective Hamiltonian: 0.999568
+Norm of projected state 1 of the effective Hamiltonian: 1.000000
+Norm of projected state 2 of the effective Hamiltonian: 1.000000
+WARNING: If the projections have norms significantly smaller than 1, the effective Hamiltonian might not be very meaningful!
+
+--------------------------------------------------------
+                  ZERO-FIELD SPLITTING
+EFFECTIVE HAMILTONIAN SOC CONTRIBUTION
+--------------------------------------------------------
+
+Effective Hamiltonian from projected relativistic states and relativistic energies:
+
+Real part:  
+                  0          1          2    
+      0       8.608351  -0.000494  -0.000000
+      1      -0.000494   0.000000   0.000494
+      2      -0.000000   0.000494   8.608345
+
+Image part: 
+                  0          1          2    
+      0       0.000000   0.000236  -0.000000
+      1      -0.000236  -0.000000  -0.000236
+      2       0.000000   0.000236   0.000000
+Raw matrix (cm-1):
+   -0.000000     0.000000    -0.000698 
+    0.000000     0.000000    -0.000334 
+   -0.000698    -0.000334     8.608348 
+
+Eigenvalues (cm-1):
+    0.000000    -0.000000     8.608348 
+
+Eigenvalues (traceless) (cm-1):
+   -2.869449    -2.869450     5.738899 
+
+Eigenvectors:
+   -0.317049     0.948409     0.000081 
+   -0.948409    -0.317049     0.000039 
+   -0.000063     0.000065    -1.000000 
+
+Euler angles w.r.t. molecular frame (degrees):
+    -71.5155       0.0052       0.0000
+
+D   =    8.608348  cm-1
+E/D =    0.000000
+
+Individual contributions to D-tensor:
+Block  Mult  Root          D          E
+    1     1     0      0.000      0.000
+    1     1     1     -0.000      0.000
+    1     1     2      8.608     -0.000
+
+  *** Storing geometry in DTensor axis frame as casscf.CAS_DTensor_HEFF_rotated.xyz  ***

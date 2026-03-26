@@ -1,0 +1,10 @@
+input_west:
+    west_prefix: pdep_4992
+
+wbse_init_control:
+  wbse_init_calculation: S
+  bse_method: PDEP
+  n_pdep_eigen_to_use: 4992
+  localization: W
+  overlap_thr: 0.0001
+  chi_kernel: "CHI"

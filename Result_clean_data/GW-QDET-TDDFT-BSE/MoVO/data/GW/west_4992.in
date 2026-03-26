@@ -1,0 +1,14 @@
+input_west:
+    west_prefix: pdep_4992
+wstat_control:
+    wstat_calculation: S
+    n_pdep_eigen: 4992
+    trev_pdep: 0.001
+    n_exx_lowrank: 2800
+    n_steps_write_restart: 0
+wfreq_control:
+    wfreq_calculation: XwGQ
+    n_pdep_eigen_to_use: 4992
+    qp_bandrange: [1220,1260]
+    n_refreq: 300
+    ecut_refreq: 2.0

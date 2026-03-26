@@ -1,0 +1,9 @@
+input_west:
+    west_prefix: west
+
+wbse_init_control:
+  wbse_init_calculation: S
+  solver: TDDFT
+  localization: W
+  overlap_thr: 0.000001
+

@@ -1,0 +1,1 @@
+# Extract part between "NONZERO SOC MATRIX ELEMENTS (cm**-1)" and "Note"

@@ -1,0 +1,12 @@
+The solver options:
+  DSOC    qro     # quasi-restricted method; must be done with the keyword !uno
+          pk      # Pederson-Khanna method.
+                  # NOTE: both approximations are only valid for
+                  # pure functionals (no HF exchange)
+          cp      # coupled-perturbed method (default)
+          cvw     # van W\"ullen method
+  DSS     direct  # directly use the canonical orbitals for the spin density
+          uno     # use spin density from UNOs
+
+we try DSS with direct and uno, we try DSOC with all solvers
+

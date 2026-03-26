@@ -1,0 +1,52 @@
+system = zno 
+
+Starting parameters for this run:
+ PREC = Normal  # Normal for relax. Normal or Accurate for the final cal.
+ ISTART = 1     # job : 0-new 1-cont 2-samecut
+ ICHARG = 1     # charge: 1-file 2-atom 10-constant
+ ISPIN = 2      # 1 for unpolarized calculation 2 for spin polarized cal.
+ MAGMOM = 76*0.0 1*1.0 2*0.0 1*1.0 11*0.0 1*1.0 78*0.0 1*1.0 2*0.0 1*1.0 11*0.0 1*1.0 4*0.0 1*1.4 
+ FERWE = 861*1 1*1 1*0 481*0  
+ FERDO = 859*1 1*0 1*1 483*0
+ NCORE = 4 # Parallel
+ KPAR = 2
+ NELECT=1722
+ #PRECFOCK=fast
+Electronic Relaxation 1
+ ENCUT = 400
+ NELM = 1500
+ NELMIN = 4
+ EDIFF = 1E-06  # stopping criterion for ELM #we use smaller convergence criteria for relaxation
+ LREAL = Auto  # default: false, the real space one is recommended for more than 20 atoms
+# ALGO = Normal  # default: Normal:IALGO of 38, Fast-mixture of 38 and 48, VeryFast-48 for ialgo
+
+Ionic relaxation
+ EDIFFG = -1E-02
+ NSW = 0    # number of steps for IR
+ IBRION = 2     # ionic relaxation: 0-MD 1-quasi Newtonian 2-Conjugate Gradient
+ ISIF = 2       # stress and relaxation, default: 0 for MD 2 for else
+ ISYM = 3       # 0-nonsym 1-usesym 2-fastsym, default: 2 for PAW dataset
+ POTIM = 0.5    # time step for ionic motion, default: 0.5
+
+DOS related values
+ ISMEAR = -2   # See https://www.vasp.at/wiki/index.php/ISMEAR for the recommendation
+# SIGMA =0.005    # default: 0.2, related to the elec. temp.
+# NEDOS = 1000   # default: 300
+ NBANDS = 1344
+
+Write flags
+ LWAVE = T     # write WAVECAR
+ LCHARG = T     # write CHGCAR
+ LVHAR = T      # write LOCPOT, local potential
+ LVTOT = F
+ LELF = F       # write electronic localization function (ELF)
+ LORBIT = 11    # not read RWIGS line, gives DOSCAR and lm decomposed PROCAR
+
+# Hybrid functional
+ ALGO = Damped
+ Time = 0.3
+ LHFCALC = T
+ HFSCREEN = 0.2
+ AEXX = 0.375 # alpha for ZnO ref. J. Phys. Condens. Matter 22 (2010) 284211
+ GGA = PE
+ LDIAG = .FALSE.

@@ -1,0 +1,50 @@
+EFFECTIVE HAMILTONIAN SOC and SSC CONTRIBUTION
+--------------------------------------------------------
+
+Effective Hamiltonian from projected relativistic states and relativistic energies:
+
+Real part:  
+                  0          1          2    
+      0      25.775539  -0.000027   0.000045
+      1      -0.000027   0.000000   0.000027
+      2       0.000045   0.000027  25.775544
+
+Image part: 
+                  0          1          2    
+      0      -0.000000  -0.000024   0.000031
+      1       0.000024   0.000000   0.000024
+      2      -0.000031  -0.000024   0.000000
+Raw matrix (cm-1):
+    0.000045    -0.000031    -0.000038 
+   -0.000031    -0.000045     0.000034 
+   -0.000038     0.000034    25.775541 
+
+Eigenvalues (cm-1):
+    0.000055    -0.000055    25.775541 
+
+Eigenvalues (traceless) (cm-1):
+   -8.591792    -8.591902    17.183694 
+
+Eigenvectors:
+   -0.954207     0.299148    -0.000001 
+    0.299148     0.954207     0.000001 
+   -0.000002    -0.000001     1.000000 
+
+Euler angles w.r.t. molecular frame (degrees):
+     17.4065       0.0001       0.0000
+
+D   =   25.775541  cm-1
+E/D =    0.000002
+
+Individual contributions to D-tensor:
+Block  Mult  Root          D          E
+    0     3     1      0.334      0.310
+    0     3     2      0.334     -0.310
+    0     3     3      5.976      5.550
+    0     3     4      5.976     -5.550
+    0     3     5     -0.000      0.000
+    1     1     0     -0.024     -0.022
+    1     1     1     -0.024      0.022
+    1     1     2     12.663      0.000
+
+  *** Storing geometry in DTensor axis frame as casscf.CAS_DTensor_HEFF_rotated.xyz  ***

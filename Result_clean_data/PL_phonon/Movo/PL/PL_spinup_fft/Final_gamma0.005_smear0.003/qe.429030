@@ -1,0 +1,68 @@
+Start:
+Tue Dec 17 15:51:13 PST 2024
+
+Beginning Calculation and reading input
+         path_gs   = ../../../relax_gs_Mosv
+         path_ex   = ../../../relax_cdftup_Mosv
+         phonon_interface   = phonopy
+         file_phonon   = ../../../2_Run_phonon_onlygamma/band.yaml
+         zpl (eV)     = from input
+         skfile       = None
+         smear (eV)   = 3.000000e-03
+         limit (s)    = 3.500000e-13
+         gamma (s^-1) = 1.208995e+12
+         gamma (eV) = 5.000000e-03 (E=hf)
+         tolerance    = 1.000000e-18
+         hw_min (eV)  =   0.000000
+         hw_max (eV)  =   5.000000
+         resolution   = 1000
+         cal_method   = FFT
+         PL_hw_xim = 1.500000e+00
+         PL_hw_xmax = 2.100000e+00
+         S_hw_xmin = 0.000000e+00
+         S_hw_xmax = 2.000000e-01
+
+    >> Computing method is 'FFT'
+
+Zero-Phonon Line read from input file
+     ZPL =   1.986000
+
+Calculating Sk
+Read phonon from ../../../2_Run_phonon_onlygamma/band.yaml
+     Inverse Participation Ratios saved to ipr.dat
+     Huang-Rhys factor =   4.090266
+
+	You choose the FFT method to compute the A_hw!
+	So, plotting of S_t and G_t is passed..
+
+plot S(hw), hw sampling =  None make sure you use large enough sampling for FFT
+hw_xlim= (0.0, 200.0)
+
+Calculating A(ZPL - E)
+     time before calculate A_hw:  0:01:23.566650
+     now computing A_hw ...
+time_array : -500.10002000400084 500.10002000400084
+S_hw : 0.0 200.9682301620788
+S_t : (-0.4506969216348813-0.13693700013481144j) (0.818052812156031+0j)
+G_t : (-0.8164308043936375+0.7015535075113045j) (2.856825746489063+0j)
+gamma : 0.005
+tmp_A_hw_1 : (-0.806284905414157-0.6928352046525634j) ~ (2.8553971194086767+0j)
+tmp_A_hw_2 : (-65.3155363118408+0.005584251147402959j) ~ (65.31625130357168-0.005233427894682896j)
+/home/szhan213/miniconda3/envs/west/lib/python3.11/site-packages/matplotlib/cbook.py:1699: ComplexWarning: Casting complex values to real discards the imaginary part
+  return math.isfinite(val)
+/home/szhan213/miniconda3/envs/west/lib/python3.11/site-packages/matplotlib/cbook.py:1345: ComplexWarning: Casting complex values to real discards the imaginary part
+  return np.asarray(x, float)
+zpl_ev : 1.986
+A_hw : (-65.3155363118408+0.005584251147402959j) (65.31625130357168-0.005233427894682896j)
+pl_hw : 0.0 418.4743123899981
+     time after calculate A_hw:  0:01:24.746860
+
+    PL calculation finished
+
+    Data saved to 'pl.dat' and plot saved to 'pl.png'
+
+Total time cost for computing :  0:01:24.984246
+
+Done!
+Done:
+Tue Dec 17 15:52:41 PST 2024

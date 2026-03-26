@@ -1,0 +1,2 @@
+# Extract part between "---- THE CAS-SCF GRADIENT HAS CONVERGED ----" and "LOEWDIN ORBITAL-COMPOSITIONS"
+awk '/---- THE CAS-SCF GRADIENT HAS CONVERGED ----/,/LOEWDIN ORBITAL-COMPOSITIONS/' "$input_file" > casscf_results.txt

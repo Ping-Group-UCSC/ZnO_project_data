@@ -1,0 +1,109 @@
+           ZERO-FIELD SPLITTING
+(2ND ORDER SPIN-ORBIT COUPLING CONTRIBUTION)
+--------------------------------------------
+
+Second order D-tensor: component '0'
+  -12.626251    -0.000031    -0.000013 
+   -0.000031   -12.626347     0.000021 
+   -0.000013     0.000021    -0.000000 
+
+Second order D-tensor: component '-'
+    0.048338     0.000001    -0.000024 
+    0.000001     0.048339     0.000012 
+   -0.000024     0.000012    12.672347 
+
+Second order D-tensor: component '+'
+    0.000000     0.000000     0.000000 
+    0.000000     0.000000     0.000000 
+    0.000000     0.000000     0.000000 
+
+Raw matrix (cm-1):
+  -12.577913    -0.000030    -0.000037 
+   -0.000030   -12.578008     0.000033 
+   -0.000037     0.000033    12.672347 
+
+Eigenvalues (cm-1):
+  -12.577904   -12.578016    12.672347 
+
+Eigenvalues (traceless) (cm-1):
+   -8.416713    -8.416825    16.833538 
+
+Eigenvectors:
+    0.960337     0.278842     0.000001 
+   -0.278842     0.960337    -0.000001 
+    0.000002    -0.000001    -1.000000 
+
+Euler angles w.r.t. molecular frame (degrees):
+     16.1911       0.0001       0.0000
+
+D   =   25.250307  cm-1
+E/D =    0.000002
+
+Individual contributions to D-tensor:
+Block  Mult  Root          D          E
+    0     3     0      0.000      0.000
+    0     3     1      0.334      0.304
+    0     3     2      0.334     -0.304
+    0     3     3      5.979      5.641
+    0     3     4      5.979     -5.641
+    0     3     5      0.000     -0.000
+    1     1     0     -0.024     -0.021
+    1     1     1     -0.024      0.021
+    1     1     2     12.672      0.000
+Norm of projected state 0 of the effective Hamiltonian: 0.998037
+Norm of projected state 1 of the effective Hamiltonian: 0.999395
+Norm of projected state 2 of the effective Hamiltonian: 0.999395
+WARNING: If the projections have norms significantly smaller than 1, the effective Hamiltonian might not be very meaningful!
+
+--------------------------------------------------------
+                  ZERO-FIELD SPLITTING
+EFFECTIVE HAMILTONIAN SOC CONTRIBUTION
+--------------------------------------------------------
+
+Effective Hamiltonian from projected relativistic states and relativistic energies:
+
+Real part:  
+                  0          1          2    
+      0      25.474074  -0.000026   0.000047
+      1      -0.000026   0.000000   0.000026
+      2       0.000047   0.000026  25.474073
+
+Image part: 
+                  0          1          2    
+      0       0.000000  -0.000024   0.000030
+      1       0.000024  -0.000000   0.000024
+      2      -0.000030  -0.000024   0.000000
+Raw matrix (cm-1):
+    0.000047    -0.000030    -0.000037 
+   -0.000030    -0.000047     0.000034 
+   -0.000037     0.000034    25.474073 
+
+Eigenvalues (cm-1):
+    0.000056    -0.000056    25.474073 
+
+Eigenvalues (traceless) (cm-1):
+   -8.491302    -8.491414    16.982716 
+
+Eigenvectors:
+   -0.960710     0.277555    -0.000001 
+    0.277555     0.960710     0.000001 
+   -0.000002    -0.000001     1.000000 
+
+Euler angles w.r.t. molecular frame (degrees):
+     16.1144       0.0001       0.0000
+
+D   =   25.474073  cm-1
+E/D =    0.000002
+
+Individual contributions to D-tensor:
+Block  Mult  Root          D          E
+    0     3     1      0.334      0.304
+    0     3     2      0.334     -0.304
+    0     3     3      5.976      5.643
+    0     3     4      5.976     -5.643
+    0     3     5     -0.000     -0.000
+    1     1     0     -0.024     -0.021
+    1     1     1     -0.024      0.021
+    1     1     2     12.663      0.000
+
+  *** Storing geometry in DTensor axis frame as casscf.CAS_DTensor_HEFF_rotated.xyz  ***

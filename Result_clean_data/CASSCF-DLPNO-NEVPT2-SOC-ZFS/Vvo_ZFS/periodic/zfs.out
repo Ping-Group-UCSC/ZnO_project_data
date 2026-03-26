@@ -1,0 +1,2764 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PyZFS code 1.3
+2025-01-27 19:34:21
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pyzfs.run: setting working directory as "."...
+
+QEHDF5WavefunctionLoader: scanning current working directory "/data/groups/ping/szhan213/ZnO/ORCA_SOC_ZFS/V+VO/ZFS_pyzfs_pbe0443"...
+
+   nuwfcs = 1242, ndwfcs = 1240, nwfcs = 2482
+     spin = up     band = 1     file = wfcup1.hdf5
+     spin = up     band = 2     file = wfcup1.hdf5
+     spin = up     band = 3     file = wfcup1.hdf5
+     spin = up     band = 4     file = wfcup1.hdf5
+     spin = up     band = 5     file = wfcup1.hdf5
+     spin = up     band = 6     file = wfcup1.hdf5
+     spin = up     band = 7     file = wfcup1.hdf5
+     spin = up     band = 8     file = wfcup1.hdf5
+     spin = up     band = 9     file = wfcup1.hdf5
+     spin = up     band = 10     file = wfcup1.hdf5
+     spin = up     band = 11     file = wfcup1.hdf5
+     spin = up     band = 12     file = wfcup1.hdf5
+     spin = up     band = 13     file = wfcup1.hdf5
+     spin = up     band = 14     file = wfcup1.hdf5
+     spin = up     band = 15     file = wfcup1.hdf5
+     spin = up     band = 16     file = wfcup1.hdf5
+     spin = up     band = 17     file = wfcup1.hdf5
+     spin = up     band = 18     file = wfcup1.hdf5
+     spin = up     band = 19     file = wfcup1.hdf5
+     spin = up     band = 20     file = wfcup1.hdf5
+     spin = up     band = 21     file = wfcup1.hdf5
+     spin = up     band = 22     file = wfcup1.hdf5
+     spin = up     band = 23     file = wfcup1.hdf5
+     spin = up     band = 24     file = wfcup1.hdf5
+     spin = up     band = 25     file = wfcup1.hdf5
+     spin = up     band = 26     file = wfcup1.hdf5
+     spin = up     band = 27     file = wfcup1.hdf5
+     spin = up     band = 28     file = wfcup1.hdf5
+     spin = up     band = 29     file = wfcup1.hdf5
+     spin = up     band = 30     file = wfcup1.hdf5
+     spin = up     band = 31     file = wfcup1.hdf5
+     spin = up     band = 32     file = wfcup1.hdf5
+     spin = up     band = 33     file = wfcup1.hdf5
+     spin = up     band = 34     file = wfcup1.hdf5
+     spin = up     band = 35     file = wfcup1.hdf5
+     spin = up     band = 36     file = wfcup1.hdf5
+     spin = up     band = 37     file = wfcup1.hdf5
+     spin = up     band = 38     file = wfcup1.hdf5
+     spin = up     band = 39     file = wfcup1.hdf5
+     spin = up     band = 40     file = wfcup1.hdf5
+     spin = up     band = 41     file = wfcup1.hdf5
+     spin = up     band = 42     file = wfcup1.hdf5
+     spin = up     band = 43     file = wfcup1.hdf5
+     spin = up     band = 44     file = wfcup1.hdf5
+     spin = up     band = 45     file = wfcup1.hdf5
+     spin = up     band = 46     file = wfcup1.hdf5
+     spin = up     band = 47     file = wfcup1.hdf5
+     spin = up     band = 48     file = wfcup1.hdf5
+     spin = up     band = 49     file = wfcup1.hdf5
+     spin = up     band = 50     file = wfcup1.hdf5
+     spin = up     band = 51     file = wfcup1.hdf5
+     spin = up     band = 52     file = wfcup1.hdf5
+     spin = up     band = 53     file = wfcup1.hdf5
+     spin = up     band = 54     file = wfcup1.hdf5
+     spin = up     band = 55     file = wfcup1.hdf5
+     spin = up     band = 56     file = wfcup1.hdf5
+     spin = up     band = 57     file = wfcup1.hdf5
+     spin = up     band = 58     file = wfcup1.hdf5
+     spin = up     band = 59     file = wfcup1.hdf5
+     spin = up     band = 60     file = wfcup1.hdf5
+     spin = up     band = 61     file = wfcup1.hdf5
+     spin = up     band = 62     file = wfcup1.hdf5
+     spin = up     band = 63     file = wfcup1.hdf5
+     spin = up     band = 64     file = wfcup1.hdf5
+     spin = up     band = 65     file = wfcup1.hdf5
+     spin = up     band = 66     file = wfcup1.hdf5
+     spin = up     band = 67     file = wfcup1.hdf5
+     spin = up     band = 68     file = wfcup1.hdf5
+     spin = up     band = 69     file = wfcup1.hdf5
+     spin = up     band = 70     file = wfcup1.hdf5
+     spin = up     band = 71     file = wfcup1.hdf5
+     spin = up     band = 72     file = wfcup1.hdf5
+     spin = up     band = 73     file = wfcup1.hdf5
+     spin = up     band = 74     file = wfcup1.hdf5
+     spin = up     band = 75     file = wfcup1.hdf5
+     spin = up     band = 76     file = wfcup1.hdf5
+     spin = up     band = 77     file = wfcup1.hdf5
+     spin = up     band = 78     file = wfcup1.hdf5
+     spin = up     band = 79     file = wfcup1.hdf5
+     spin = up     band = 80     file = wfcup1.hdf5
+     spin = up     band = 81     file = wfcup1.hdf5
+     spin = up     band = 82     file = wfcup1.hdf5
+     spin = up     band = 83     file = wfcup1.hdf5
+     spin = up     band = 84     file = wfcup1.hdf5
+     spin = up     band = 85     file = wfcup1.hdf5
+     spin = up     band = 86     file = wfcup1.hdf5
+     spin = up     band = 87     file = wfcup1.hdf5
+     spin = up     band = 88     file = wfcup1.hdf5
+     spin = up     band = 89     file = wfcup1.hdf5
+     spin = up     band = 90     file = wfcup1.hdf5
+     spin = up     band = 91     file = wfcup1.hdf5
+     spin = up     band = 92     file = wfcup1.hdf5
+     spin = up     band = 93     file = wfcup1.hdf5
+     spin = up     band = 94     file = wfcup1.hdf5
+     spin = up     band = 95     file = wfcup1.hdf5
+     spin = up     band = 96     file = wfcup1.hdf5
+     spin = up     band = 97     file = wfcup1.hdf5
+     spin = up     band = 98     file = wfcup1.hdf5
+     spin = up     band = 99     file = wfcup1.hdf5
+     spin = up     band = 100     file = wfcup1.hdf5
+     spin = up     band = 101     file = wfcup1.hdf5
+     spin = up     band = 102     file = wfcup1.hdf5
+     spin = up     band = 103     file = wfcup1.hdf5
+     spin = up     band = 104     file = wfcup1.hdf5
+     spin = up     band = 105     file = wfcup1.hdf5
+     spin = up     band = 106     file = wfcup1.hdf5
+     spin = up     band = 107     file = wfcup1.hdf5
+     spin = up     band = 108     file = wfcup1.hdf5
+     spin = up     band = 109     file = wfcup1.hdf5
+     spin = up     band = 110     file = wfcup1.hdf5
+     spin = up     band = 111     file = wfcup1.hdf5
+     spin = up     band = 112     file = wfcup1.hdf5
+     spin = up     band = 113     file = wfcup1.hdf5
+     spin = up     band = 114     file = wfcup1.hdf5
+     spin = up     band = 115     file = wfcup1.hdf5
+     spin = up     band = 116     file = wfcup1.hdf5
+     spin = up     band = 117     file = wfcup1.hdf5
+     spin = up     band = 118     file = wfcup1.hdf5
+     spin = up     band = 119     file = wfcup1.hdf5
+     spin = up     band = 120     file = wfcup1.hdf5
+     spin = up     band = 121     file = wfcup1.hdf5
+     spin = up     band = 122     file = wfcup1.hdf5
+     spin = up     band = 123     file = wfcup1.hdf5
+     spin = up     band = 124     file = wfcup1.hdf5
+     spin = up     band = 125     file = wfcup1.hdf5
+     spin = up     band = 126     file = wfcup1.hdf5
+     spin = up     band = 127     file = wfcup1.hdf5
+     spin = up     band = 128     file = wfcup1.hdf5
+     spin = up     band = 129     file = wfcup1.hdf5
+     spin = up     band = 130     file = wfcup1.hdf5
+     spin = up     band = 131     file = wfcup1.hdf5
+     spin = up     band = 132     file = wfcup1.hdf5
+     spin = up     band = 133     file = wfcup1.hdf5
+     spin = up     band = 134     file = wfcup1.hdf5
+     spin = up     band = 135     file = wfcup1.hdf5
+     spin = up     band = 136     file = wfcup1.hdf5
+     spin = up     band = 137     file = wfcup1.hdf5
+     spin = up     band = 138     file = wfcup1.hdf5
+     spin = up     band = 139     file = wfcup1.hdf5
+     spin = up     band = 140     file = wfcup1.hdf5
+     spin = up     band = 141     file = wfcup1.hdf5
+     spin = up     band = 142     file = wfcup1.hdf5
+     spin = up     band = 143     file = wfcup1.hdf5
+     spin = up     band = 144     file = wfcup1.hdf5
+     spin = up     band = 145     file = wfcup1.hdf5
+     spin = up     band = 146     file = wfcup1.hdf5
+     spin = up     band = 147     file = wfcup1.hdf5
+     spin = up     band = 148     file = wfcup1.hdf5
+     spin = up     band = 149     file = wfcup1.hdf5
+     spin = up     band = 150     file = wfcup1.hdf5
+     spin = up     band = 151     file = wfcup1.hdf5
+     spin = up     band = 152     file = wfcup1.hdf5
+     spin = up     band = 153     file = wfcup1.hdf5
+     spin = up     band = 154     file = wfcup1.hdf5
+     spin = up     band = 155     file = wfcup1.hdf5
+     spin = up     band = 156     file = wfcup1.hdf5
+     spin = up     band = 157     file = wfcup1.hdf5
+     spin = up     band = 158     file = wfcup1.hdf5
+     spin = up     band = 159     file = wfcup1.hdf5
+     spin = up     band = 160     file = wfcup1.hdf5
+     spin = up     band = 161     file = wfcup1.hdf5
+     spin = up     band = 162     file = wfcup1.hdf5
+     spin = up     band = 163     file = wfcup1.hdf5
+     spin = up     band = 164     file = wfcup1.hdf5
+     spin = up     band = 165     file = wfcup1.hdf5
+     spin = up     band = 166     file = wfcup1.hdf5
+     spin = up     band = 167     file = wfcup1.hdf5
+     spin = up     band = 168     file = wfcup1.hdf5
+     spin = up     band = 169     file = wfcup1.hdf5
+     spin = up     band = 170     file = wfcup1.hdf5
+     spin = up     band = 171     file = wfcup1.hdf5
+     spin = up     band = 172     file = wfcup1.hdf5
+     spin = up     band = 173     file = wfcup1.hdf5
+     spin = up     band = 174     file = wfcup1.hdf5
+     spin = up     band = 175     file = wfcup1.hdf5
+     spin = up     band = 176     file = wfcup1.hdf5
+     spin = up     band = 177     file = wfcup1.hdf5
+     spin = up     band = 178     file = wfcup1.hdf5
+     spin = up     band = 179     file = wfcup1.hdf5
+     spin = up     band = 180     file = wfcup1.hdf5
+     spin = up     band = 181     file = wfcup1.hdf5
+     spin = up     band = 182     file = wfcup1.hdf5
+     spin = up     band = 183     file = wfcup1.hdf5
+     spin = up     band = 184     file = wfcup1.hdf5
+     spin = up     band = 185     file = wfcup1.hdf5
+     spin = up     band = 186     file = wfcup1.hdf5
+     spin = up     band = 187     file = wfcup1.hdf5
+     spin = up     band = 188     file = wfcup1.hdf5
+     spin = up     band = 189     file = wfcup1.hdf5
+     spin = up     band = 190     file = wfcup1.hdf5
+     spin = up     band = 191     file = wfcup1.hdf5
+     spin = up     band = 192     file = wfcup1.hdf5
+     spin = up     band = 193     file = wfcup1.hdf5
+     spin = up     band = 194     file = wfcup1.hdf5
+     spin = up     band = 195     file = wfcup1.hdf5
+     spin = up     band = 196     file = wfcup1.hdf5
+     spin = up     band = 197     file = wfcup1.hdf5
+     spin = up     band = 198     file = wfcup1.hdf5
+     spin = up     band = 199     file = wfcup1.hdf5
+     spin = up     band = 200     file = wfcup1.hdf5
+     spin = up     band = 201     file = wfcup1.hdf5
+     spin = up     band = 202     file = wfcup1.hdf5
+     spin = up     band = 203     file = wfcup1.hdf5
+     spin = up     band = 204     file = wfcup1.hdf5
+     spin = up     band = 205     file = wfcup1.hdf5
+     spin = up     band = 206     file = wfcup1.hdf5
+     spin = up     band = 207     file = wfcup1.hdf5
+     spin = up     band = 208     file = wfcup1.hdf5
+     spin = up     band = 209     file = wfcup1.hdf5
+     spin = up     band = 210     file = wfcup1.hdf5
+     spin = up     band = 211     file = wfcup1.hdf5
+     spin = up     band = 212     file = wfcup1.hdf5
+     spin = up     band = 213     file = wfcup1.hdf5
+     spin = up     band = 214     file = wfcup1.hdf5
+     spin = up     band = 215     file = wfcup1.hdf5
+     spin = up     band = 216     file = wfcup1.hdf5
+     spin = up     band = 217     file = wfcup1.hdf5
+     spin = up     band = 218     file = wfcup1.hdf5
+     spin = up     band = 219     file = wfcup1.hdf5
+     spin = up     band = 220     file = wfcup1.hdf5
+     spin = up     band = 221     file = wfcup1.hdf5
+     spin = up     band = 222     file = wfcup1.hdf5
+     spin = up     band = 223     file = wfcup1.hdf5
+     spin = up     band = 224     file = wfcup1.hdf5
+     spin = up     band = 225     file = wfcup1.hdf5
+     spin = up     band = 226     file = wfcup1.hdf5
+     spin = up     band = 227     file = wfcup1.hdf5
+     spin = up     band = 228     file = wfcup1.hdf5
+     spin = up     band = 229     file = wfcup1.hdf5
+     spin = up     band = 230     file = wfcup1.hdf5
+     spin = up     band = 231     file = wfcup1.hdf5
+     spin = up     band = 232     file = wfcup1.hdf5
+     spin = up     band = 233     file = wfcup1.hdf5
+     spin = up     band = 234     file = wfcup1.hdf5
+     spin = up     band = 235     file = wfcup1.hdf5
+     spin = up     band = 236     file = wfcup1.hdf5
+     spin = up     band = 237     file = wfcup1.hdf5
+     spin = up     band = 238     file = wfcup1.hdf5
+     spin = up     band = 239     file = wfcup1.hdf5
+     spin = up     band = 240     file = wfcup1.hdf5
+     spin = up     band = 241     file = wfcup1.hdf5
+     spin = up     band = 242     file = wfcup1.hdf5
+     spin = up     band = 243     file = wfcup1.hdf5
+     spin = up     band = 244     file = wfcup1.hdf5
+     spin = up     band = 245     file = wfcup1.hdf5
+     spin = up     band = 246     file = wfcup1.hdf5
+     spin = up     band = 247     file = wfcup1.hdf5
+     spin = up     band = 248     file = wfcup1.hdf5
+     spin = up     band = 249     file = wfcup1.hdf5
+     spin = up     band = 250     file = wfcup1.hdf5
+     spin = up     band = 251     file = wfcup1.hdf5
+     spin = up     band = 252     file = wfcup1.hdf5
+     spin = up     band = 253     file = wfcup1.hdf5
+     spin = up     band = 254     file = wfcup1.hdf5
+     spin = up     band = 255     file = wfcup1.hdf5
+     spin = up     band = 256     file = wfcup1.hdf5
+     spin = up     band = 257     file = wfcup1.hdf5
+     spin = up     band = 258     file = wfcup1.hdf5
+     spin = up     band = 259     file = wfcup1.hdf5
+     spin = up     band = 260     file = wfcup1.hdf5
+     spin = up     band = 261     file = wfcup1.hdf5
+     spin = up     band = 262     file = wfcup1.hdf5
+     spin = up     band = 263     file = wfcup1.hdf5
+     spin = up     band = 264     file = wfcup1.hdf5
+     spin = up     band = 265     file = wfcup1.hdf5
+     spin = up     band = 266     file = wfcup1.hdf5
+     spin = up     band = 267     file = wfcup1.hdf5
+     spin = up     band = 268     file = wfcup1.hdf5
+     spin = up     band = 269     file = wfcup1.hdf5
+     spin = up     band = 270     file = wfcup1.hdf5
+     spin = up     band = 271     file = wfcup1.hdf5
+     spin = up     band = 272     file = wfcup1.hdf5
+     spin = up     band = 273     file = wfcup1.hdf5
+     spin = up     band = 274     file = wfcup1.hdf5
+     spin = up     band = 275     file = wfcup1.hdf5
+     spin = up     band = 276     file = wfcup1.hdf5
+     spin = up     band = 277     file = wfcup1.hdf5
+     spin = up     band = 278     file = wfcup1.hdf5
+     spin = up     band = 279     file = wfcup1.hdf5
+     spin = up     band = 280     file = wfcup1.hdf5
+     spin = up     band = 281     file = wfcup1.hdf5
+     spin = up     band = 282     file = wfcup1.hdf5
+     spin = up     band = 283     file = wfcup1.hdf5
+     spin = up     band = 284     file = wfcup1.hdf5
+     spin = up     band = 285     file = wfcup1.hdf5
+     spin = up     band = 286     file = wfcup1.hdf5
+     spin = up     band = 287     file = wfcup1.hdf5
+     spin = up     band = 288     file = wfcup1.hdf5
+     spin = up     band = 289     file = wfcup1.hdf5
+     spin = up     band = 290     file = wfcup1.hdf5
+     spin = up     band = 291     file = wfcup1.hdf5
+     spin = up     band = 292     file = wfcup1.hdf5
+     spin = up     band = 293     file = wfcup1.hdf5
+     spin = up     band = 294     file = wfcup1.hdf5
+     spin = up     band = 295     file = wfcup1.hdf5
+     spin = up     band = 296     file = wfcup1.hdf5
+     spin = up     band = 297     file = wfcup1.hdf5
+     spin = up     band = 298     file = wfcup1.hdf5
+     spin = up     band = 299     file = wfcup1.hdf5
+     spin = up     band = 300     file = wfcup1.hdf5
+     spin = up     band = 301     file = wfcup1.hdf5
+     spin = up     band = 302     file = wfcup1.hdf5
+     spin = up     band = 303     file = wfcup1.hdf5
+     spin = up     band = 304     file = wfcup1.hdf5
+     spin = up     band = 305     file = wfcup1.hdf5
+     spin = up     band = 306     file = wfcup1.hdf5
+     spin = up     band = 307     file = wfcup1.hdf5
+     spin = up     band = 308     file = wfcup1.hdf5
+     spin = up     band = 309     file = wfcup1.hdf5
+     spin = up     band = 310     file = wfcup1.hdf5
+     spin = up     band = 311     file = wfcup1.hdf5
+     spin = up     band = 312     file = wfcup1.hdf5
+     spin = up     band = 313     file = wfcup1.hdf5
+     spin = up     band = 314     file = wfcup1.hdf5
+     spin = up     band = 315     file = wfcup1.hdf5
+     spin = up     band = 316     file = wfcup1.hdf5
+     spin = up     band = 317     file = wfcup1.hdf5
+     spin = up     band = 318     file = wfcup1.hdf5
+     spin = up     band = 319     file = wfcup1.hdf5
+     spin = up     band = 320     file = wfcup1.hdf5
+     spin = up     band = 321     file = wfcup1.hdf5
+     spin = up     band = 322     file = wfcup1.hdf5
+     spin = up     band = 323     file = wfcup1.hdf5
+     spin = up     band = 324     file = wfcup1.hdf5
+     spin = up     band = 325     file = wfcup1.hdf5
+     spin = up     band = 326     file = wfcup1.hdf5
+     spin = up     band = 327     file = wfcup1.hdf5
+     spin = up     band = 328     file = wfcup1.hdf5
+     spin = up     band = 329     file = wfcup1.hdf5
+     spin = up     band = 330     file = wfcup1.hdf5
+     spin = up     band = 331     file = wfcup1.hdf5
+     spin = up     band = 332     file = wfcup1.hdf5
+     spin = up     band = 333     file = wfcup1.hdf5
+     spin = up     band = 334     file = wfcup1.hdf5
+     spin = up     band = 335     file = wfcup1.hdf5
+     spin = up     band = 336     file = wfcup1.hdf5
+     spin = up     band = 337     file = wfcup1.hdf5
+     spin = up     band = 338     file = wfcup1.hdf5
+     spin = up     band = 339     file = wfcup1.hdf5
+     spin = up     band = 340     file = wfcup1.hdf5
+     spin = up     band = 341     file = wfcup1.hdf5
+     spin = up     band = 342     file = wfcup1.hdf5
+     spin = up     band = 343     file = wfcup1.hdf5
+     spin = up     band = 344     file = wfcup1.hdf5
+     spin = up     band = 345     file = wfcup1.hdf5
+     spin = up     band = 346     file = wfcup1.hdf5
+     spin = up     band = 347     file = wfcup1.hdf5
+     spin = up     band = 348     file = wfcup1.hdf5
+     spin = up     band = 349     file = wfcup1.hdf5
+     spin = up     band = 350     file = wfcup1.hdf5
+     spin = up     band = 351     file = wfcup1.hdf5
+     spin = up     band = 352     file = wfcup1.hdf5
+     spin = up     band = 353     file = wfcup1.hdf5
+     spin = up     band = 354     file = wfcup1.hdf5
+     spin = up     band = 355     file = wfcup1.hdf5
+     spin = up     band = 356     file = wfcup1.hdf5
+     spin = up     band = 357     file = wfcup1.hdf5
+     spin = up     band = 358     file = wfcup1.hdf5
+     spin = up     band = 359     file = wfcup1.hdf5
+     spin = up     band = 360     file = wfcup1.hdf5
+     spin = up     band = 361     file = wfcup1.hdf5
+     spin = up     band = 362     file = wfcup1.hdf5
+     spin = up     band = 363     file = wfcup1.hdf5
+     spin = up     band = 364     file = wfcup1.hdf5
+     spin = up     band = 365     file = wfcup1.hdf5
+     spin = up     band = 366     file = wfcup1.hdf5
+     spin = up     band = 367     file = wfcup1.hdf5
+     spin = up     band = 368     file = wfcup1.hdf5
+     spin = up     band = 369     file = wfcup1.hdf5
+     spin = up     band = 370     file = wfcup1.hdf5
+     spin = up     band = 371     file = wfcup1.hdf5
+     spin = up     band = 372     file = wfcup1.hdf5
+     spin = up     band = 373     file = wfcup1.hdf5
+     spin = up     band = 374     file = wfcup1.hdf5
+     spin = up     band = 375     file = wfcup1.hdf5
+     spin = up     band = 376     file = wfcup1.hdf5
+     spin = up     band = 377     file = wfcup1.hdf5
+     spin = up     band = 378     file = wfcup1.hdf5
+     spin = up     band = 379     file = wfcup1.hdf5
+     spin = up     band = 380     file = wfcup1.hdf5
+     spin = up     band = 381     file = wfcup1.hdf5
+     spin = up     band = 382     file = wfcup1.hdf5
+     spin = up     band = 383     file = wfcup1.hdf5
+     spin = up     band = 384     file = wfcup1.hdf5
+     spin = up     band = 385     file = wfcup1.hdf5
+     spin = up     band = 386     file = wfcup1.hdf5
+     spin = up     band = 387     file = wfcup1.hdf5
+     spin = up     band = 388     file = wfcup1.hdf5
+     spin = up     band = 389     file = wfcup1.hdf5
+     spin = up     band = 390     file = wfcup1.hdf5
+     spin = up     band = 391     file = wfcup1.hdf5
+     spin = up     band = 392     file = wfcup1.hdf5
+     spin = up     band = 393     file = wfcup1.hdf5
+     spin = up     band = 394     file = wfcup1.hdf5
+     spin = up     band = 395     file = wfcup1.hdf5
+     spin = up     band = 396     file = wfcup1.hdf5
+     spin = up     band = 397     file = wfcup1.hdf5
+     spin = up     band = 398     file = wfcup1.hdf5
+     spin = up     band = 399     file = wfcup1.hdf5
+     spin = up     band = 400     file = wfcup1.hdf5
+     spin = up     band = 401     file = wfcup1.hdf5
+     spin = up     band = 402     file = wfcup1.hdf5
+     spin = up     band = 403     file = wfcup1.hdf5
+     spin = up     band = 404     file = wfcup1.hdf5
+     spin = up     band = 405     file = wfcup1.hdf5
+     spin = up     band = 406     file = wfcup1.hdf5
+     spin = up     band = 407     file = wfcup1.hdf5
+     spin = up     band = 408     file = wfcup1.hdf5
+     spin = up     band = 409     file = wfcup1.hdf5
+     spin = up     band = 410     file = wfcup1.hdf5
+     spin = up     band = 411     file = wfcup1.hdf5
+     spin = up     band = 412     file = wfcup1.hdf5
+     spin = up     band = 413     file = wfcup1.hdf5
+     spin = up     band = 414     file = wfcup1.hdf5
+     spin = up     band = 415     file = wfcup1.hdf5
+     spin = up     band = 416     file = wfcup1.hdf5
+     spin = up     band = 417     file = wfcup1.hdf5
+     spin = up     band = 418     file = wfcup1.hdf5
+     spin = up     band = 419     file = wfcup1.hdf5
+     spin = up     band = 420     file = wfcup1.hdf5
+     spin = up     band = 421     file = wfcup1.hdf5
+     spin = up     band = 422     file = wfcup1.hdf5
+     spin = up     band = 423     file = wfcup1.hdf5
+     spin = up     band = 424     file = wfcup1.hdf5
+     spin = up     band = 425     file = wfcup1.hdf5
+     spin = up     band = 426     file = wfcup1.hdf5
+     spin = up     band = 427     file = wfcup1.hdf5
+     spin = up     band = 428     file = wfcup1.hdf5
+     spin = up     band = 429     file = wfcup1.hdf5
+     spin = up     band = 430     file = wfcup1.hdf5
+     spin = up     band = 431     file = wfcup1.hdf5
+     spin = up     band = 432     file = wfcup1.hdf5
+     spin = up     band = 433     file = wfcup1.hdf5
+     spin = up     band = 434     file = wfcup1.hdf5
+     spin = up     band = 435     file = wfcup1.hdf5
+     spin = up     band = 436     file = wfcup1.hdf5
+     spin = up     band = 437     file = wfcup1.hdf5
+     spin = up     band = 438     file = wfcup1.hdf5
+     spin = up     band = 439     file = wfcup1.hdf5
+     spin = up     band = 440     file = wfcup1.hdf5
+     spin = up     band = 441     file = wfcup1.hdf5
+     spin = up     band = 442     file = wfcup1.hdf5
+     spin = up     band = 443     file = wfcup1.hdf5
+     spin = up     band = 444     file = wfcup1.hdf5
+     spin = up     band = 445     file = wfcup1.hdf5
+     spin = up     band = 446     file = wfcup1.hdf5
+     spin = up     band = 447     file = wfcup1.hdf5
+     spin = up     band = 448     file = wfcup1.hdf5
+     spin = up     band = 449     file = wfcup1.hdf5
+     spin = up     band = 450     file = wfcup1.hdf5
+     spin = up     band = 451     file = wfcup1.hdf5
+     spin = up     band = 452     file = wfcup1.hdf5
+     spin = up     band = 453     file = wfcup1.hdf5
+     spin = up     band = 454     file = wfcup1.hdf5
+     spin = up     band = 455     file = wfcup1.hdf5
+     spin = up     band = 456     file = wfcup1.hdf5
+     spin = up     band = 457     file = wfcup1.hdf5
+     spin = up     band = 458     file = wfcup1.hdf5
+     spin = up     band = 459     file = wfcup1.hdf5
+     spin = up     band = 460     file = wfcup1.hdf5
+     spin = up     band = 461     file = wfcup1.hdf5
+     spin = up     band = 462     file = wfcup1.hdf5
+     spin = up     band = 463     file = wfcup1.hdf5
+     spin = up     band = 464     file = wfcup1.hdf5
+     spin = up     band = 465     file = wfcup1.hdf5
+     spin = up     band = 466     file = wfcup1.hdf5
+     spin = up     band = 467     file = wfcup1.hdf5
+     spin = up     band = 468     file = wfcup1.hdf5
+     spin = up     band = 469     file = wfcup1.hdf5
+     spin = up     band = 470     file = wfcup1.hdf5
+     spin = up     band = 471     file = wfcup1.hdf5
+     spin = up     band = 472     file = wfcup1.hdf5
+     spin = up     band = 473     file = wfcup1.hdf5
+     spin = up     band = 474     file = wfcup1.hdf5
+     spin = up     band = 475     file = wfcup1.hdf5
+     spin = up     band = 476     file = wfcup1.hdf5
+     spin = up     band = 477     file = wfcup1.hdf5
+     spin = up     band = 478     file = wfcup1.hdf5
+     spin = up     band = 479     file = wfcup1.hdf5
+     spin = up     band = 480     file = wfcup1.hdf5
+     spin = up     band = 481     file = wfcup1.hdf5
+     spin = up     band = 482     file = wfcup1.hdf5
+     spin = up     band = 483     file = wfcup1.hdf5
+     spin = up     band = 484     file = wfcup1.hdf5
+     spin = up     band = 485     file = wfcup1.hdf5
+     spin = up     band = 486     file = wfcup1.hdf5
+     spin = up     band = 487     file = wfcup1.hdf5
+     spin = up     band = 488     file = wfcup1.hdf5
+     spin = up     band = 489     file = wfcup1.hdf5
+     spin = up     band = 490     file = wfcup1.hdf5
+     spin = up     band = 491     file = wfcup1.hdf5
+     spin = up     band = 492     file = wfcup1.hdf5
+     spin = up     band = 493     file = wfcup1.hdf5
+     spin = up     band = 494     file = wfcup1.hdf5
+     spin = up     band = 495     file = wfcup1.hdf5
+     spin = up     band = 496     file = wfcup1.hdf5
+     spin = up     band = 497     file = wfcup1.hdf5
+     spin = up     band = 498     file = wfcup1.hdf5
+     spin = up     band = 499     file = wfcup1.hdf5
+     spin = up     band = 500     file = wfcup1.hdf5
+     spin = up     band = 501     file = wfcup1.hdf5
+     spin = up     band = 502     file = wfcup1.hdf5
+     spin = up     band = 503     file = wfcup1.hdf5
+     spin = up     band = 504     file = wfcup1.hdf5
+     spin = up     band = 505     file = wfcup1.hdf5
+     spin = up     band = 506     file = wfcup1.hdf5
+     spin = up     band = 507     file = wfcup1.hdf5
+     spin = up     band = 508     file = wfcup1.hdf5
+     spin = up     band = 509     file = wfcup1.hdf5
+     spin = up     band = 510     file = wfcup1.hdf5
+     spin = up     band = 511     file = wfcup1.hdf5
+     spin = up     band = 512     file = wfcup1.hdf5
+     spin = up     band = 513     file = wfcup1.hdf5
+     spin = up     band = 514     file = wfcup1.hdf5
+     spin = up     band = 515     file = wfcup1.hdf5
+     spin = up     band = 516     file = wfcup1.hdf5
+     spin = up     band = 517     file = wfcup1.hdf5
+     spin = up     band = 518     file = wfcup1.hdf5
+     spin = up     band = 519     file = wfcup1.hdf5
+     spin = up     band = 520     file = wfcup1.hdf5
+     spin = up     band = 521     file = wfcup1.hdf5
+     spin = up     band = 522     file = wfcup1.hdf5
+     spin = up     band = 523     file = wfcup1.hdf5
+     spin = up     band = 524     file = wfcup1.hdf5
+     spin = up     band = 525     file = wfcup1.hdf5
+     spin = up     band = 526     file = wfcup1.hdf5
+     spin = up     band = 527     file = wfcup1.hdf5
+     spin = up     band = 528     file = wfcup1.hdf5
+     spin = up     band = 529     file = wfcup1.hdf5
+     spin = up     band = 530     file = wfcup1.hdf5
+     spin = up     band = 531     file = wfcup1.hdf5
+     spin = up     band = 532     file = wfcup1.hdf5
+     spin = up     band = 533     file = wfcup1.hdf5
+     spin = up     band = 534     file = wfcup1.hdf5
+     spin = up     band = 535     file = wfcup1.hdf5
+     spin = up     band = 536     file = wfcup1.hdf5
+     spin = up     band = 537     file = wfcup1.hdf5
+     spin = up     band = 538     file = wfcup1.hdf5
+     spin = up     band = 539     file = wfcup1.hdf5
+     spin = up     band = 540     file = wfcup1.hdf5
+     spin = up     band = 541     file = wfcup1.hdf5
+     spin = up     band = 542     file = wfcup1.hdf5
+     spin = up     band = 543     file = wfcup1.hdf5
+     spin = up     band = 544     file = wfcup1.hdf5
+     spin = up     band = 545     file = wfcup1.hdf5
+     spin = up     band = 546     file = wfcup1.hdf5
+     spin = up     band = 547     file = wfcup1.hdf5
+     spin = up     band = 548     file = wfcup1.hdf5
+     spin = up     band = 549     file = wfcup1.hdf5
+     spin = up     band = 550     file = wfcup1.hdf5
+     spin = up     band = 551     file = wfcup1.hdf5
+     spin = up     band = 552     file = wfcup1.hdf5
+     spin = up     band = 553     file = wfcup1.hdf5
+     spin = up     band = 554     file = wfcup1.hdf5
+     spin = up     band = 555     file = wfcup1.hdf5
+     spin = up     band = 556     file = wfcup1.hdf5
+     spin = up     band = 557     file = wfcup1.hdf5
+     spin = up     band = 558     file = wfcup1.hdf5
+     spin = up     band = 559     file = wfcup1.hdf5
+     spin = up     band = 560     file = wfcup1.hdf5
+     spin = up     band = 561     file = wfcup1.hdf5
+     spin = up     band = 562     file = wfcup1.hdf5
+     spin = up     band = 563     file = wfcup1.hdf5
+     spin = up     band = 564     file = wfcup1.hdf5
+     spin = up     band = 565     file = wfcup1.hdf5
+     spin = up     band = 566     file = wfcup1.hdf5
+     spin = up     band = 567     file = wfcup1.hdf5
+     spin = up     band = 568     file = wfcup1.hdf5
+     spin = up     band = 569     file = wfcup1.hdf5
+     spin = up     band = 570     file = wfcup1.hdf5
+     spin = up     band = 571     file = wfcup1.hdf5
+     spin = up     band = 572     file = wfcup1.hdf5
+     spin = up     band = 573     file = wfcup1.hdf5
+     spin = up     band = 574     file = wfcup1.hdf5
+     spin = up     band = 575     file = wfcup1.hdf5
+     spin = up     band = 576     file = wfcup1.hdf5
+     spin = up     band = 577     file = wfcup1.hdf5
+     spin = up     band = 578     file = wfcup1.hdf5
+     spin = up     band = 579     file = wfcup1.hdf5
+     spin = up     band = 580     file = wfcup1.hdf5
+     spin = up     band = 581     file = wfcup1.hdf5
+     spin = up     band = 582     file = wfcup1.hdf5
+     spin = up     band = 583     file = wfcup1.hdf5
+     spin = up     band = 584     file = wfcup1.hdf5
+     spin = up     band = 585     file = wfcup1.hdf5
+     spin = up     band = 586     file = wfcup1.hdf5
+     spin = up     band = 587     file = wfcup1.hdf5
+     spin = up     band = 588     file = wfcup1.hdf5
+     spin = up     band = 589     file = wfcup1.hdf5
+     spin = up     band = 590     file = wfcup1.hdf5
+     spin = up     band = 591     file = wfcup1.hdf5
+     spin = up     band = 592     file = wfcup1.hdf5
+     spin = up     band = 593     file = wfcup1.hdf5
+     spin = up     band = 594     file = wfcup1.hdf5
+     spin = up     band = 595     file = wfcup1.hdf5
+     spin = up     band = 596     file = wfcup1.hdf5
+     spin = up     band = 597     file = wfcup1.hdf5
+     spin = up     band = 598     file = wfcup1.hdf5
+     spin = up     band = 599     file = wfcup1.hdf5
+     spin = up     band = 600     file = wfcup1.hdf5
+     spin = up     band = 601     file = wfcup1.hdf5
+     spin = up     band = 602     file = wfcup1.hdf5
+     spin = up     band = 603     file = wfcup1.hdf5
+     spin = up     band = 604     file = wfcup1.hdf5
+     spin = up     band = 605     file = wfcup1.hdf5
+     spin = up     band = 606     file = wfcup1.hdf5
+     spin = up     band = 607     file = wfcup1.hdf5
+     spin = up     band = 608     file = wfcup1.hdf5
+     spin = up     band = 609     file = wfcup1.hdf5
+     spin = up     band = 610     file = wfcup1.hdf5
+     spin = up     band = 611     file = wfcup1.hdf5
+     spin = up     band = 612     file = wfcup1.hdf5
+     spin = up     band = 613     file = wfcup1.hdf5
+     spin = up     band = 614     file = wfcup1.hdf5
+     spin = up     band = 615     file = wfcup1.hdf5
+     spin = up     band = 616     file = wfcup1.hdf5
+     spin = up     band = 617     file = wfcup1.hdf5
+     spin = up     band = 618     file = wfcup1.hdf5
+     spin = up     band = 619     file = wfcup1.hdf5
+     spin = up     band = 620     file = wfcup1.hdf5
+     spin = up     band = 621     file = wfcup1.hdf5
+     spin = up     band = 622     file = wfcup1.hdf5
+     spin = up     band = 623     file = wfcup1.hdf5
+     spin = up     band = 624     file = wfcup1.hdf5
+     spin = up     band = 625     file = wfcup1.hdf5
+     spin = up     band = 626     file = wfcup1.hdf5
+     spin = up     band = 627     file = wfcup1.hdf5
+     spin = up     band = 628     file = wfcup1.hdf5
+     spin = up     band = 629     file = wfcup1.hdf5
+     spin = up     band = 630     file = wfcup1.hdf5
+     spin = up     band = 631     file = wfcup1.hdf5
+     spin = up     band = 632     file = wfcup1.hdf5
+     spin = up     band = 633     file = wfcup1.hdf5
+     spin = up     band = 634     file = wfcup1.hdf5
+     spin = up     band = 635     file = wfcup1.hdf5
+     spin = up     band = 636     file = wfcup1.hdf5
+     spin = up     band = 637     file = wfcup1.hdf5
+     spin = up     band = 638     file = wfcup1.hdf5
+     spin = up     band = 639     file = wfcup1.hdf5
+     spin = up     band = 640     file = wfcup1.hdf5
+     spin = up     band = 641     file = wfcup1.hdf5
+     spin = up     band = 642     file = wfcup1.hdf5
+     spin = up     band = 643     file = wfcup1.hdf5
+     spin = up     band = 644     file = wfcup1.hdf5
+     spin = up     band = 645     file = wfcup1.hdf5
+     spin = up     band = 646     file = wfcup1.hdf5
+     spin = up     band = 647     file = wfcup1.hdf5
+     spin = up     band = 648     file = wfcup1.hdf5
+     spin = up     band = 649     file = wfcup1.hdf5
+     spin = up     band = 650     file = wfcup1.hdf5
+     spin = up     band = 651     file = wfcup1.hdf5
+     spin = up     band = 652     file = wfcup1.hdf5
+     spin = up     band = 653     file = wfcup1.hdf5
+     spin = up     band = 654     file = wfcup1.hdf5
+     spin = up     band = 655     file = wfcup1.hdf5
+     spin = up     band = 656     file = wfcup1.hdf5
+     spin = up     band = 657     file = wfcup1.hdf5
+     spin = up     band = 658     file = wfcup1.hdf5
+     spin = up     band = 659     file = wfcup1.hdf5
+     spin = up     band = 660     file = wfcup1.hdf5
+     spin = up     band = 661     file = wfcup1.hdf5
+     spin = up     band = 662     file = wfcup1.hdf5
+     spin = up     band = 663     file = wfcup1.hdf5
+     spin = up     band = 664     file = wfcup1.hdf5
+     spin = up     band = 665     file = wfcup1.hdf5
+     spin = up     band = 666     file = wfcup1.hdf5
+     spin = up     band = 667     file = wfcup1.hdf5
+     spin = up     band = 668     file = wfcup1.hdf5
+     spin = up     band = 669     file = wfcup1.hdf5
+     spin = up     band = 670     file = wfcup1.hdf5
+     spin = up     band = 671     file = wfcup1.hdf5
+     spin = up     band = 672     file = wfcup1.hdf5
+     spin = up     band = 673     file = wfcup1.hdf5
+     spin = up     band = 674     file = wfcup1.hdf5
+     spin = up     band = 675     file = wfcup1.hdf5
+     spin = up     band = 676     file = wfcup1.hdf5
+     spin = up     band = 677     file = wfcup1.hdf5
+     spin = up     band = 678     file = wfcup1.hdf5
+     spin = up     band = 679     file = wfcup1.hdf5
+     spin = up     band = 680     file = wfcup1.hdf5
+     spin = up     band = 681     file = wfcup1.hdf5
+     spin = up     band = 682     file = wfcup1.hdf5
+     spin = up     band = 683     file = wfcup1.hdf5
+     spin = up     band = 684     file = wfcup1.hdf5
+     spin = up     band = 685     file = wfcup1.hdf5
+     spin = up     band = 686     file = wfcup1.hdf5
+     spin = up     band = 687     file = wfcup1.hdf5
+     spin = up     band = 688     file = wfcup1.hdf5
+     spin = up     band = 689     file = wfcup1.hdf5
+     spin = up     band = 690     file = wfcup1.hdf5
+     spin = up     band = 691     file = wfcup1.hdf5
+     spin = up     band = 692     file = wfcup1.hdf5
+     spin = up     band = 693     file = wfcup1.hdf5
+     spin = up     band = 694     file = wfcup1.hdf5
+     spin = up     band = 695     file = wfcup1.hdf5
+     spin = up     band = 696     file = wfcup1.hdf5
+     spin = up     band = 697     file = wfcup1.hdf5
+     spin = up     band = 698     file = wfcup1.hdf5
+     spin = up     band = 699     file = wfcup1.hdf5
+     spin = up     band = 700     file = wfcup1.hdf5
+     spin = up     band = 701     file = wfcup1.hdf5
+     spin = up     band = 702     file = wfcup1.hdf5
+     spin = up     band = 703     file = wfcup1.hdf5
+     spin = up     band = 704     file = wfcup1.hdf5
+     spin = up     band = 705     file = wfcup1.hdf5
+     spin = up     band = 706     file = wfcup1.hdf5
+     spin = up     band = 707     file = wfcup1.hdf5
+     spin = up     band = 708     file = wfcup1.hdf5
+     spin = up     band = 709     file = wfcup1.hdf5
+     spin = up     band = 710     file = wfcup1.hdf5
+     spin = up     band = 711     file = wfcup1.hdf5
+     spin = up     band = 712     file = wfcup1.hdf5
+     spin = up     band = 713     file = wfcup1.hdf5
+     spin = up     band = 714     file = wfcup1.hdf5
+     spin = up     band = 715     file = wfcup1.hdf5
+     spin = up     band = 716     file = wfcup1.hdf5
+     spin = up     band = 717     file = wfcup1.hdf5
+     spin = up     band = 718     file = wfcup1.hdf5
+     spin = up     band = 719     file = wfcup1.hdf5
+     spin = up     band = 720     file = wfcup1.hdf5
+     spin = up     band = 721     file = wfcup1.hdf5
+     spin = up     band = 722     file = wfcup1.hdf5
+     spin = up     band = 723     file = wfcup1.hdf5
+     spin = up     band = 724     file = wfcup1.hdf5
+     spin = up     band = 725     file = wfcup1.hdf5
+     spin = up     band = 726     file = wfcup1.hdf5
+     spin = up     band = 727     file = wfcup1.hdf5
+     spin = up     band = 728     file = wfcup1.hdf5
+     spin = up     band = 729     file = wfcup1.hdf5
+     spin = up     band = 730     file = wfcup1.hdf5
+     spin = up     band = 731     file = wfcup1.hdf5
+     spin = up     band = 732     file = wfcup1.hdf5
+     spin = up     band = 733     file = wfcup1.hdf5
+     spin = up     band = 734     file = wfcup1.hdf5
+     spin = up     band = 735     file = wfcup1.hdf5
+     spin = up     band = 736     file = wfcup1.hdf5
+     spin = up     band = 737     file = wfcup1.hdf5
+     spin = up     band = 738     file = wfcup1.hdf5
+     spin = up     band = 739     file = wfcup1.hdf5
+     spin = up     band = 740     file = wfcup1.hdf5
+     spin = up     band = 741     file = wfcup1.hdf5
+     spin = up     band = 742     file = wfcup1.hdf5
+     spin = up     band = 743     file = wfcup1.hdf5
+     spin = up     band = 744     file = wfcup1.hdf5
+     spin = up     band = 745     file = wfcup1.hdf5
+     spin = up     band = 746     file = wfcup1.hdf5
+     spin = up     band = 747     file = wfcup1.hdf5
+     spin = up     band = 748     file = wfcup1.hdf5
+     spin = up     band = 749     file = wfcup1.hdf5
+     spin = up     band = 750     file = wfcup1.hdf5
+     spin = up     band = 751     file = wfcup1.hdf5
+     spin = up     band = 752     file = wfcup1.hdf5
+     spin = up     band = 753     file = wfcup1.hdf5
+     spin = up     band = 754     file = wfcup1.hdf5
+     spin = up     band = 755     file = wfcup1.hdf5
+     spin = up     band = 756     file = wfcup1.hdf5
+     spin = up     band = 757     file = wfcup1.hdf5
+     spin = up     band = 758     file = wfcup1.hdf5
+     spin = up     band = 759     file = wfcup1.hdf5
+     spin = up     band = 760     file = wfcup1.hdf5
+     spin = up     band = 761     file = wfcup1.hdf5
+     spin = up     band = 762     file = wfcup1.hdf5
+     spin = up     band = 763     file = wfcup1.hdf5
+     spin = up     band = 764     file = wfcup1.hdf5
+     spin = up     band = 765     file = wfcup1.hdf5
+     spin = up     band = 766     file = wfcup1.hdf5
+     spin = up     band = 767     file = wfcup1.hdf5
+     spin = up     band = 768     file = wfcup1.hdf5
+     spin = up     band = 769     file = wfcup1.hdf5
+     spin = up     band = 770     file = wfcup1.hdf5
+     spin = up     band = 771     file = wfcup1.hdf5
+     spin = up     band = 772     file = wfcup1.hdf5
+     spin = up     band = 773     file = wfcup1.hdf5
+     spin = up     band = 774     file = wfcup1.hdf5
+     spin = up     band = 775     file = wfcup1.hdf5
+     spin = up     band = 776     file = wfcup1.hdf5
+     spin = up     band = 777     file = wfcup1.hdf5
+     spin = up     band = 778     file = wfcup1.hdf5
+     spin = up     band = 779     file = wfcup1.hdf5
+     spin = up     band = 780     file = wfcup1.hdf5
+     spin = up     band = 781     file = wfcup1.hdf5
+     spin = up     band = 782     file = wfcup1.hdf5
+     spin = up     band = 783     file = wfcup1.hdf5
+     spin = up     band = 784     file = wfcup1.hdf5
+     spin = up     band = 785     file = wfcup1.hdf5
+     spin = up     band = 786     file = wfcup1.hdf5
+     spin = up     band = 787     file = wfcup1.hdf5
+     spin = up     band = 788     file = wfcup1.hdf5
+     spin = up     band = 789     file = wfcup1.hdf5
+     spin = up     band = 790     file = wfcup1.hdf5
+     spin = up     band = 791     file = wfcup1.hdf5
+     spin = up     band = 792     file = wfcup1.hdf5
+     spin = up     band = 793     file = wfcup1.hdf5
+     spin = up     band = 794     file = wfcup1.hdf5
+     spin = up     band = 795     file = wfcup1.hdf5
+     spin = up     band = 796     file = wfcup1.hdf5
+     spin = up     band = 797     file = wfcup1.hdf5
+     spin = up     band = 798     file = wfcup1.hdf5
+     spin = up     band = 799     file = wfcup1.hdf5
+     spin = up     band = 800     file = wfcup1.hdf5
+     spin = up     band = 801     file = wfcup1.hdf5
+     spin = up     band = 802     file = wfcup1.hdf5
+     spin = up     band = 803     file = wfcup1.hdf5
+     spin = up     band = 804     file = wfcup1.hdf5
+     spin = up     band = 805     file = wfcup1.hdf5
+     spin = up     band = 806     file = wfcup1.hdf5
+     spin = up     band = 807     file = wfcup1.hdf5
+     spin = up     band = 808     file = wfcup1.hdf5
+     spin = up     band = 809     file = wfcup1.hdf5
+     spin = up     band = 810     file = wfcup1.hdf5
+     spin = up     band = 811     file = wfcup1.hdf5
+     spin = up     band = 812     file = wfcup1.hdf5
+     spin = up     band = 813     file = wfcup1.hdf5
+     spin = up     band = 814     file = wfcup1.hdf5
+     spin = up     band = 815     file = wfcup1.hdf5
+     spin = up     band = 816     file = wfcup1.hdf5
+     spin = up     band = 817     file = wfcup1.hdf5
+     spin = up     band = 818     file = wfcup1.hdf5
+     spin = up     band = 819     file = wfcup1.hdf5
+     spin = up     band = 820     file = wfcup1.hdf5
+     spin = up     band = 821     file = wfcup1.hdf5
+     spin = up     band = 822     file = wfcup1.hdf5
+     spin = up     band = 823     file = wfcup1.hdf5
+     spin = up     band = 824     file = wfcup1.hdf5
+     spin = up     band = 825     file = wfcup1.hdf5
+     spin = up     band = 826     file = wfcup1.hdf5
+     spin = up     band = 827     file = wfcup1.hdf5
+     spin = up     band = 828     file = wfcup1.hdf5
+     spin = up     band = 829     file = wfcup1.hdf5
+     spin = up     band = 830     file = wfcup1.hdf5
+     spin = up     band = 831     file = wfcup1.hdf5
+     spin = up     band = 832     file = wfcup1.hdf5
+     spin = up     band = 833     file = wfcup1.hdf5
+     spin = up     band = 834     file = wfcup1.hdf5
+     spin = up     band = 835     file = wfcup1.hdf5
+     spin = up     band = 836     file = wfcup1.hdf5
+     spin = up     band = 837     file = wfcup1.hdf5
+     spin = up     band = 838     file = wfcup1.hdf5
+     spin = up     band = 839     file = wfcup1.hdf5
+     spin = up     band = 840     file = wfcup1.hdf5
+     spin = up     band = 841     file = wfcup1.hdf5
+     spin = up     band = 842     file = wfcup1.hdf5
+     spin = up     band = 843     file = wfcup1.hdf5
+     spin = up     band = 844     file = wfcup1.hdf5
+     spin = up     band = 845     file = wfcup1.hdf5
+     spin = up     band = 846     file = wfcup1.hdf5
+     spin = up     band = 847     file = wfcup1.hdf5
+     spin = up     band = 848     file = wfcup1.hdf5
+     spin = up     band = 849     file = wfcup1.hdf5
+     spin = up     band = 850     file = wfcup1.hdf5
+     spin = up     band = 851     file = wfcup1.hdf5
+     spin = up     band = 852     file = wfcup1.hdf5
+     spin = up     band = 853     file = wfcup1.hdf5
+     spin = up     band = 854     file = wfcup1.hdf5
+     spin = up     band = 855     file = wfcup1.hdf5
+     spin = up     band = 856     file = wfcup1.hdf5
+     spin = up     band = 857     file = wfcup1.hdf5
+     spin = up     band = 858     file = wfcup1.hdf5
+     spin = up     band = 859     file = wfcup1.hdf5
+     spin = up     band = 860     file = wfcup1.hdf5
+     spin = up     band = 861     file = wfcup1.hdf5
+     spin = up     band = 862     file = wfcup1.hdf5
+     spin = up     band = 863     file = wfcup1.hdf5
+     spin = up     band = 864     file = wfcup1.hdf5
+     spin = up     band = 865     file = wfcup1.hdf5
+     spin = up     band = 866     file = wfcup1.hdf5
+     spin = up     band = 867     file = wfcup1.hdf5
+     spin = up     band = 868     file = wfcup1.hdf5
+     spin = up     band = 869     file = wfcup1.hdf5
+     spin = up     band = 870     file = wfcup1.hdf5
+     spin = up     band = 871     file = wfcup1.hdf5
+     spin = up     band = 872     file = wfcup1.hdf5
+     spin = up     band = 873     file = wfcup1.hdf5
+     spin = up     band = 874     file = wfcup1.hdf5
+     spin = up     band = 875     file = wfcup1.hdf5
+     spin = up     band = 876     file = wfcup1.hdf5
+     spin = up     band = 877     file = wfcup1.hdf5
+     spin = up     band = 878     file = wfcup1.hdf5
+     spin = up     band = 879     file = wfcup1.hdf5
+     spin = up     band = 880     file = wfcup1.hdf5
+     spin = up     band = 881     file = wfcup1.hdf5
+     spin = up     band = 882     file = wfcup1.hdf5
+     spin = up     band = 883     file = wfcup1.hdf5
+     spin = up     band = 884     file = wfcup1.hdf5
+     spin = up     band = 885     file = wfcup1.hdf5
+     spin = up     band = 886     file = wfcup1.hdf5
+     spin = up     band = 887     file = wfcup1.hdf5
+     spin = up     band = 888     file = wfcup1.hdf5
+     spin = up     band = 889     file = wfcup1.hdf5
+     spin = up     band = 890     file = wfcup1.hdf5
+     spin = up     band = 891     file = wfcup1.hdf5
+     spin = up     band = 892     file = wfcup1.hdf5
+     spin = up     band = 893     file = wfcup1.hdf5
+     spin = up     band = 894     file = wfcup1.hdf5
+     spin = up     band = 895     file = wfcup1.hdf5
+     spin = up     band = 896     file = wfcup1.hdf5
+     spin = up     band = 897     file = wfcup1.hdf5
+     spin = up     band = 898     file = wfcup1.hdf5
+     spin = up     band = 899     file = wfcup1.hdf5
+     spin = up     band = 900     file = wfcup1.hdf5
+     spin = up     band = 901     file = wfcup1.hdf5
+     spin = up     band = 902     file = wfcup1.hdf5
+     spin = up     band = 903     file = wfcup1.hdf5
+     spin = up     band = 904     file = wfcup1.hdf5
+     spin = up     band = 905     file = wfcup1.hdf5
+     spin = up     band = 906     file = wfcup1.hdf5
+     spin = up     band = 907     file = wfcup1.hdf5
+     spin = up     band = 908     file = wfcup1.hdf5
+     spin = up     band = 909     file = wfcup1.hdf5
+     spin = up     band = 910     file = wfcup1.hdf5
+     spin = up     band = 911     file = wfcup1.hdf5
+     spin = up     band = 912     file = wfcup1.hdf5
+     spin = up     band = 913     file = wfcup1.hdf5
+     spin = up     band = 914     file = wfcup1.hdf5
+     spin = up     band = 915     file = wfcup1.hdf5
+     spin = up     band = 916     file = wfcup1.hdf5
+     spin = up     band = 917     file = wfcup1.hdf5
+     spin = up     band = 918     file = wfcup1.hdf5
+     spin = up     band = 919     file = wfcup1.hdf5
+     spin = up     band = 920     file = wfcup1.hdf5
+     spin = up     band = 921     file = wfcup1.hdf5
+     spin = up     band = 922     file = wfcup1.hdf5
+     spin = up     band = 923     file = wfcup1.hdf5
+     spin = up     band = 924     file = wfcup1.hdf5
+     spin = up     band = 925     file = wfcup1.hdf5
+     spin = up     band = 926     file = wfcup1.hdf5
+     spin = up     band = 927     file = wfcup1.hdf5
+     spin = up     band = 928     file = wfcup1.hdf5
+     spin = up     band = 929     file = wfcup1.hdf5
+     spin = up     band = 930     file = wfcup1.hdf5
+     spin = up     band = 931     file = wfcup1.hdf5
+     spin = up     band = 932     file = wfcup1.hdf5
+     spin = up     band = 933     file = wfcup1.hdf5
+     spin = up     band = 934     file = wfcup1.hdf5
+     spin = up     band = 935     file = wfcup1.hdf5
+     spin = up     band = 936     file = wfcup1.hdf5
+     spin = up     band = 937     file = wfcup1.hdf5
+     spin = up     band = 938     file = wfcup1.hdf5
+     spin = up     band = 939     file = wfcup1.hdf5
+     spin = up     band = 940     file = wfcup1.hdf5
+     spin = up     band = 941     file = wfcup1.hdf5
+     spin = up     band = 942     file = wfcup1.hdf5
+     spin = up     band = 943     file = wfcup1.hdf5
+     spin = up     band = 944     file = wfcup1.hdf5
+     spin = up     band = 945     file = wfcup1.hdf5
+     spin = up     band = 946     file = wfcup1.hdf5
+     spin = up     band = 947     file = wfcup1.hdf5
+     spin = up     band = 948     file = wfcup1.hdf5
+     spin = up     band = 949     file = wfcup1.hdf5
+     spin = up     band = 950     file = wfcup1.hdf5
+     spin = up     band = 951     file = wfcup1.hdf5
+     spin = up     band = 952     file = wfcup1.hdf5
+     spin = up     band = 953     file = wfcup1.hdf5
+     spin = up     band = 954     file = wfcup1.hdf5
+     spin = up     band = 955     file = wfcup1.hdf5
+     spin = up     band = 956     file = wfcup1.hdf5
+     spin = up     band = 957     file = wfcup1.hdf5
+     spin = up     band = 958     file = wfcup1.hdf5
+     spin = up     band = 959     file = wfcup1.hdf5
+     spin = up     band = 960     file = wfcup1.hdf5
+     spin = up     band = 961     file = wfcup1.hdf5
+     spin = up     band = 962     file = wfcup1.hdf5
+     spin = up     band = 963     file = wfcup1.hdf5
+     spin = up     band = 964     file = wfcup1.hdf5
+     spin = up     band = 965     file = wfcup1.hdf5
+     spin = up     band = 966     file = wfcup1.hdf5
+     spin = up     band = 967     file = wfcup1.hdf5
+     spin = up     band = 968     file = wfcup1.hdf5
+     spin = up     band = 969     file = wfcup1.hdf5
+     spin = up     band = 970     file = wfcup1.hdf5
+     spin = up     band = 971     file = wfcup1.hdf5
+     spin = up     band = 972     file = wfcup1.hdf5
+     spin = up     band = 973     file = wfcup1.hdf5
+     spin = up     band = 974     file = wfcup1.hdf5
+     spin = up     band = 975     file = wfcup1.hdf5
+     spin = up     band = 976     file = wfcup1.hdf5
+     spin = up     band = 977     file = wfcup1.hdf5
+     spin = up     band = 978     file = wfcup1.hdf5
+     spin = up     band = 979     file = wfcup1.hdf5
+     spin = up     band = 980     file = wfcup1.hdf5
+     spin = up     band = 981     file = wfcup1.hdf5
+     spin = up     band = 982     file = wfcup1.hdf5
+     spin = up     band = 983     file = wfcup1.hdf5
+     spin = up     band = 984     file = wfcup1.hdf5
+     spin = up     band = 985     file = wfcup1.hdf5
+     spin = up     band = 986     file = wfcup1.hdf5
+     spin = up     band = 987     file = wfcup1.hdf5
+     spin = up     band = 988     file = wfcup1.hdf5
+     spin = up     band = 989     file = wfcup1.hdf5
+     spin = up     band = 990     file = wfcup1.hdf5
+     spin = up     band = 991     file = wfcup1.hdf5
+     spin = up     band = 992     file = wfcup1.hdf5
+     spin = up     band = 993     file = wfcup1.hdf5
+     spin = up     band = 994     file = wfcup1.hdf5
+     spin = up     band = 995     file = wfcup1.hdf5
+     spin = up     band = 996     file = wfcup1.hdf5
+     spin = up     band = 997     file = wfcup1.hdf5
+     spin = up     band = 998     file = wfcup1.hdf5
+     spin = up     band = 999     file = wfcup1.hdf5
+     spin = up     band = 1000     file = wfcup1.hdf5
+     spin = up     band = 1001     file = wfcup1.hdf5
+     spin = up     band = 1002     file = wfcup1.hdf5
+     spin = up     band = 1003     file = wfcup1.hdf5
+     spin = up     band = 1004     file = wfcup1.hdf5
+     spin = up     band = 1005     file = wfcup1.hdf5
+     spin = up     band = 1006     file = wfcup1.hdf5
+     spin = up     band = 1007     file = wfcup1.hdf5
+     spin = up     band = 1008     file = wfcup1.hdf5
+     spin = up     band = 1009     file = wfcup1.hdf5
+     spin = up     band = 1010     file = wfcup1.hdf5
+     spin = up     band = 1011     file = wfcup1.hdf5
+     spin = up     band = 1012     file = wfcup1.hdf5
+     spin = up     band = 1013     file = wfcup1.hdf5
+     spin = up     band = 1014     file = wfcup1.hdf5
+     spin = up     band = 1015     file = wfcup1.hdf5
+     spin = up     band = 1016     file = wfcup1.hdf5
+     spin = up     band = 1017     file = wfcup1.hdf5
+     spin = up     band = 1018     file = wfcup1.hdf5
+     spin = up     band = 1019     file = wfcup1.hdf5
+     spin = up     band = 1020     file = wfcup1.hdf5
+     spin = up     band = 1021     file = wfcup1.hdf5
+     spin = up     band = 1022     file = wfcup1.hdf5
+     spin = up     band = 1023     file = wfcup1.hdf5
+     spin = up     band = 1024     file = wfcup1.hdf5
+     spin = up     band = 1025     file = wfcup1.hdf5
+     spin = up     band = 1026     file = wfcup1.hdf5
+     spin = up     band = 1027     file = wfcup1.hdf5
+     spin = up     band = 1028     file = wfcup1.hdf5
+     spin = up     band = 1029     file = wfcup1.hdf5
+     spin = up     band = 1030     file = wfcup1.hdf5
+     spin = up     band = 1031     file = wfcup1.hdf5
+     spin = up     band = 1032     file = wfcup1.hdf5
+     spin = up     band = 1033     file = wfcup1.hdf5
+     spin = up     band = 1034     file = wfcup1.hdf5
+     spin = up     band = 1035     file = wfcup1.hdf5
+     spin = up     band = 1036     file = wfcup1.hdf5
+     spin = up     band = 1037     file = wfcup1.hdf5
+     spin = up     band = 1038     file = wfcup1.hdf5
+     spin = up     band = 1039     file = wfcup1.hdf5
+     spin = up     band = 1040     file = wfcup1.hdf5
+     spin = up     band = 1041     file = wfcup1.hdf5
+     spin = up     band = 1042     file = wfcup1.hdf5
+     spin = up     band = 1043     file = wfcup1.hdf5
+     spin = up     band = 1044     file = wfcup1.hdf5
+     spin = up     band = 1045     file = wfcup1.hdf5
+     spin = up     band = 1046     file = wfcup1.hdf5
+     spin = up     band = 1047     file = wfcup1.hdf5
+     spin = up     band = 1048     file = wfcup1.hdf5
+     spin = up     band = 1049     file = wfcup1.hdf5
+     spin = up     band = 1050     file = wfcup1.hdf5
+     spin = up     band = 1051     file = wfcup1.hdf5
+     spin = up     band = 1052     file = wfcup1.hdf5
+     spin = up     band = 1053     file = wfcup1.hdf5
+     spin = up     band = 1054     file = wfcup1.hdf5
+     spin = up     band = 1055     file = wfcup1.hdf5
+     spin = up     band = 1056     file = wfcup1.hdf5
+     spin = up     band = 1057     file = wfcup1.hdf5
+     spin = up     band = 1058     file = wfcup1.hdf5
+     spin = up     band = 1059     file = wfcup1.hdf5
+     spin = up     band = 1060     file = wfcup1.hdf5
+     spin = up     band = 1061     file = wfcup1.hdf5
+     spin = up     band = 1062     file = wfcup1.hdf5
+     spin = up     band = 1063     file = wfcup1.hdf5
+     spin = up     band = 1064     file = wfcup1.hdf5
+     spin = up     band = 1065     file = wfcup1.hdf5
+     spin = up     band = 1066     file = wfcup1.hdf5
+     spin = up     band = 1067     file = wfcup1.hdf5
+     spin = up     band = 1068     file = wfcup1.hdf5
+     spin = up     band = 1069     file = wfcup1.hdf5
+     spin = up     band = 1070     file = wfcup1.hdf5
+     spin = up     band = 1071     file = wfcup1.hdf5
+     spin = up     band = 1072     file = wfcup1.hdf5
+     spin = up     band = 1073     file = wfcup1.hdf5
+     spin = up     band = 1074     file = wfcup1.hdf5
+     spin = up     band = 1075     file = wfcup1.hdf5
+     spin = up     band = 1076     file = wfcup1.hdf5
+     spin = up     band = 1077     file = wfcup1.hdf5
+     spin = up     band = 1078     file = wfcup1.hdf5
+     spin = up     band = 1079     file = wfcup1.hdf5
+     spin = up     band = 1080     file = wfcup1.hdf5
+     spin = up     band = 1081     file = wfcup1.hdf5
+     spin = up     band = 1082     file = wfcup1.hdf5
+     spin = up     band = 1083     file = wfcup1.hdf5
+     spin = up     band = 1084     file = wfcup1.hdf5
+     spin = up     band = 1085     file = wfcup1.hdf5
+     spin = up     band = 1086     file = wfcup1.hdf5
+     spin = up     band = 1087     file = wfcup1.hdf5
+     spin = up     band = 1088     file = wfcup1.hdf5
+     spin = up     band = 1089     file = wfcup1.hdf5
+     spin = up     band = 1090     file = wfcup1.hdf5
+     spin = up     band = 1091     file = wfcup1.hdf5
+     spin = up     band = 1092     file = wfcup1.hdf5
+     spin = up     band = 1093     file = wfcup1.hdf5
+     spin = up     band = 1094     file = wfcup1.hdf5
+     spin = up     band = 1095     file = wfcup1.hdf5
+     spin = up     band = 1096     file = wfcup1.hdf5
+     spin = up     band = 1097     file = wfcup1.hdf5
+     spin = up     band = 1098     file = wfcup1.hdf5
+     spin = up     band = 1099     file = wfcup1.hdf5
+     spin = up     band = 1100     file = wfcup1.hdf5
+     spin = up     band = 1101     file = wfcup1.hdf5
+     spin = up     band = 1102     file = wfcup1.hdf5
+     spin = up     band = 1103     file = wfcup1.hdf5
+     spin = up     band = 1104     file = wfcup1.hdf5
+     spin = up     band = 1105     file = wfcup1.hdf5
+     spin = up     band = 1106     file = wfcup1.hdf5
+     spin = up     band = 1107     file = wfcup1.hdf5
+     spin = up     band = 1108     file = wfcup1.hdf5
+     spin = up     band = 1109     file = wfcup1.hdf5
+     spin = up     band = 1110     file = wfcup1.hdf5
+     spin = up     band = 1111     file = wfcup1.hdf5
+     spin = up     band = 1112     file = wfcup1.hdf5
+     spin = up     band = 1113     file = wfcup1.hdf5
+     spin = up     band = 1114     file = wfcup1.hdf5
+     spin = up     band = 1115     file = wfcup1.hdf5
+     spin = up     band = 1116     file = wfcup1.hdf5
+     spin = up     band = 1117     file = wfcup1.hdf5
+     spin = up     band = 1118     file = wfcup1.hdf5
+     spin = up     band = 1119     file = wfcup1.hdf5
+     spin = up     band = 1120     file = wfcup1.hdf5
+     spin = up     band = 1121     file = wfcup1.hdf5
+     spin = up     band = 1122     file = wfcup1.hdf5
+     spin = up     band = 1123     file = wfcup1.hdf5
+     spin = up     band = 1124     file = wfcup1.hdf5
+     spin = up     band = 1125     file = wfcup1.hdf5
+     spin = up     band = 1126     file = wfcup1.hdf5
+     spin = up     band = 1127     file = wfcup1.hdf5
+     spin = up     band = 1128     file = wfcup1.hdf5
+     spin = up     band = 1129     file = wfcup1.hdf5
+     spin = up     band = 1130     file = wfcup1.hdf5
+     spin = up     band = 1131     file = wfcup1.hdf5
+     spin = up     band = 1132     file = wfcup1.hdf5
+     spin = up     band = 1133     file = wfcup1.hdf5
+     spin = up     band = 1134     file = wfcup1.hdf5
+     spin = up     band = 1135     file = wfcup1.hdf5
+     spin = up     band = 1136     file = wfcup1.hdf5
+     spin = up     band = 1137     file = wfcup1.hdf5
+     spin = up     band = 1138     file = wfcup1.hdf5
+     spin = up     band = 1139     file = wfcup1.hdf5
+     spin = up     band = 1140     file = wfcup1.hdf5
+     spin = up     band = 1141     file = wfcup1.hdf5
+     spin = up     band = 1142     file = wfcup1.hdf5
+     spin = up     band = 1143     file = wfcup1.hdf5
+     spin = up     band = 1144     file = wfcup1.hdf5
+     spin = up     band = 1145     file = wfcup1.hdf5
+     spin = up     band = 1146     file = wfcup1.hdf5
+     spin = up     band = 1147     file = wfcup1.hdf5
+     spin = up     band = 1148     file = wfcup1.hdf5
+     spin = up     band = 1149     file = wfcup1.hdf5
+     spin = up     band = 1150     file = wfcup1.hdf5
+     spin = up     band = 1151     file = wfcup1.hdf5
+     spin = up     band = 1152     file = wfcup1.hdf5
+     spin = up     band = 1153     file = wfcup1.hdf5
+     spin = up     band = 1154     file = wfcup1.hdf5
+     spin = up     band = 1155     file = wfcup1.hdf5
+     spin = up     band = 1156     file = wfcup1.hdf5
+     spin = up     band = 1157     file = wfcup1.hdf5
+     spin = up     band = 1158     file = wfcup1.hdf5
+     spin = up     band = 1159     file = wfcup1.hdf5
+     spin = up     band = 1160     file = wfcup1.hdf5
+     spin = up     band = 1161     file = wfcup1.hdf5
+     spin = up     band = 1162     file = wfcup1.hdf5
+     spin = up     band = 1163     file = wfcup1.hdf5
+     spin = up     band = 1164     file = wfcup1.hdf5
+     spin = up     band = 1165     file = wfcup1.hdf5
+     spin = up     band = 1166     file = wfcup1.hdf5
+     spin = up     band = 1167     file = wfcup1.hdf5
+     spin = up     band = 1168     file = wfcup1.hdf5
+     spin = up     band = 1169     file = wfcup1.hdf5
+     spin = up     band = 1170     file = wfcup1.hdf5
+     spin = up     band = 1171     file = wfcup1.hdf5
+     spin = up     band = 1172     file = wfcup1.hdf5
+     spin = up     band = 1173     file = wfcup1.hdf5
+     spin = up     band = 1174     file = wfcup1.hdf5
+     spin = up     band = 1175     file = wfcup1.hdf5
+     spin = up     band = 1176     file = wfcup1.hdf5
+     spin = up     band = 1177     file = wfcup1.hdf5
+     spin = up     band = 1178     file = wfcup1.hdf5
+     spin = up     band = 1179     file = wfcup1.hdf5
+     spin = up     band = 1180     file = wfcup1.hdf5
+     spin = up     band = 1181     file = wfcup1.hdf5
+     spin = up     band = 1182     file = wfcup1.hdf5
+     spin = up     band = 1183     file = wfcup1.hdf5
+     spin = up     band = 1184     file = wfcup1.hdf5
+     spin = up     band = 1185     file = wfcup1.hdf5
+     spin = up     band = 1186     file = wfcup1.hdf5
+     spin = up     band = 1187     file = wfcup1.hdf5
+     spin = up     band = 1188     file = wfcup1.hdf5
+     spin = up     band = 1189     file = wfcup1.hdf5
+     spin = up     band = 1190     file = wfcup1.hdf5
+     spin = up     band = 1191     file = wfcup1.hdf5
+     spin = up     band = 1192     file = wfcup1.hdf5
+     spin = up     band = 1193     file = wfcup1.hdf5
+     spin = up     band = 1194     file = wfcup1.hdf5
+     spin = up     band = 1195     file = wfcup1.hdf5
+     spin = up     band = 1196     file = wfcup1.hdf5
+     spin = up     band = 1197     file = wfcup1.hdf5
+     spin = up     band = 1198     file = wfcup1.hdf5
+     spin = up     band = 1199     file = wfcup1.hdf5
+     spin = up     band = 1200     file = wfcup1.hdf5
+     spin = up     band = 1201     file = wfcup1.hdf5
+     spin = up     band = 1202     file = wfcup1.hdf5
+     spin = up     band = 1203     file = wfcup1.hdf5
+     spin = up     band = 1204     file = wfcup1.hdf5
+     spin = up     band = 1205     file = wfcup1.hdf5
+     spin = up     band = 1206     file = wfcup1.hdf5
+     spin = up     band = 1207     file = wfcup1.hdf5
+     spin = up     band = 1208     file = wfcup1.hdf5
+     spin = up     band = 1209     file = wfcup1.hdf5
+     spin = up     band = 1210     file = wfcup1.hdf5
+     spin = up     band = 1211     file = wfcup1.hdf5
+     spin = up     band = 1212     file = wfcup1.hdf5
+     spin = up     band = 1213     file = wfcup1.hdf5
+     spin = up     band = 1214     file = wfcup1.hdf5
+     spin = up     band = 1215     file = wfcup1.hdf5
+     spin = up     band = 1216     file = wfcup1.hdf5
+     spin = up     band = 1217     file = wfcup1.hdf5
+     spin = up     band = 1218     file = wfcup1.hdf5
+     spin = up     band = 1219     file = wfcup1.hdf5
+     spin = up     band = 1220     file = wfcup1.hdf5
+     spin = up     band = 1221     file = wfcup1.hdf5
+     spin = up     band = 1222     file = wfcup1.hdf5
+     spin = up     band = 1223     file = wfcup1.hdf5
+     spin = up     band = 1224     file = wfcup1.hdf5
+     spin = up     band = 1225     file = wfcup1.hdf5
+     spin = up     band = 1226     file = wfcup1.hdf5
+     spin = up     band = 1227     file = wfcup1.hdf5
+     spin = up     band = 1228     file = wfcup1.hdf5
+     spin = up     band = 1229     file = wfcup1.hdf5
+     spin = up     band = 1230     file = wfcup1.hdf5
+     spin = up     band = 1231     file = wfcup1.hdf5
+     spin = up     band = 1232     file = wfcup1.hdf5
+     spin = up     band = 1233     file = wfcup1.hdf5
+     spin = up     band = 1234     file = wfcup1.hdf5
+     spin = up     band = 1235     file = wfcup1.hdf5
+     spin = up     band = 1236     file = wfcup1.hdf5
+     spin = up     band = 1237     file = wfcup1.hdf5
+     spin = up     band = 1238     file = wfcup1.hdf5
+     spin = up     band = 1239     file = wfcup1.hdf5
+     spin = up     band = 1240     file = wfcup1.hdf5
+     spin = up     band = 1241     file = wfcup1.hdf5
+     spin = up     band = 1242     file = wfcup1.hdf5
+     spin = down     band = 1     file = wfcdw1.hdf5
+     spin = down     band = 2     file = wfcdw1.hdf5
+     spin = down     band = 3     file = wfcdw1.hdf5
+     spin = down     band = 4     file = wfcdw1.hdf5
+     spin = down     band = 5     file = wfcdw1.hdf5
+     spin = down     band = 6     file = wfcdw1.hdf5
+     spin = down     band = 7     file = wfcdw1.hdf5
+     spin = down     band = 8     file = wfcdw1.hdf5
+     spin = down     band = 9     file = wfcdw1.hdf5
+     spin = down     band = 10     file = wfcdw1.hdf5
+     spin = down     band = 11     file = wfcdw1.hdf5
+     spin = down     band = 12     file = wfcdw1.hdf5
+     spin = down     band = 13     file = wfcdw1.hdf5
+     spin = down     band = 14     file = wfcdw1.hdf5
+     spin = down     band = 15     file = wfcdw1.hdf5
+     spin = down     band = 16     file = wfcdw1.hdf5
+     spin = down     band = 17     file = wfcdw1.hdf5
+     spin = down     band = 18     file = wfcdw1.hdf5
+     spin = down     band = 19     file = wfcdw1.hdf5
+     spin = down     band = 20     file = wfcdw1.hdf5
+     spin = down     band = 21     file = wfcdw1.hdf5
+     spin = down     band = 22     file = wfcdw1.hdf5
+     spin = down     band = 23     file = wfcdw1.hdf5
+     spin = down     band = 24     file = wfcdw1.hdf5
+     spin = down     band = 25     file = wfcdw1.hdf5
+     spin = down     band = 26     file = wfcdw1.hdf5
+     spin = down     band = 27     file = wfcdw1.hdf5
+     spin = down     band = 28     file = wfcdw1.hdf5
+     spin = down     band = 29     file = wfcdw1.hdf5
+     spin = down     band = 30     file = wfcdw1.hdf5
+     spin = down     band = 31     file = wfcdw1.hdf5
+     spin = down     band = 32     file = wfcdw1.hdf5
+     spin = down     band = 33     file = wfcdw1.hdf5
+     spin = down     band = 34     file = wfcdw1.hdf5
+     spin = down     band = 35     file = wfcdw1.hdf5
+     spin = down     band = 36     file = wfcdw1.hdf5
+     spin = down     band = 37     file = wfcdw1.hdf5
+     spin = down     band = 38     file = wfcdw1.hdf5
+     spin = down     band = 39     file = wfcdw1.hdf5
+     spin = down     band = 40     file = wfcdw1.hdf5
+     spin = down     band = 41     file = wfcdw1.hdf5
+     spin = down     band = 42     file = wfcdw1.hdf5
+     spin = down     band = 43     file = wfcdw1.hdf5
+     spin = down     band = 44     file = wfcdw1.hdf5
+     spin = down     band = 45     file = wfcdw1.hdf5
+     spin = down     band = 46     file = wfcdw1.hdf5
+     spin = down     band = 47     file = wfcdw1.hdf5
+     spin = down     band = 48     file = wfcdw1.hdf5
+     spin = down     band = 49     file = wfcdw1.hdf5
+     spin = down     band = 50     file = wfcdw1.hdf5
+     spin = down     band = 51     file = wfcdw1.hdf5
+     spin = down     band = 52     file = wfcdw1.hdf5
+     spin = down     band = 53     file = wfcdw1.hdf5
+     spin = down     band = 54     file = wfcdw1.hdf5
+     spin = down     band = 55     file = wfcdw1.hdf5
+     spin = down     band = 56     file = wfcdw1.hdf5
+     spin = down     band = 57     file = wfcdw1.hdf5
+     spin = down     band = 58     file = wfcdw1.hdf5
+     spin = down     band = 59     file = wfcdw1.hdf5
+     spin = down     band = 60     file = wfcdw1.hdf5
+     spin = down     band = 61     file = wfcdw1.hdf5
+     spin = down     band = 62     file = wfcdw1.hdf5
+     spin = down     band = 63     file = wfcdw1.hdf5
+     spin = down     band = 64     file = wfcdw1.hdf5
+     spin = down     band = 65     file = wfcdw1.hdf5
+     spin = down     band = 66     file = wfcdw1.hdf5
+     spin = down     band = 67     file = wfcdw1.hdf5
+     spin = down     band = 68     file = wfcdw1.hdf5
+     spin = down     band = 69     file = wfcdw1.hdf5
+     spin = down     band = 70     file = wfcdw1.hdf5
+     spin = down     band = 71     file = wfcdw1.hdf5
+     spin = down     band = 72     file = wfcdw1.hdf5
+     spin = down     band = 73     file = wfcdw1.hdf5
+     spin = down     band = 74     file = wfcdw1.hdf5
+     spin = down     band = 75     file = wfcdw1.hdf5
+     spin = down     band = 76     file = wfcdw1.hdf5
+     spin = down     band = 77     file = wfcdw1.hdf5
+     spin = down     band = 78     file = wfcdw1.hdf5
+     spin = down     band = 79     file = wfcdw1.hdf5
+     spin = down     band = 80     file = wfcdw1.hdf5
+     spin = down     band = 81     file = wfcdw1.hdf5
+     spin = down     band = 82     file = wfcdw1.hdf5
+     spin = down     band = 83     file = wfcdw1.hdf5
+     spin = down     band = 84     file = wfcdw1.hdf5
+     spin = down     band = 85     file = wfcdw1.hdf5
+     spin = down     band = 86     file = wfcdw1.hdf5
+     spin = down     band = 87     file = wfcdw1.hdf5
+     spin = down     band = 88     file = wfcdw1.hdf5
+     spin = down     band = 89     file = wfcdw1.hdf5
+     spin = down     band = 90     file = wfcdw1.hdf5
+     spin = down     band = 91     file = wfcdw1.hdf5
+     spin = down     band = 92     file = wfcdw1.hdf5
+     spin = down     band = 93     file = wfcdw1.hdf5
+     spin = down     band = 94     file = wfcdw1.hdf5
+     spin = down     band = 95     file = wfcdw1.hdf5
+     spin = down     band = 96     file = wfcdw1.hdf5
+     spin = down     band = 97     file = wfcdw1.hdf5
+     spin = down     band = 98     file = wfcdw1.hdf5
+     spin = down     band = 99     file = wfcdw1.hdf5
+     spin = down     band = 100     file = wfcdw1.hdf5
+     spin = down     band = 101     file = wfcdw1.hdf5
+     spin = down     band = 102     file = wfcdw1.hdf5
+     spin = down     band = 103     file = wfcdw1.hdf5
+     spin = down     band = 104     file = wfcdw1.hdf5
+     spin = down     band = 105     file = wfcdw1.hdf5
+     spin = down     band = 106     file = wfcdw1.hdf5
+     spin = down     band = 107     file = wfcdw1.hdf5
+     spin = down     band = 108     file = wfcdw1.hdf5
+     spin = down     band = 109     file = wfcdw1.hdf5
+     spin = down     band = 110     file = wfcdw1.hdf5
+     spin = down     band = 111     file = wfcdw1.hdf5
+     spin = down     band = 112     file = wfcdw1.hdf5
+     spin = down     band = 113     file = wfcdw1.hdf5
+     spin = down     band = 114     file = wfcdw1.hdf5
+     spin = down     band = 115     file = wfcdw1.hdf5
+     spin = down     band = 116     file = wfcdw1.hdf5
+     spin = down     band = 117     file = wfcdw1.hdf5
+     spin = down     band = 118     file = wfcdw1.hdf5
+     spin = down     band = 119     file = wfcdw1.hdf5
+     spin = down     band = 120     file = wfcdw1.hdf5
+     spin = down     band = 121     file = wfcdw1.hdf5
+     spin = down     band = 122     file = wfcdw1.hdf5
+     spin = down     band = 123     file = wfcdw1.hdf5
+     spin = down     band = 124     file = wfcdw1.hdf5
+     spin = down     band = 125     file = wfcdw1.hdf5
+     spin = down     band = 126     file = wfcdw1.hdf5
+     spin = down     band = 127     file = wfcdw1.hdf5
+     spin = down     band = 128     file = wfcdw1.hdf5
+     spin = down     band = 129     file = wfcdw1.hdf5
+     spin = down     band = 130     file = wfcdw1.hdf5
+     spin = down     band = 131     file = wfcdw1.hdf5
+     spin = down     band = 132     file = wfcdw1.hdf5
+     spin = down     band = 133     file = wfcdw1.hdf5
+     spin = down     band = 134     file = wfcdw1.hdf5
+     spin = down     band = 135     file = wfcdw1.hdf5
+     spin = down     band = 136     file = wfcdw1.hdf5
+     spin = down     band = 137     file = wfcdw1.hdf5
+     spin = down     band = 138     file = wfcdw1.hdf5
+     spin = down     band = 139     file = wfcdw1.hdf5
+     spin = down     band = 140     file = wfcdw1.hdf5
+     spin = down     band = 141     file = wfcdw1.hdf5
+     spin = down     band = 142     file = wfcdw1.hdf5
+     spin = down     band = 143     file = wfcdw1.hdf5
+     spin = down     band = 144     file = wfcdw1.hdf5
+     spin = down     band = 145     file = wfcdw1.hdf5
+     spin = down     band = 146     file = wfcdw1.hdf5
+     spin = down     band = 147     file = wfcdw1.hdf5
+     spin = down     band = 148     file = wfcdw1.hdf5
+     spin = down     band = 149     file = wfcdw1.hdf5
+     spin = down     band = 150     file = wfcdw1.hdf5
+     spin = down     band = 151     file = wfcdw1.hdf5
+     spin = down     band = 152     file = wfcdw1.hdf5
+     spin = down     band = 153     file = wfcdw1.hdf5
+     spin = down     band = 154     file = wfcdw1.hdf5
+     spin = down     band = 155     file = wfcdw1.hdf5
+     spin = down     band = 156     file = wfcdw1.hdf5
+     spin = down     band = 157     file = wfcdw1.hdf5
+     spin = down     band = 158     file = wfcdw1.hdf5
+     spin = down     band = 159     file = wfcdw1.hdf5
+     spin = down     band = 160     file = wfcdw1.hdf5
+     spin = down     band = 161     file = wfcdw1.hdf5
+     spin = down     band = 162     file = wfcdw1.hdf5
+     spin = down     band = 163     file = wfcdw1.hdf5
+     spin = down     band = 164     file = wfcdw1.hdf5
+     spin = down     band = 165     file = wfcdw1.hdf5
+     spin = down     band = 166     file = wfcdw1.hdf5
+     spin = down     band = 167     file = wfcdw1.hdf5
+     spin = down     band = 168     file = wfcdw1.hdf5
+     spin = down     band = 169     file = wfcdw1.hdf5
+     spin = down     band = 170     file = wfcdw1.hdf5
+     spin = down     band = 171     file = wfcdw1.hdf5
+     spin = down     band = 172     file = wfcdw1.hdf5
+     spin = down     band = 173     file = wfcdw1.hdf5
+     spin = down     band = 174     file = wfcdw1.hdf5
+     spin = down     band = 175     file = wfcdw1.hdf5
+     spin = down     band = 176     file = wfcdw1.hdf5
+     spin = down     band = 177     file = wfcdw1.hdf5
+     spin = down     band = 178     file = wfcdw1.hdf5
+     spin = down     band = 179     file = wfcdw1.hdf5
+     spin = down     band = 180     file = wfcdw1.hdf5
+     spin = down     band = 181     file = wfcdw1.hdf5
+     spin = down     band = 182     file = wfcdw1.hdf5
+     spin = down     band = 183     file = wfcdw1.hdf5
+     spin = down     band = 184     file = wfcdw1.hdf5
+     spin = down     band = 185     file = wfcdw1.hdf5
+     spin = down     band = 186     file = wfcdw1.hdf5
+     spin = down     band = 187     file = wfcdw1.hdf5
+     spin = down     band = 188     file = wfcdw1.hdf5
+     spin = down     band = 189     file = wfcdw1.hdf5
+     spin = down     band = 190     file = wfcdw1.hdf5
+     spin = down     band = 191     file = wfcdw1.hdf5
+     spin = down     band = 192     file = wfcdw1.hdf5
+     spin = down     band = 193     file = wfcdw1.hdf5
+     spin = down     band = 194     file = wfcdw1.hdf5
+     spin = down     band = 195     file = wfcdw1.hdf5
+     spin = down     band = 196     file = wfcdw1.hdf5
+     spin = down     band = 197     file = wfcdw1.hdf5
+     spin = down     band = 198     file = wfcdw1.hdf5
+     spin = down     band = 199     file = wfcdw1.hdf5
+     spin = down     band = 200     file = wfcdw1.hdf5
+     spin = down     band = 201     file = wfcdw1.hdf5
+     spin = down     band = 202     file = wfcdw1.hdf5
+     spin = down     band = 203     file = wfcdw1.hdf5
+     spin = down     band = 204     file = wfcdw1.hdf5
+     spin = down     band = 205     file = wfcdw1.hdf5
+     spin = down     band = 206     file = wfcdw1.hdf5
+     spin = down     band = 207     file = wfcdw1.hdf5
+     spin = down     band = 208     file = wfcdw1.hdf5
+     spin = down     band = 209     file = wfcdw1.hdf5
+     spin = down     band = 210     file = wfcdw1.hdf5
+     spin = down     band = 211     file = wfcdw1.hdf5
+     spin = down     band = 212     file = wfcdw1.hdf5
+     spin = down     band = 213     file = wfcdw1.hdf5
+     spin = down     band = 214     file = wfcdw1.hdf5
+     spin = down     band = 215     file = wfcdw1.hdf5
+     spin = down     band = 216     file = wfcdw1.hdf5
+     spin = down     band = 217     file = wfcdw1.hdf5
+     spin = down     band = 218     file = wfcdw1.hdf5
+     spin = down     band = 219     file = wfcdw1.hdf5
+     spin = down     band = 220     file = wfcdw1.hdf5
+     spin = down     band = 221     file = wfcdw1.hdf5
+     spin = down     band = 222     file = wfcdw1.hdf5
+     spin = down     band = 223     file = wfcdw1.hdf5
+     spin = down     band = 224     file = wfcdw1.hdf5
+     spin = down     band = 225     file = wfcdw1.hdf5
+     spin = down     band = 226     file = wfcdw1.hdf5
+     spin = down     band = 227     file = wfcdw1.hdf5
+     spin = down     band = 228     file = wfcdw1.hdf5
+     spin = down     band = 229     file = wfcdw1.hdf5
+     spin = down     band = 230     file = wfcdw1.hdf5
+     spin = down     band = 231     file = wfcdw1.hdf5
+     spin = down     band = 232     file = wfcdw1.hdf5
+     spin = down     band = 233     file = wfcdw1.hdf5
+     spin = down     band = 234     file = wfcdw1.hdf5
+     spin = down     band = 235     file = wfcdw1.hdf5
+     spin = down     band = 236     file = wfcdw1.hdf5
+     spin = down     band = 237     file = wfcdw1.hdf5
+     spin = down     band = 238     file = wfcdw1.hdf5
+     spin = down     band = 239     file = wfcdw1.hdf5
+     spin = down     band = 240     file = wfcdw1.hdf5
+     spin = down     band = 241     file = wfcdw1.hdf5
+     spin = down     band = 242     file = wfcdw1.hdf5
+     spin = down     band = 243     file = wfcdw1.hdf5
+     spin = down     band = 244     file = wfcdw1.hdf5
+     spin = down     band = 245     file = wfcdw1.hdf5
+     spin = down     band = 246     file = wfcdw1.hdf5
+     spin = down     band = 247     file = wfcdw1.hdf5
+     spin = down     band = 248     file = wfcdw1.hdf5
+     spin = down     band = 249     file = wfcdw1.hdf5
+     spin = down     band = 250     file = wfcdw1.hdf5
+     spin = down     band = 251     file = wfcdw1.hdf5
+     spin = down     band = 252     file = wfcdw1.hdf5
+     spin = down     band = 253     file = wfcdw1.hdf5
+     spin = down     band = 254     file = wfcdw1.hdf5
+     spin = down     band = 255     file = wfcdw1.hdf5
+     spin = down     band = 256     file = wfcdw1.hdf5
+     spin = down     band = 257     file = wfcdw1.hdf5
+     spin = down     band = 258     file = wfcdw1.hdf5
+     spin = down     band = 259     file = wfcdw1.hdf5
+     spin = down     band = 260     file = wfcdw1.hdf5
+     spin = down     band = 261     file = wfcdw1.hdf5
+     spin = down     band = 262     file = wfcdw1.hdf5
+     spin = down     band = 263     file = wfcdw1.hdf5
+     spin = down     band = 264     file = wfcdw1.hdf5
+     spin = down     band = 265     file = wfcdw1.hdf5
+     spin = down     band = 266     file = wfcdw1.hdf5
+     spin = down     band = 267     file = wfcdw1.hdf5
+     spin = down     band = 268     file = wfcdw1.hdf5
+     spin = down     band = 269     file = wfcdw1.hdf5
+     spin = down     band = 270     file = wfcdw1.hdf5
+     spin = down     band = 271     file = wfcdw1.hdf5
+     spin = down     band = 272     file = wfcdw1.hdf5
+     spin = down     band = 273     file = wfcdw1.hdf5
+     spin = down     band = 274     file = wfcdw1.hdf5
+     spin = down     band = 275     file = wfcdw1.hdf5
+     spin = down     band = 276     file = wfcdw1.hdf5
+     spin = down     band = 277     file = wfcdw1.hdf5
+     spin = down     band = 278     file = wfcdw1.hdf5
+     spin = down     band = 279     file = wfcdw1.hdf5
+     spin = down     band = 280     file = wfcdw1.hdf5
+     spin = down     band = 281     file = wfcdw1.hdf5
+     spin = down     band = 282     file = wfcdw1.hdf5
+     spin = down     band = 283     file = wfcdw1.hdf5
+     spin = down     band = 284     file = wfcdw1.hdf5
+     spin = down     band = 285     file = wfcdw1.hdf5
+     spin = down     band = 286     file = wfcdw1.hdf5
+     spin = down     band = 287     file = wfcdw1.hdf5
+     spin = down     band = 288     file = wfcdw1.hdf5
+     spin = down     band = 289     file = wfcdw1.hdf5
+     spin = down     band = 290     file = wfcdw1.hdf5
+     spin = down     band = 291     file = wfcdw1.hdf5
+     spin = down     band = 292     file = wfcdw1.hdf5
+     spin = down     band = 293     file = wfcdw1.hdf5
+     spin = down     band = 294     file = wfcdw1.hdf5
+     spin = down     band = 295     file = wfcdw1.hdf5
+     spin = down     band = 296     file = wfcdw1.hdf5
+     spin = down     band = 297     file = wfcdw1.hdf5
+     spin = down     band = 298     file = wfcdw1.hdf5
+     spin = down     band = 299     file = wfcdw1.hdf5
+     spin = down     band = 300     file = wfcdw1.hdf5
+     spin = down     band = 301     file = wfcdw1.hdf5
+     spin = down     band = 302     file = wfcdw1.hdf5
+     spin = down     band = 303     file = wfcdw1.hdf5
+     spin = down     band = 304     file = wfcdw1.hdf5
+     spin = down     band = 305     file = wfcdw1.hdf5
+     spin = down     band = 306     file = wfcdw1.hdf5
+     spin = down     band = 307     file = wfcdw1.hdf5
+     spin = down     band = 308     file = wfcdw1.hdf5
+     spin = down     band = 309     file = wfcdw1.hdf5
+     spin = down     band = 310     file = wfcdw1.hdf5
+     spin = down     band = 311     file = wfcdw1.hdf5
+     spin = down     band = 312     file = wfcdw1.hdf5
+     spin = down     band = 313     file = wfcdw1.hdf5
+     spin = down     band = 314     file = wfcdw1.hdf5
+     spin = down     band = 315     file = wfcdw1.hdf5
+     spin = down     band = 316     file = wfcdw1.hdf5
+     spin = down     band = 317     file = wfcdw1.hdf5
+     spin = down     band = 318     file = wfcdw1.hdf5
+     spin = down     band = 319     file = wfcdw1.hdf5
+     spin = down     band = 320     file = wfcdw1.hdf5
+     spin = down     band = 321     file = wfcdw1.hdf5
+     spin = down     band = 322     file = wfcdw1.hdf5
+     spin = down     band = 323     file = wfcdw1.hdf5
+     spin = down     band = 324     file = wfcdw1.hdf5
+     spin = down     band = 325     file = wfcdw1.hdf5
+     spin = down     band = 326     file = wfcdw1.hdf5
+     spin = down     band = 327     file = wfcdw1.hdf5
+     spin = down     band = 328     file = wfcdw1.hdf5
+     spin = down     band = 329     file = wfcdw1.hdf5
+     spin = down     band = 330     file = wfcdw1.hdf5
+     spin = down     band = 331     file = wfcdw1.hdf5
+     spin = down     band = 332     file = wfcdw1.hdf5
+     spin = down     band = 333     file = wfcdw1.hdf5
+     spin = down     band = 334     file = wfcdw1.hdf5
+     spin = down     band = 335     file = wfcdw1.hdf5
+     spin = down     band = 336     file = wfcdw1.hdf5
+     spin = down     band = 337     file = wfcdw1.hdf5
+     spin = down     band = 338     file = wfcdw1.hdf5
+     spin = down     band = 339     file = wfcdw1.hdf5
+     spin = down     band = 340     file = wfcdw1.hdf5
+     spin = down     band = 341     file = wfcdw1.hdf5
+     spin = down     band = 342     file = wfcdw1.hdf5
+     spin = down     band = 343     file = wfcdw1.hdf5
+     spin = down     band = 344     file = wfcdw1.hdf5
+     spin = down     band = 345     file = wfcdw1.hdf5
+     spin = down     band = 346     file = wfcdw1.hdf5
+     spin = down     band = 347     file = wfcdw1.hdf5
+     spin = down     band = 348     file = wfcdw1.hdf5
+     spin = down     band = 349     file = wfcdw1.hdf5
+     spin = down     band = 350     file = wfcdw1.hdf5
+     spin = down     band = 351     file = wfcdw1.hdf5
+     spin = down     band = 352     file = wfcdw1.hdf5
+     spin = down     band = 353     file = wfcdw1.hdf5
+     spin = down     band = 354     file = wfcdw1.hdf5
+     spin = down     band = 355     file = wfcdw1.hdf5
+     spin = down     band = 356     file = wfcdw1.hdf5
+     spin = down     band = 357     file = wfcdw1.hdf5
+     spin = down     band = 358     file = wfcdw1.hdf5
+     spin = down     band = 359     file = wfcdw1.hdf5
+     spin = down     band = 360     file = wfcdw1.hdf5
+     spin = down     band = 361     file = wfcdw1.hdf5
+     spin = down     band = 362     file = wfcdw1.hdf5
+     spin = down     band = 363     file = wfcdw1.hdf5
+     spin = down     band = 364     file = wfcdw1.hdf5
+     spin = down     band = 365     file = wfcdw1.hdf5
+     spin = down     band = 366     file = wfcdw1.hdf5
+     spin = down     band = 367     file = wfcdw1.hdf5
+     spin = down     band = 368     file = wfcdw1.hdf5
+     spin = down     band = 369     file = wfcdw1.hdf5
+     spin = down     band = 370     file = wfcdw1.hdf5
+     spin = down     band = 371     file = wfcdw1.hdf5
+     spin = down     band = 372     file = wfcdw1.hdf5
+     spin = down     band = 373     file = wfcdw1.hdf5
+     spin = down     band = 374     file = wfcdw1.hdf5
+     spin = down     band = 375     file = wfcdw1.hdf5
+     spin = down     band = 376     file = wfcdw1.hdf5
+     spin = down     band = 377     file = wfcdw1.hdf5
+     spin = down     band = 378     file = wfcdw1.hdf5
+     spin = down     band = 379     file = wfcdw1.hdf5
+     spin = down     band = 380     file = wfcdw1.hdf5
+     spin = down     band = 381     file = wfcdw1.hdf5
+     spin = down     band = 382     file = wfcdw1.hdf5
+     spin = down     band = 383     file = wfcdw1.hdf5
+     spin = down     band = 384     file = wfcdw1.hdf5
+     spin = down     band = 385     file = wfcdw1.hdf5
+     spin = down     band = 386     file = wfcdw1.hdf5
+     spin = down     band = 387     file = wfcdw1.hdf5
+     spin = down     band = 388     file = wfcdw1.hdf5
+     spin = down     band = 389     file = wfcdw1.hdf5
+     spin = down     band = 390     file = wfcdw1.hdf5
+     spin = down     band = 391     file = wfcdw1.hdf5
+     spin = down     band = 392     file = wfcdw1.hdf5
+     spin = down     band = 393     file = wfcdw1.hdf5
+     spin = down     band = 394     file = wfcdw1.hdf5
+     spin = down     band = 395     file = wfcdw1.hdf5
+     spin = down     band = 396     file = wfcdw1.hdf5
+     spin = down     band = 397     file = wfcdw1.hdf5
+     spin = down     band = 398     file = wfcdw1.hdf5
+     spin = down     band = 399     file = wfcdw1.hdf5
+     spin = down     band = 400     file = wfcdw1.hdf5
+     spin = down     band = 401     file = wfcdw1.hdf5
+     spin = down     band = 402     file = wfcdw1.hdf5
+     spin = down     band = 403     file = wfcdw1.hdf5
+     spin = down     band = 404     file = wfcdw1.hdf5
+     spin = down     band = 405     file = wfcdw1.hdf5
+     spin = down     band = 406     file = wfcdw1.hdf5
+     spin = down     band = 407     file = wfcdw1.hdf5
+     spin = down     band = 408     file = wfcdw1.hdf5
+     spin = down     band = 409     file = wfcdw1.hdf5
+     spin = down     band = 410     file = wfcdw1.hdf5
+     spin = down     band = 411     file = wfcdw1.hdf5
+     spin = down     band = 412     file = wfcdw1.hdf5
+     spin = down     band = 413     file = wfcdw1.hdf5
+     spin = down     band = 414     file = wfcdw1.hdf5
+     spin = down     band = 415     file = wfcdw1.hdf5
+     spin = down     band = 416     file = wfcdw1.hdf5
+     spin = down     band = 417     file = wfcdw1.hdf5
+     spin = down     band = 418     file = wfcdw1.hdf5
+     spin = down     band = 419     file = wfcdw1.hdf5
+     spin = down     band = 420     file = wfcdw1.hdf5
+     spin = down     band = 421     file = wfcdw1.hdf5
+     spin = down     band = 422     file = wfcdw1.hdf5
+     spin = down     band = 423     file = wfcdw1.hdf5
+     spin = down     band = 424     file = wfcdw1.hdf5
+     spin = down     band = 425     file = wfcdw1.hdf5
+     spin = down     band = 426     file = wfcdw1.hdf5
+     spin = down     band = 427     file = wfcdw1.hdf5
+     spin = down     band = 428     file = wfcdw1.hdf5
+     spin = down     band = 429     file = wfcdw1.hdf5
+     spin = down     band = 430     file = wfcdw1.hdf5
+     spin = down     band = 431     file = wfcdw1.hdf5
+     spin = down     band = 432     file = wfcdw1.hdf5
+     spin = down     band = 433     file = wfcdw1.hdf5
+     spin = down     band = 434     file = wfcdw1.hdf5
+     spin = down     band = 435     file = wfcdw1.hdf5
+     spin = down     band = 436     file = wfcdw1.hdf5
+     spin = down     band = 437     file = wfcdw1.hdf5
+     spin = down     band = 438     file = wfcdw1.hdf5
+     spin = down     band = 439     file = wfcdw1.hdf5
+     spin = down     band = 440     file = wfcdw1.hdf5
+     spin = down     band = 441     file = wfcdw1.hdf5
+     spin = down     band = 442     file = wfcdw1.hdf5
+     spin = down     band = 443     file = wfcdw1.hdf5
+     spin = down     band = 444     file = wfcdw1.hdf5
+     spin = down     band = 445     file = wfcdw1.hdf5
+     spin = down     band = 446     file = wfcdw1.hdf5
+     spin = down     band = 447     file = wfcdw1.hdf5
+     spin = down     band = 448     file = wfcdw1.hdf5
+     spin = down     band = 449     file = wfcdw1.hdf5
+     spin = down     band = 450     file = wfcdw1.hdf5
+     spin = down     band = 451     file = wfcdw1.hdf5
+     spin = down     band = 452     file = wfcdw1.hdf5
+     spin = down     band = 453     file = wfcdw1.hdf5
+     spin = down     band = 454     file = wfcdw1.hdf5
+     spin = down     band = 455     file = wfcdw1.hdf5
+     spin = down     band = 456     file = wfcdw1.hdf5
+     spin = down     band = 457     file = wfcdw1.hdf5
+     spin = down     band = 458     file = wfcdw1.hdf5
+     spin = down     band = 459     file = wfcdw1.hdf5
+     spin = down     band = 460     file = wfcdw1.hdf5
+     spin = down     band = 461     file = wfcdw1.hdf5
+     spin = down     band = 462     file = wfcdw1.hdf5
+     spin = down     band = 463     file = wfcdw1.hdf5
+     spin = down     band = 464     file = wfcdw1.hdf5
+     spin = down     band = 465     file = wfcdw1.hdf5
+     spin = down     band = 466     file = wfcdw1.hdf5
+     spin = down     band = 467     file = wfcdw1.hdf5
+     spin = down     band = 468     file = wfcdw1.hdf5
+     spin = down     band = 469     file = wfcdw1.hdf5
+     spin = down     band = 470     file = wfcdw1.hdf5
+     spin = down     band = 471     file = wfcdw1.hdf5
+     spin = down     band = 472     file = wfcdw1.hdf5
+     spin = down     band = 473     file = wfcdw1.hdf5
+     spin = down     band = 474     file = wfcdw1.hdf5
+     spin = down     band = 475     file = wfcdw1.hdf5
+     spin = down     band = 476     file = wfcdw1.hdf5
+     spin = down     band = 477     file = wfcdw1.hdf5
+     spin = down     band = 478     file = wfcdw1.hdf5
+     spin = down     band = 479     file = wfcdw1.hdf5
+     spin = down     band = 480     file = wfcdw1.hdf5
+     spin = down     band = 481     file = wfcdw1.hdf5
+     spin = down     band = 482     file = wfcdw1.hdf5
+     spin = down     band = 483     file = wfcdw1.hdf5
+     spin = down     band = 484     file = wfcdw1.hdf5
+     spin = down     band = 485     file = wfcdw1.hdf5
+     spin = down     band = 486     file = wfcdw1.hdf5
+     spin = down     band = 487     file = wfcdw1.hdf5
+     spin = down     band = 488     file = wfcdw1.hdf5
+     spin = down     band = 489     file = wfcdw1.hdf5
+     spin = down     band = 490     file = wfcdw1.hdf5
+     spin = down     band = 491     file = wfcdw1.hdf5
+     spin = down     band = 492     file = wfcdw1.hdf5
+     spin = down     band = 493     file = wfcdw1.hdf5
+     spin = down     band = 494     file = wfcdw1.hdf5
+     spin = down     band = 495     file = wfcdw1.hdf5
+     spin = down     band = 496     file = wfcdw1.hdf5
+     spin = down     band = 497     file = wfcdw1.hdf5
+     spin = down     band = 498     file = wfcdw1.hdf5
+     spin = down     band = 499     file = wfcdw1.hdf5
+     spin = down     band = 500     file = wfcdw1.hdf5
+     spin = down     band = 501     file = wfcdw1.hdf5
+     spin = down     band = 502     file = wfcdw1.hdf5
+     spin = down     band = 503     file = wfcdw1.hdf5
+     spin = down     band = 504     file = wfcdw1.hdf5
+     spin = down     band = 505     file = wfcdw1.hdf5
+     spin = down     band = 506     file = wfcdw1.hdf5
+     spin = down     band = 507     file = wfcdw1.hdf5
+     spin = down     band = 508     file = wfcdw1.hdf5
+     spin = down     band = 509     file = wfcdw1.hdf5
+     spin = down     band = 510     file = wfcdw1.hdf5
+     spin = down     band = 511     file = wfcdw1.hdf5
+     spin = down     band = 512     file = wfcdw1.hdf5
+     spin = down     band = 513     file = wfcdw1.hdf5
+     spin = down     band = 514     file = wfcdw1.hdf5
+     spin = down     band = 515     file = wfcdw1.hdf5
+     spin = down     band = 516     file = wfcdw1.hdf5
+     spin = down     band = 517     file = wfcdw1.hdf5
+     spin = down     band = 518     file = wfcdw1.hdf5
+     spin = down     band = 519     file = wfcdw1.hdf5
+     spin = down     band = 520     file = wfcdw1.hdf5
+     spin = down     band = 521     file = wfcdw1.hdf5
+     spin = down     band = 522     file = wfcdw1.hdf5
+     spin = down     band = 523     file = wfcdw1.hdf5
+     spin = down     band = 524     file = wfcdw1.hdf5
+     spin = down     band = 525     file = wfcdw1.hdf5
+     spin = down     band = 526     file = wfcdw1.hdf5
+     spin = down     band = 527     file = wfcdw1.hdf5
+     spin = down     band = 528     file = wfcdw1.hdf5
+     spin = down     band = 529     file = wfcdw1.hdf5
+     spin = down     band = 530     file = wfcdw1.hdf5
+     spin = down     band = 531     file = wfcdw1.hdf5
+     spin = down     band = 532     file = wfcdw1.hdf5
+     spin = down     band = 533     file = wfcdw1.hdf5
+     spin = down     band = 534     file = wfcdw1.hdf5
+     spin = down     band = 535     file = wfcdw1.hdf5
+     spin = down     band = 536     file = wfcdw1.hdf5
+     spin = down     band = 537     file = wfcdw1.hdf5
+     spin = down     band = 538     file = wfcdw1.hdf5
+     spin = down     band = 539     file = wfcdw1.hdf5
+     spin = down     band = 540     file = wfcdw1.hdf5
+     spin = down     band = 541     file = wfcdw1.hdf5
+     spin = down     band = 542     file = wfcdw1.hdf5
+     spin = down     band = 543     file = wfcdw1.hdf5
+     spin = down     band = 544     file = wfcdw1.hdf5
+     spin = down     band = 545     file = wfcdw1.hdf5
+     spin = down     band = 546     file = wfcdw1.hdf5
+     spin = down     band = 547     file = wfcdw1.hdf5
+     spin = down     band = 548     file = wfcdw1.hdf5
+     spin = down     band = 549     file = wfcdw1.hdf5
+     spin = down     band = 550     file = wfcdw1.hdf5
+     spin = down     band = 551     file = wfcdw1.hdf5
+     spin = down     band = 552     file = wfcdw1.hdf5
+     spin = down     band = 553     file = wfcdw1.hdf5
+     spin = down     band = 554     file = wfcdw1.hdf5
+     spin = down     band = 555     file = wfcdw1.hdf5
+     spin = down     band = 556     file = wfcdw1.hdf5
+     spin = down     band = 557     file = wfcdw1.hdf5
+     spin = down     band = 558     file = wfcdw1.hdf5
+     spin = down     band = 559     file = wfcdw1.hdf5
+     spin = down     band = 560     file = wfcdw1.hdf5
+     spin = down     band = 561     file = wfcdw1.hdf5
+     spin = down     band = 562     file = wfcdw1.hdf5
+     spin = down     band = 563     file = wfcdw1.hdf5
+     spin = down     band = 564     file = wfcdw1.hdf5
+     spin = down     band = 565     file = wfcdw1.hdf5
+     spin = down     band = 566     file = wfcdw1.hdf5
+     spin = down     band = 567     file = wfcdw1.hdf5
+     spin = down     band = 568     file = wfcdw1.hdf5
+     spin = down     band = 569     file = wfcdw1.hdf5
+     spin = down     band = 570     file = wfcdw1.hdf5
+     spin = down     band = 571     file = wfcdw1.hdf5
+     spin = down     band = 572     file = wfcdw1.hdf5
+     spin = down     band = 573     file = wfcdw1.hdf5
+     spin = down     band = 574     file = wfcdw1.hdf5
+     spin = down     band = 575     file = wfcdw1.hdf5
+     spin = down     band = 576     file = wfcdw1.hdf5
+     spin = down     band = 577     file = wfcdw1.hdf5
+     spin = down     band = 578     file = wfcdw1.hdf5
+     spin = down     band = 579     file = wfcdw1.hdf5
+     spin = down     band = 580     file = wfcdw1.hdf5
+     spin = down     band = 581     file = wfcdw1.hdf5
+     spin = down     band = 582     file = wfcdw1.hdf5
+     spin = down     band = 583     file = wfcdw1.hdf5
+     spin = down     band = 584     file = wfcdw1.hdf5
+     spin = down     band = 585     file = wfcdw1.hdf5
+     spin = down     band = 586     file = wfcdw1.hdf5
+     spin = down     band = 587     file = wfcdw1.hdf5
+     spin = down     band = 588     file = wfcdw1.hdf5
+     spin = down     band = 589     file = wfcdw1.hdf5
+     spin = down     band = 590     file = wfcdw1.hdf5
+     spin = down     band = 591     file = wfcdw1.hdf5
+     spin = down     band = 592     file = wfcdw1.hdf5
+     spin = down     band = 593     file = wfcdw1.hdf5
+     spin = down     band = 594     file = wfcdw1.hdf5
+     spin = down     band = 595     file = wfcdw1.hdf5
+     spin = down     band = 596     file = wfcdw1.hdf5
+     spin = down     band = 597     file = wfcdw1.hdf5
+     spin = down     band = 598     file = wfcdw1.hdf5
+     spin = down     band = 599     file = wfcdw1.hdf5
+     spin = down     band = 600     file = wfcdw1.hdf5
+     spin = down     band = 601     file = wfcdw1.hdf5
+     spin = down     band = 602     file = wfcdw1.hdf5
+     spin = down     band = 603     file = wfcdw1.hdf5
+     spin = down     band = 604     file = wfcdw1.hdf5
+     spin = down     band = 605     file = wfcdw1.hdf5
+     spin = down     band = 606     file = wfcdw1.hdf5
+     spin = down     band = 607     file = wfcdw1.hdf5
+     spin = down     band = 608     file = wfcdw1.hdf5
+     spin = down     band = 609     file = wfcdw1.hdf5
+     spin = down     band = 610     file = wfcdw1.hdf5
+     spin = down     band = 611     file = wfcdw1.hdf5
+     spin = down     band = 612     file = wfcdw1.hdf5
+     spin = down     band = 613     file = wfcdw1.hdf5
+     spin = down     band = 614     file = wfcdw1.hdf5
+     spin = down     band = 615     file = wfcdw1.hdf5
+     spin = down     band = 616     file = wfcdw1.hdf5
+     spin = down     band = 617     file = wfcdw1.hdf5
+     spin = down     band = 618     file = wfcdw1.hdf5
+     spin = down     band = 619     file = wfcdw1.hdf5
+     spin = down     band = 620     file = wfcdw1.hdf5
+     spin = down     band = 621     file = wfcdw1.hdf5
+     spin = down     band = 622     file = wfcdw1.hdf5
+     spin = down     band = 623     file = wfcdw1.hdf5
+     spin = down     band = 624     file = wfcdw1.hdf5
+     spin = down     band = 625     file = wfcdw1.hdf5
+     spin = down     band = 626     file = wfcdw1.hdf5
+     spin = down     band = 627     file = wfcdw1.hdf5
+     spin = down     band = 628     file = wfcdw1.hdf5
+     spin = down     band = 629     file = wfcdw1.hdf5
+     spin = down     band = 630     file = wfcdw1.hdf5
+     spin = down     band = 631     file = wfcdw1.hdf5
+     spin = down     band = 632     file = wfcdw1.hdf5
+     spin = down     band = 633     file = wfcdw1.hdf5
+     spin = down     band = 634     file = wfcdw1.hdf5
+     spin = down     band = 635     file = wfcdw1.hdf5
+     spin = down     band = 636     file = wfcdw1.hdf5
+     spin = down     band = 637     file = wfcdw1.hdf5
+     spin = down     band = 638     file = wfcdw1.hdf5
+     spin = down     band = 639     file = wfcdw1.hdf5
+     spin = down     band = 640     file = wfcdw1.hdf5
+     spin = down     band = 641     file = wfcdw1.hdf5
+     spin = down     band = 642     file = wfcdw1.hdf5
+     spin = down     band = 643     file = wfcdw1.hdf5
+     spin = down     band = 644     file = wfcdw1.hdf5
+     spin = down     band = 645     file = wfcdw1.hdf5
+     spin = down     band = 646     file = wfcdw1.hdf5
+     spin = down     band = 647     file = wfcdw1.hdf5
+     spin = down     band = 648     file = wfcdw1.hdf5
+     spin = down     band = 649     file = wfcdw1.hdf5
+     spin = down     band = 650     file = wfcdw1.hdf5
+     spin = down     band = 651     file = wfcdw1.hdf5
+     spin = down     band = 652     file = wfcdw1.hdf5
+     spin = down     band = 653     file = wfcdw1.hdf5
+     spin = down     band = 654     file = wfcdw1.hdf5
+     spin = down     band = 655     file = wfcdw1.hdf5
+     spin = down     band = 656     file = wfcdw1.hdf5
+     spin = down     band = 657     file = wfcdw1.hdf5
+     spin = down     band = 658     file = wfcdw1.hdf5
+     spin = down     band = 659     file = wfcdw1.hdf5
+     spin = down     band = 660     file = wfcdw1.hdf5
+     spin = down     band = 661     file = wfcdw1.hdf5
+     spin = down     band = 662     file = wfcdw1.hdf5
+     spin = down     band = 663     file = wfcdw1.hdf5
+     spin = down     band = 664     file = wfcdw1.hdf5
+     spin = down     band = 665     file = wfcdw1.hdf5
+     spin = down     band = 666     file = wfcdw1.hdf5
+     spin = down     band = 667     file = wfcdw1.hdf5
+     spin = down     band = 668     file = wfcdw1.hdf5
+     spin = down     band = 669     file = wfcdw1.hdf5
+     spin = down     band = 670     file = wfcdw1.hdf5
+     spin = down     band = 671     file = wfcdw1.hdf5
+     spin = down     band = 672     file = wfcdw1.hdf5
+     spin = down     band = 673     file = wfcdw1.hdf5
+     spin = down     band = 674     file = wfcdw1.hdf5
+     spin = down     band = 675     file = wfcdw1.hdf5
+     spin = down     band = 676     file = wfcdw1.hdf5
+     spin = down     band = 677     file = wfcdw1.hdf5
+     spin = down     band = 678     file = wfcdw1.hdf5
+     spin = down     band = 679     file = wfcdw1.hdf5
+     spin = down     band = 680     file = wfcdw1.hdf5
+     spin = down     band = 681     file = wfcdw1.hdf5
+     spin = down     band = 682     file = wfcdw1.hdf5
+     spin = down     band = 683     file = wfcdw1.hdf5
+     spin = down     band = 684     file = wfcdw1.hdf5
+     spin = down     band = 685     file = wfcdw1.hdf5
+     spin = down     band = 686     file = wfcdw1.hdf5
+     spin = down     band = 687     file = wfcdw1.hdf5
+     spin = down     band = 688     file = wfcdw1.hdf5
+     spin = down     band = 689     file = wfcdw1.hdf5
+     spin = down     band = 690     file = wfcdw1.hdf5
+     spin = down     band = 691     file = wfcdw1.hdf5
+     spin = down     band = 692     file = wfcdw1.hdf5
+     spin = down     band = 693     file = wfcdw1.hdf5
+     spin = down     band = 694     file = wfcdw1.hdf5
+     spin = down     band = 695     file = wfcdw1.hdf5
+     spin = down     band = 696     file = wfcdw1.hdf5
+     spin = down     band = 697     file = wfcdw1.hdf5
+     spin = down     band = 698     file = wfcdw1.hdf5
+     spin = down     band = 699     file = wfcdw1.hdf5
+     spin = down     band = 700     file = wfcdw1.hdf5
+     spin = down     band = 701     file = wfcdw1.hdf5
+     spin = down     band = 702     file = wfcdw1.hdf5
+     spin = down     band = 703     file = wfcdw1.hdf5
+     spin = down     band = 704     file = wfcdw1.hdf5
+     spin = down     band = 705     file = wfcdw1.hdf5
+     spin = down     band = 706     file = wfcdw1.hdf5
+     spin = down     band = 707     file = wfcdw1.hdf5
+     spin = down     band = 708     file = wfcdw1.hdf5
+     spin = down     band = 709     file = wfcdw1.hdf5
+     spin = down     band = 710     file = wfcdw1.hdf5
+     spin = down     band = 711     file = wfcdw1.hdf5
+     spin = down     band = 712     file = wfcdw1.hdf5
+     spin = down     band = 713     file = wfcdw1.hdf5
+     spin = down     band = 714     file = wfcdw1.hdf5
+     spin = down     band = 715     file = wfcdw1.hdf5
+     spin = down     band = 716     file = wfcdw1.hdf5
+     spin = down     band = 717     file = wfcdw1.hdf5
+     spin = down     band = 718     file = wfcdw1.hdf5
+     spin = down     band = 719     file = wfcdw1.hdf5
+     spin = down     band = 720     file = wfcdw1.hdf5
+     spin = down     band = 721     file = wfcdw1.hdf5
+     spin = down     band = 722     file = wfcdw1.hdf5
+     spin = down     band = 723     file = wfcdw1.hdf5
+     spin = down     band = 724     file = wfcdw1.hdf5
+     spin = down     band = 725     file = wfcdw1.hdf5
+     spin = down     band = 726     file = wfcdw1.hdf5
+     spin = down     band = 727     file = wfcdw1.hdf5
+     spin = down     band = 728     file = wfcdw1.hdf5
+     spin = down     band = 729     file = wfcdw1.hdf5
+     spin = down     band = 730     file = wfcdw1.hdf5
+     spin = down     band = 731     file = wfcdw1.hdf5
+     spin = down     band = 732     file = wfcdw1.hdf5
+     spin = down     band = 733     file = wfcdw1.hdf5
+     spin = down     band = 734     file = wfcdw1.hdf5
+     spin = down     band = 735     file = wfcdw1.hdf5
+     spin = down     band = 736     file = wfcdw1.hdf5
+     spin = down     band = 737     file = wfcdw1.hdf5
+     spin = down     band = 738     file = wfcdw1.hdf5
+     spin = down     band = 739     file = wfcdw1.hdf5
+     spin = down     band = 740     file = wfcdw1.hdf5
+     spin = down     band = 741     file = wfcdw1.hdf5
+     spin = down     band = 742     file = wfcdw1.hdf5
+     spin = down     band = 743     file = wfcdw1.hdf5
+     spin = down     band = 744     file = wfcdw1.hdf5
+     spin = down     band = 745     file = wfcdw1.hdf5
+     spin = down     band = 746     file = wfcdw1.hdf5
+     spin = down     band = 747     file = wfcdw1.hdf5
+     spin = down     band = 748     file = wfcdw1.hdf5
+     spin = down     band = 749     file = wfcdw1.hdf5
+     spin = down     band = 750     file = wfcdw1.hdf5
+     spin = down     band = 751     file = wfcdw1.hdf5
+     spin = down     band = 752     file = wfcdw1.hdf5
+     spin = down     band = 753     file = wfcdw1.hdf5
+     spin = down     band = 754     file = wfcdw1.hdf5
+     spin = down     band = 755     file = wfcdw1.hdf5
+     spin = down     band = 756     file = wfcdw1.hdf5
+     spin = down     band = 757     file = wfcdw1.hdf5
+     spin = down     band = 758     file = wfcdw1.hdf5
+     spin = down     band = 759     file = wfcdw1.hdf5
+     spin = down     band = 760     file = wfcdw1.hdf5
+     spin = down     band = 761     file = wfcdw1.hdf5
+     spin = down     band = 762     file = wfcdw1.hdf5
+     spin = down     band = 763     file = wfcdw1.hdf5
+     spin = down     band = 764     file = wfcdw1.hdf5
+     spin = down     band = 765     file = wfcdw1.hdf5
+     spin = down     band = 766     file = wfcdw1.hdf5
+     spin = down     band = 767     file = wfcdw1.hdf5
+     spin = down     band = 768     file = wfcdw1.hdf5
+     spin = down     band = 769     file = wfcdw1.hdf5
+     spin = down     band = 770     file = wfcdw1.hdf5
+     spin = down     band = 771     file = wfcdw1.hdf5
+     spin = down     band = 772     file = wfcdw1.hdf5
+     spin = down     band = 773     file = wfcdw1.hdf5
+     spin = down     band = 774     file = wfcdw1.hdf5
+     spin = down     band = 775     file = wfcdw1.hdf5
+     spin = down     band = 776     file = wfcdw1.hdf5
+     spin = down     band = 777     file = wfcdw1.hdf5
+     spin = down     band = 778     file = wfcdw1.hdf5
+     spin = down     band = 779     file = wfcdw1.hdf5
+     spin = down     band = 780     file = wfcdw1.hdf5
+     spin = down     band = 781     file = wfcdw1.hdf5
+     spin = down     band = 782     file = wfcdw1.hdf5
+     spin = down     band = 783     file = wfcdw1.hdf5
+     spin = down     band = 784     file = wfcdw1.hdf5
+     spin = down     band = 785     file = wfcdw1.hdf5
+     spin = down     band = 786     file = wfcdw1.hdf5
+     spin = down     band = 787     file = wfcdw1.hdf5
+     spin = down     band = 788     file = wfcdw1.hdf5
+     spin = down     band = 789     file = wfcdw1.hdf5
+     spin = down     band = 790     file = wfcdw1.hdf5
+     spin = down     band = 791     file = wfcdw1.hdf5
+     spin = down     band = 792     file = wfcdw1.hdf5
+     spin = down     band = 793     file = wfcdw1.hdf5
+     spin = down     band = 794     file = wfcdw1.hdf5
+     spin = down     band = 795     file = wfcdw1.hdf5
+     spin = down     band = 796     file = wfcdw1.hdf5
+     spin = down     band = 797     file = wfcdw1.hdf5
+     spin = down     band = 798     file = wfcdw1.hdf5
+     spin = down     band = 799     file = wfcdw1.hdf5
+     spin = down     band = 800     file = wfcdw1.hdf5
+     spin = down     band = 801     file = wfcdw1.hdf5
+     spin = down     band = 802     file = wfcdw1.hdf5
+     spin = down     band = 803     file = wfcdw1.hdf5
+     spin = down     band = 804     file = wfcdw1.hdf5
+     spin = down     band = 805     file = wfcdw1.hdf5
+     spin = down     band = 806     file = wfcdw1.hdf5
+     spin = down     band = 807     file = wfcdw1.hdf5
+     spin = down     band = 808     file = wfcdw1.hdf5
+     spin = down     band = 809     file = wfcdw1.hdf5
+     spin = down     band = 810     file = wfcdw1.hdf5
+     spin = down     band = 811     file = wfcdw1.hdf5
+     spin = down     band = 812     file = wfcdw1.hdf5
+     spin = down     band = 813     file = wfcdw1.hdf5
+     spin = down     band = 814     file = wfcdw1.hdf5
+     spin = down     band = 815     file = wfcdw1.hdf5
+     spin = down     band = 816     file = wfcdw1.hdf5
+     spin = down     band = 817     file = wfcdw1.hdf5
+     spin = down     band = 818     file = wfcdw1.hdf5
+     spin = down     band = 819     file = wfcdw1.hdf5
+     spin = down     band = 820     file = wfcdw1.hdf5
+     spin = down     band = 821     file = wfcdw1.hdf5
+     spin = down     band = 822     file = wfcdw1.hdf5
+     spin = down     band = 823     file = wfcdw1.hdf5
+     spin = down     band = 824     file = wfcdw1.hdf5
+     spin = down     band = 825     file = wfcdw1.hdf5
+     spin = down     band = 826     file = wfcdw1.hdf5
+     spin = down     band = 827     file = wfcdw1.hdf5
+     spin = down     band = 828     file = wfcdw1.hdf5
+     spin = down     band = 829     file = wfcdw1.hdf5
+     spin = down     band = 830     file = wfcdw1.hdf5
+     spin = down     band = 831     file = wfcdw1.hdf5
+     spin = down     band = 832     file = wfcdw1.hdf5
+     spin = down     band = 833     file = wfcdw1.hdf5
+     spin = down     band = 834     file = wfcdw1.hdf5
+     spin = down     band = 835     file = wfcdw1.hdf5
+     spin = down     band = 836     file = wfcdw1.hdf5
+     spin = down     band = 837     file = wfcdw1.hdf5
+     spin = down     band = 838     file = wfcdw1.hdf5
+     spin = down     band = 839     file = wfcdw1.hdf5
+     spin = down     band = 840     file = wfcdw1.hdf5
+     spin = down     band = 841     file = wfcdw1.hdf5
+     spin = down     band = 842     file = wfcdw1.hdf5
+     spin = down     band = 843     file = wfcdw1.hdf5
+     spin = down     band = 844     file = wfcdw1.hdf5
+     spin = down     band = 845     file = wfcdw1.hdf5
+     spin = down     band = 846     file = wfcdw1.hdf5
+     spin = down     band = 847     file = wfcdw1.hdf5
+     spin = down     band = 848     file = wfcdw1.hdf5
+     spin = down     band = 849     file = wfcdw1.hdf5
+     spin = down     band = 850     file = wfcdw1.hdf5
+     spin = down     band = 851     file = wfcdw1.hdf5
+     spin = down     band = 852     file = wfcdw1.hdf5
+     spin = down     band = 853     file = wfcdw1.hdf5
+     spin = down     band = 854     file = wfcdw1.hdf5
+     spin = down     band = 855     file = wfcdw1.hdf5
+     spin = down     band = 856     file = wfcdw1.hdf5
+     spin = down     band = 857     file = wfcdw1.hdf5
+     spin = down     band = 858     file = wfcdw1.hdf5
+     spin = down     band = 859     file = wfcdw1.hdf5
+     spin = down     band = 860     file = wfcdw1.hdf5
+     spin = down     band = 861     file = wfcdw1.hdf5
+     spin = down     band = 862     file = wfcdw1.hdf5
+     spin = down     band = 863     file = wfcdw1.hdf5
+     spin = down     band = 864     file = wfcdw1.hdf5
+     spin = down     band = 865     file = wfcdw1.hdf5
+     spin = down     band = 866     file = wfcdw1.hdf5
+     spin = down     band = 867     file = wfcdw1.hdf5
+     spin = down     band = 868     file = wfcdw1.hdf5
+     spin = down     band = 869     file = wfcdw1.hdf5
+     spin = down     band = 870     file = wfcdw1.hdf5
+     spin = down     band = 871     file = wfcdw1.hdf5
+     spin = down     band = 872     file = wfcdw1.hdf5
+     spin = down     band = 873     file = wfcdw1.hdf5
+     spin = down     band = 874     file = wfcdw1.hdf5
+     spin = down     band = 875     file = wfcdw1.hdf5
+     spin = down     band = 876     file = wfcdw1.hdf5
+     spin = down     band = 877     file = wfcdw1.hdf5
+     spin = down     band = 878     file = wfcdw1.hdf5
+     spin = down     band = 879     file = wfcdw1.hdf5
+     spin = down     band = 880     file = wfcdw1.hdf5
+     spin = down     band = 881     file = wfcdw1.hdf5
+     spin = down     band = 882     file = wfcdw1.hdf5
+     spin = down     band = 883     file = wfcdw1.hdf5
+     spin = down     band = 884     file = wfcdw1.hdf5
+     spin = down     band = 885     file = wfcdw1.hdf5
+     spin = down     band = 886     file = wfcdw1.hdf5
+     spin = down     band = 887     file = wfcdw1.hdf5
+     spin = down     band = 888     file = wfcdw1.hdf5
+     spin = down     band = 889     file = wfcdw1.hdf5
+     spin = down     band = 890     file = wfcdw1.hdf5
+     spin = down     band = 891     file = wfcdw1.hdf5
+     spin = down     band = 892     file = wfcdw1.hdf5
+     spin = down     band = 893     file = wfcdw1.hdf5
+     spin = down     band = 894     file = wfcdw1.hdf5
+     spin = down     band = 895     file = wfcdw1.hdf5
+     spin = down     band = 896     file = wfcdw1.hdf5
+     spin = down     band = 897     file = wfcdw1.hdf5
+     spin = down     band = 898     file = wfcdw1.hdf5
+     spin = down     band = 899     file = wfcdw1.hdf5
+     spin = down     band = 900     file = wfcdw1.hdf5
+     spin = down     band = 901     file = wfcdw1.hdf5
+     spin = down     band = 902     file = wfcdw1.hdf5
+     spin = down     band = 903     file = wfcdw1.hdf5
+     spin = down     band = 904     file = wfcdw1.hdf5
+     spin = down     band = 905     file = wfcdw1.hdf5
+     spin = down     band = 906     file = wfcdw1.hdf5
+     spin = down     band = 907     file = wfcdw1.hdf5
+     spin = down     band = 908     file = wfcdw1.hdf5
+     spin = down     band = 909     file = wfcdw1.hdf5
+     spin = down     band = 910     file = wfcdw1.hdf5
+     spin = down     band = 911     file = wfcdw1.hdf5
+     spin = down     band = 912     file = wfcdw1.hdf5
+     spin = down     band = 913     file = wfcdw1.hdf5
+     spin = down     band = 914     file = wfcdw1.hdf5
+     spin = down     band = 915     file = wfcdw1.hdf5
+     spin = down     band = 916     file = wfcdw1.hdf5
+     spin = down     band = 917     file = wfcdw1.hdf5
+     spin = down     band = 918     file = wfcdw1.hdf5
+     spin = down     band = 919     file = wfcdw1.hdf5
+     spin = down     band = 920     file = wfcdw1.hdf5
+     spin = down     band = 921     file = wfcdw1.hdf5
+     spin = down     band = 922     file = wfcdw1.hdf5
+     spin = down     band = 923     file = wfcdw1.hdf5
+     spin = down     band = 924     file = wfcdw1.hdf5
+     spin = down     band = 925     file = wfcdw1.hdf5
+     spin = down     band = 926     file = wfcdw1.hdf5
+     spin = down     band = 927     file = wfcdw1.hdf5
+     spin = down     band = 928     file = wfcdw1.hdf5
+     spin = down     band = 929     file = wfcdw1.hdf5
+     spin = down     band = 930     file = wfcdw1.hdf5
+     spin = down     band = 931     file = wfcdw1.hdf5
+     spin = down     band = 932     file = wfcdw1.hdf5
+     spin = down     band = 933     file = wfcdw1.hdf5
+     spin = down     band = 934     file = wfcdw1.hdf5
+     spin = down     band = 935     file = wfcdw1.hdf5
+     spin = down     band = 936     file = wfcdw1.hdf5
+     spin = down     band = 937     file = wfcdw1.hdf5
+     spin = down     band = 938     file = wfcdw1.hdf5
+     spin = down     band = 939     file = wfcdw1.hdf5
+     spin = down     band = 940     file = wfcdw1.hdf5
+     spin = down     band = 941     file = wfcdw1.hdf5
+     spin = down     band = 942     file = wfcdw1.hdf5
+     spin = down     band = 943     file = wfcdw1.hdf5
+     spin = down     band = 944     file = wfcdw1.hdf5
+     spin = down     band = 945     file = wfcdw1.hdf5
+     spin = down     band = 946     file = wfcdw1.hdf5
+     spin = down     band = 947     file = wfcdw1.hdf5
+     spin = down     band = 948     file = wfcdw1.hdf5
+     spin = down     band = 949     file = wfcdw1.hdf5
+     spin = down     band = 950     file = wfcdw1.hdf5
+     spin = down     band = 951     file = wfcdw1.hdf5
+     spin = down     band = 952     file = wfcdw1.hdf5
+     spin = down     band = 953     file = wfcdw1.hdf5
+     spin = down     band = 954     file = wfcdw1.hdf5
+     spin = down     band = 955     file = wfcdw1.hdf5
+     spin = down     band = 956     file = wfcdw1.hdf5
+     spin = down     band = 957     file = wfcdw1.hdf5
+     spin = down     band = 958     file = wfcdw1.hdf5
+     spin = down     band = 959     file = wfcdw1.hdf5
+     spin = down     band = 960     file = wfcdw1.hdf5
+     spin = down     band = 961     file = wfcdw1.hdf5
+     spin = down     band = 962     file = wfcdw1.hdf5
+     spin = down     band = 963     file = wfcdw1.hdf5
+     spin = down     band = 964     file = wfcdw1.hdf5
+     spin = down     band = 965     file = wfcdw1.hdf5
+     spin = down     band = 966     file = wfcdw1.hdf5
+     spin = down     band = 967     file = wfcdw1.hdf5
+     spin = down     band = 968     file = wfcdw1.hdf5
+     spin = down     band = 969     file = wfcdw1.hdf5
+     spin = down     band = 970     file = wfcdw1.hdf5
+     spin = down     band = 971     file = wfcdw1.hdf5
+     spin = down     band = 972     file = wfcdw1.hdf5
+     spin = down     band = 973     file = wfcdw1.hdf5
+     spin = down     band = 974     file = wfcdw1.hdf5
+     spin = down     band = 975     file = wfcdw1.hdf5
+     spin = down     band = 976     file = wfcdw1.hdf5
+     spin = down     band = 977     file = wfcdw1.hdf5
+     spin = down     band = 978     file = wfcdw1.hdf5
+     spin = down     band = 979     file = wfcdw1.hdf5
+     spin = down     band = 980     file = wfcdw1.hdf5
+     spin = down     band = 981     file = wfcdw1.hdf5
+     spin = down     band = 982     file = wfcdw1.hdf5
+     spin = down     band = 983     file = wfcdw1.hdf5
+     spin = down     band = 984     file = wfcdw1.hdf5
+     spin = down     band = 985     file = wfcdw1.hdf5
+     spin = down     band = 986     file = wfcdw1.hdf5
+     spin = down     band = 987     file = wfcdw1.hdf5
+     spin = down     band = 988     file = wfcdw1.hdf5
+     spin = down     band = 989     file = wfcdw1.hdf5
+     spin = down     band = 990     file = wfcdw1.hdf5
+     spin = down     band = 991     file = wfcdw1.hdf5
+     spin = down     band = 992     file = wfcdw1.hdf5
+     spin = down     band = 993     file = wfcdw1.hdf5
+     spin = down     band = 994     file = wfcdw1.hdf5
+     spin = down     band = 995     file = wfcdw1.hdf5
+     spin = down     band = 996     file = wfcdw1.hdf5
+     spin = down     band = 997     file = wfcdw1.hdf5
+     spin = down     band = 998     file = wfcdw1.hdf5
+     spin = down     band = 999     file = wfcdw1.hdf5
+     spin = down     band = 1000     file = wfcdw1.hdf5
+     spin = down     band = 1001     file = wfcdw1.hdf5
+     spin = down     band = 1002     file = wfcdw1.hdf5
+     spin = down     band = 1003     file = wfcdw1.hdf5
+     spin = down     band = 1004     file = wfcdw1.hdf5
+     spin = down     band = 1005     file = wfcdw1.hdf5
+     spin = down     band = 1006     file = wfcdw1.hdf5
+     spin = down     band = 1007     file = wfcdw1.hdf5
+     spin = down     band = 1008     file = wfcdw1.hdf5
+     spin = down     band = 1009     file = wfcdw1.hdf5
+     spin = down     band = 1010     file = wfcdw1.hdf5
+     spin = down     band = 1011     file = wfcdw1.hdf5
+     spin = down     band = 1012     file = wfcdw1.hdf5
+     spin = down     band = 1013     file = wfcdw1.hdf5
+     spin = down     band = 1014     file = wfcdw1.hdf5
+     spin = down     band = 1015     file = wfcdw1.hdf5
+     spin = down     band = 1016     file = wfcdw1.hdf5
+     spin = down     band = 1017     file = wfcdw1.hdf5
+     spin = down     band = 1018     file = wfcdw1.hdf5
+     spin = down     band = 1019     file = wfcdw1.hdf5
+     spin = down     band = 1020     file = wfcdw1.hdf5
+     spin = down     band = 1021     file = wfcdw1.hdf5
+     spin = down     band = 1022     file = wfcdw1.hdf5
+     spin = down     band = 1023     file = wfcdw1.hdf5
+     spin = down     band = 1024     file = wfcdw1.hdf5
+     spin = down     band = 1025     file = wfcdw1.hdf5
+     spin = down     band = 1026     file = wfcdw1.hdf5
+     spin = down     band = 1027     file = wfcdw1.hdf5
+     spin = down     band = 1028     file = wfcdw1.hdf5
+     spin = down     band = 1029     file = wfcdw1.hdf5
+     spin = down     band = 1030     file = wfcdw1.hdf5
+     spin = down     band = 1031     file = wfcdw1.hdf5
+     spin = down     band = 1032     file = wfcdw1.hdf5
+     spin = down     band = 1033     file = wfcdw1.hdf5
+     spin = down     band = 1034     file = wfcdw1.hdf5
+     spin = down     band = 1035     file = wfcdw1.hdf5
+     spin = down     band = 1036     file = wfcdw1.hdf5
+     spin = down     band = 1037     file = wfcdw1.hdf5
+     spin = down     band = 1038     file = wfcdw1.hdf5
+     spin = down     band = 1039     file = wfcdw1.hdf5
+     spin = down     band = 1040     file = wfcdw1.hdf5
+     spin = down     band = 1041     file = wfcdw1.hdf5
+     spin = down     band = 1042     file = wfcdw1.hdf5
+     spin = down     band = 1043     file = wfcdw1.hdf5
+     spin = down     band = 1044     file = wfcdw1.hdf5
+     spin = down     band = 1045     file = wfcdw1.hdf5
+     spin = down     band = 1046     file = wfcdw1.hdf5
+     spin = down     band = 1047     file = wfcdw1.hdf5
+     spin = down     band = 1048     file = wfcdw1.hdf5
+     spin = down     band = 1049     file = wfcdw1.hdf5
+     spin = down     band = 1050     file = wfcdw1.hdf5
+     spin = down     band = 1051     file = wfcdw1.hdf5
+     spin = down     band = 1052     file = wfcdw1.hdf5
+     spin = down     band = 1053     file = wfcdw1.hdf5
+     spin = down     band = 1054     file = wfcdw1.hdf5
+     spin = down     band = 1055     file = wfcdw1.hdf5
+     spin = down     band = 1056     file = wfcdw1.hdf5
+     spin = down     band = 1057     file = wfcdw1.hdf5
+     spin = down     band = 1058     file = wfcdw1.hdf5
+     spin = down     band = 1059     file = wfcdw1.hdf5
+     spin = down     band = 1060     file = wfcdw1.hdf5
+     spin = down     band = 1061     file = wfcdw1.hdf5
+     spin = down     band = 1062     file = wfcdw1.hdf5
+     spin = down     band = 1063     file = wfcdw1.hdf5
+     spin = down     band = 1064     file = wfcdw1.hdf5
+     spin = down     band = 1065     file = wfcdw1.hdf5
+     spin = down     band = 1066     file = wfcdw1.hdf5
+     spin = down     band = 1067     file = wfcdw1.hdf5
+     spin = down     band = 1068     file = wfcdw1.hdf5
+     spin = down     band = 1069     file = wfcdw1.hdf5
+     spin = down     band = 1070     file = wfcdw1.hdf5
+     spin = down     band = 1071     file = wfcdw1.hdf5
+     spin = down     band = 1072     file = wfcdw1.hdf5
+     spin = down     band = 1073     file = wfcdw1.hdf5
+     spin = down     band = 1074     file = wfcdw1.hdf5
+     spin = down     band = 1075     file = wfcdw1.hdf5
+     spin = down     band = 1076     file = wfcdw1.hdf5
+     spin = down     band = 1077     file = wfcdw1.hdf5
+     spin = down     band = 1078     file = wfcdw1.hdf5
+     spin = down     band = 1079     file = wfcdw1.hdf5
+     spin = down     band = 1080     file = wfcdw1.hdf5
+     spin = down     band = 1081     file = wfcdw1.hdf5
+     spin = down     band = 1082     file = wfcdw1.hdf5
+     spin = down     band = 1083     file = wfcdw1.hdf5
+     spin = down     band = 1084     file = wfcdw1.hdf5
+     spin = down     band = 1085     file = wfcdw1.hdf5
+     spin = down     band = 1086     file = wfcdw1.hdf5
+     spin = down     band = 1087     file = wfcdw1.hdf5
+     spin = down     band = 1088     file = wfcdw1.hdf5
+     spin = down     band = 1089     file = wfcdw1.hdf5
+     spin = down     band = 1090     file = wfcdw1.hdf5
+     spin = down     band = 1091     file = wfcdw1.hdf5
+     spin = down     band = 1092     file = wfcdw1.hdf5
+     spin = down     band = 1093     file = wfcdw1.hdf5
+     spin = down     band = 1094     file = wfcdw1.hdf5
+     spin = down     band = 1095     file = wfcdw1.hdf5
+     spin = down     band = 1096     file = wfcdw1.hdf5
+     spin = down     band = 1097     file = wfcdw1.hdf5
+     spin = down     band = 1098     file = wfcdw1.hdf5
+     spin = down     band = 1099     file = wfcdw1.hdf5
+     spin = down     band = 1100     file = wfcdw1.hdf5
+     spin = down     band = 1101     file = wfcdw1.hdf5
+     spin = down     band = 1102     file = wfcdw1.hdf5
+     spin = down     band = 1103     file = wfcdw1.hdf5
+     spin = down     band = 1104     file = wfcdw1.hdf5
+     spin = down     band = 1105     file = wfcdw1.hdf5
+     spin = down     band = 1106     file = wfcdw1.hdf5
+     spin = down     band = 1107     file = wfcdw1.hdf5
+     spin = down     band = 1108     file = wfcdw1.hdf5
+     spin = down     band = 1109     file = wfcdw1.hdf5
+     spin = down     band = 1110     file = wfcdw1.hdf5
+     spin = down     band = 1111     file = wfcdw1.hdf5
+     spin = down     band = 1112     file = wfcdw1.hdf5
+     spin = down     band = 1113     file = wfcdw1.hdf5
+     spin = down     band = 1114     file = wfcdw1.hdf5
+     spin = down     band = 1115     file = wfcdw1.hdf5
+     spin = down     band = 1116     file = wfcdw1.hdf5
+     spin = down     band = 1117     file = wfcdw1.hdf5
+     spin = down     band = 1118     file = wfcdw1.hdf5
+     spin = down     band = 1119     file = wfcdw1.hdf5
+     spin = down     band = 1120     file = wfcdw1.hdf5
+     spin = down     band = 1121     file = wfcdw1.hdf5
+     spin = down     band = 1122     file = wfcdw1.hdf5
+     spin = down     band = 1123     file = wfcdw1.hdf5
+     spin = down     band = 1124     file = wfcdw1.hdf5
+     spin = down     band = 1125     file = wfcdw1.hdf5
+     spin = down     band = 1126     file = wfcdw1.hdf5
+     spin = down     band = 1127     file = wfcdw1.hdf5
+     spin = down     band = 1128     file = wfcdw1.hdf5
+     spin = down     band = 1129     file = wfcdw1.hdf5
+     spin = down     band = 1130     file = wfcdw1.hdf5
+     spin = down     band = 1131     file = wfcdw1.hdf5
+     spin = down     band = 1132     file = wfcdw1.hdf5
+     spin = down     band = 1133     file = wfcdw1.hdf5
+     spin = down     band = 1134     file = wfcdw1.hdf5
+     spin = down     band = 1135     file = wfcdw1.hdf5
+     spin = down     band = 1136     file = wfcdw1.hdf5
+     spin = down     band = 1137     file = wfcdw1.hdf5
+     spin = down     band = 1138     file = wfcdw1.hdf5
+     spin = down     band = 1139     file = wfcdw1.hdf5
+     spin = down     band = 1140     file = wfcdw1.hdf5
+     spin = down     band = 1141     file = wfcdw1.hdf5
+     spin = down     band = 1142     file = wfcdw1.hdf5
+     spin = down     band = 1143     file = wfcdw1.hdf5
+     spin = down     band = 1144     file = wfcdw1.hdf5
+     spin = down     band = 1145     file = wfcdw1.hdf5
+     spin = down     band = 1146     file = wfcdw1.hdf5
+     spin = down     band = 1147     file = wfcdw1.hdf5
+     spin = down     band = 1148     file = wfcdw1.hdf5
+     spin = down     band = 1149     file = wfcdw1.hdf5
+     spin = down     band = 1150     file = wfcdw1.hdf5
+     spin = down     band = 1151     file = wfcdw1.hdf5
+     spin = down     band = 1152     file = wfcdw1.hdf5
+     spin = down     band = 1153     file = wfcdw1.hdf5
+     spin = down     band = 1154     file = wfcdw1.hdf5
+     spin = down     band = 1155     file = wfcdw1.hdf5
+     spin = down     band = 1156     file = wfcdw1.hdf5
+     spin = down     band = 1157     file = wfcdw1.hdf5
+     spin = down     band = 1158     file = wfcdw1.hdf5
+     spin = down     band = 1159     file = wfcdw1.hdf5
+     spin = down     band = 1160     file = wfcdw1.hdf5
+     spin = down     band = 1161     file = wfcdw1.hdf5
+     spin = down     band = 1162     file = wfcdw1.hdf5
+     spin = down     band = 1163     file = wfcdw1.hdf5
+     spin = down     band = 1164     file = wfcdw1.hdf5
+     spin = down     band = 1165     file = wfcdw1.hdf5
+     spin = down     band = 1166     file = wfcdw1.hdf5
+     spin = down     band = 1167     file = wfcdw1.hdf5
+     spin = down     band = 1168     file = wfcdw1.hdf5
+     spin = down     band = 1169     file = wfcdw1.hdf5
+     spin = down     band = 1170     file = wfcdw1.hdf5
+     spin = down     band = 1171     file = wfcdw1.hdf5
+     spin = down     band = 1172     file = wfcdw1.hdf5
+     spin = down     band = 1173     file = wfcdw1.hdf5
+     spin = down     band = 1174     file = wfcdw1.hdf5
+     spin = down     band = 1175     file = wfcdw1.hdf5
+     spin = down     band = 1176     file = wfcdw1.hdf5
+     spin = down     band = 1177     file = wfcdw1.hdf5
+     spin = down     band = 1178     file = wfcdw1.hdf5
+     spin = down     band = 1179     file = wfcdw1.hdf5
+     spin = down     band = 1180     file = wfcdw1.hdf5
+     spin = down     band = 1181     file = wfcdw1.hdf5
+     spin = down     band = 1182     file = wfcdw1.hdf5
+     spin = down     band = 1183     file = wfcdw1.hdf5
+     spin = down     band = 1184     file = wfcdw1.hdf5
+     spin = down     band = 1185     file = wfcdw1.hdf5
+     spin = down     band = 1186     file = wfcdw1.hdf5
+     spin = down     band = 1187     file = wfcdw1.hdf5
+     spin = down     band = 1188     file = wfcdw1.hdf5
+     spin = down     band = 1189     file = wfcdw1.hdf5
+     spin = down     band = 1190     file = wfcdw1.hdf5
+     spin = down     band = 1191     file = wfcdw1.hdf5
+     spin = down     band = 1192     file = wfcdw1.hdf5
+     spin = down     band = 1193     file = wfcdw1.hdf5
+     spin = down     band = 1194     file = wfcdw1.hdf5
+     spin = down     band = 1195     file = wfcdw1.hdf5
+     spin = down     band = 1196     file = wfcdw1.hdf5
+     spin = down     band = 1197     file = wfcdw1.hdf5
+     spin = down     band = 1198     file = wfcdw1.hdf5
+     spin = down     band = 1199     file = wfcdw1.hdf5
+     spin = down     band = 1200     file = wfcdw1.hdf5
+     spin = down     band = 1201     file = wfcdw1.hdf5
+     spin = down     band = 1202     file = wfcdw1.hdf5
+     spin = down     band = 1203     file = wfcdw1.hdf5
+     spin = down     band = 1204     file = wfcdw1.hdf5
+     spin = down     band = 1205     file = wfcdw1.hdf5
+     spin = down     band = 1206     file = wfcdw1.hdf5
+     spin = down     band = 1207     file = wfcdw1.hdf5
+     spin = down     band = 1208     file = wfcdw1.hdf5
+     spin = down     band = 1209     file = wfcdw1.hdf5
+     spin = down     band = 1210     file = wfcdw1.hdf5
+     spin = down     band = 1211     file = wfcdw1.hdf5
+     spin = down     band = 1212     file = wfcdw1.hdf5
+     spin = down     band = 1213     file = wfcdw1.hdf5
+     spin = down     band = 1214     file = wfcdw1.hdf5
+     spin = down     band = 1215     file = wfcdw1.hdf5
+     spin = down     band = 1216     file = wfcdw1.hdf5
+     spin = down     band = 1217     file = wfcdw1.hdf5
+     spin = down     band = 1218     file = wfcdw1.hdf5
+     spin = down     band = 1219     file = wfcdw1.hdf5
+     spin = down     band = 1220     file = wfcdw1.hdf5
+     spin = down     band = 1221     file = wfcdw1.hdf5
+     spin = down     band = 1222     file = wfcdw1.hdf5
+     spin = down     band = 1223     file = wfcdw1.hdf5
+     spin = down     band = 1224     file = wfcdw1.hdf5
+     spin = down     band = 1225     file = wfcdw1.hdf5
+     spin = down     band = 1226     file = wfcdw1.hdf5
+     spin = down     band = 1227     file = wfcdw1.hdf5
+     spin = down     band = 1228     file = wfcdw1.hdf5
+     spin = down     band = 1229     file = wfcdw1.hdf5
+     spin = down     band = 1230     file = wfcdw1.hdf5
+     spin = down     band = 1231     file = wfcdw1.hdf5
+     spin = down     band = 1232     file = wfcdw1.hdf5
+     spin = down     band = 1233     file = wfcdw1.hdf5
+     spin = down     band = 1234     file = wfcdw1.hdf5
+     spin = down     band = 1235     file = wfcdw1.hdf5
+     spin = down     band = 1236     file = wfcdw1.hdf5
+     spin = down     band = 1237     file = wfcdw1.hdf5
+     spin = down     band = 1238     file = wfcdw1.hdf5
+     spin = down     band = 1239     file = wfcdw1.hdf5
+     spin = down     band = 1240     file = wfcdw1.hdf5
+
+System Overview:
+  Cell: 
+{   'G1': array([0.25587408, 0.14772897, 0.        ]),
+    'G2': array([2.55128742e-17, 2.95457963e-01, 0.00000000e+00]),
+    'G3': array([0.        , 0.        , 0.21297145]),
+    'R1': array([24.5557707,  0.       ,  0.       ]),
+    'R2': array([-12.27788445,  21.26591967,   0.        ]),
+    'R3': array([ 0.        ,  0.        , 29.50247722]),
+    'ase_cell': Atoms(symbols='', pbc=True, cell=[[12.994422736426376, 0.0, 0.0], [-6.497210891410675, 11.253499371412756, 0.0], [0.0, 0.0, 15.61212089767072]]),
+    'omega': 15406.224497424402}
+  FFT Grid: 
+{'N': 466560, 'n1': 72, 'n2': 72, 'n3': 90}
+
+
+pyzfs.run: instantializing ZFSCalculation with following arguments...
+{ 'comm': <mpi4py.MPI.Intracomm object at 0x2aaac04bac30>,
+  'memory': 'low',
+  'wfcloader': <pyzfs.common.wfc.qeh5loader.QEHDF5WavefunctionLoader object at 0x2aaac0dc5050>}
+  
+  
+  Zero Field Splitting Calculation Created...
+  
+  
+    ProcessGrid (square) info:
+    rank -> (irow, icol) mapping:
+    [[0 0]
+     [0 1]
+     [0 2]
+     [0 3]
+     [1 0]
+     [1 1]
+     [1 2]
+     [1 3]
+     [2 0]
+     [2 1]
+     [2 2]
+     [2 3]
+     [3 0]
+     [3 1]
+     [3 2]
+     [3 3]]
+    (irow, icol) -> rank mapping:
+    [[ 0  1  2  3]
+     [ 4  5  6  7]
+     [ 8  9 10 11]
+     [12 13 14 15]]
+    rank  onroot  nrow  ncol  size  irow  icol  is_active  rowcomm_rank  colcomm_rank
+      0    True      4    4    16    0    0    True    0    0
+      1    False      4    4    16    0    1    True    1    0
+      2    False      4    4    16    0    2    True    2    0
+      3    False      4    4    16    0    3    True    3    0
+      4    False      4    4    16    1    0    True    0    1
+      5    False      4    4    16    1    1    True    1    1
+      6    False      4    4    16    1    2    True    2    1
+      7    False      4    4    16    1    3    True    3    1
+      8    False      4    4    16    2    0    True    0    2
+      9    False      4    4    16    2    1    True    1    2
+      10    False      4    4    16    2    2    True    2    2
+      11    False      4    4    16    2    3    True    3    2
+      12    False      4    4    16    3    0    True    0    3
+      13    False      4    4    16    3    1    True    1    3
+      14    False      4    4    16    3    2    True    2    3
+      15    False      4    4    16    3    3    True    3    3
+  
+  Creating I array...
+  
+    DistributedMatrix info: I
+    irow  icol  nrow  ncol  m  mloc  mstart  mend  n  nloc  nstart  nend  val.shape
+      0    0    4    4    2482    621    0    621    2482    621    0    621     (621, 621, 6)
+      0    1    4    4    2482    621    0    621    2482    621    621    1242     (621, 621, 6)
+      0    2    4    4    2482    621    0    621    2482    620    1242    1862     (621, 621, 6)
+      0    3    4    4    2482    621    0    621    2482    620    1862    2482     (621, 621, 6)
+      1    0    4    4    2482    621    621    1242    2482    621    0    621     (621, 621, 6)
+      1    1    4    4    2482    621    621    1242    2482    621    621    1242     (621, 621, 6)
+      1    2    4    4    2482    621    621    1242    2482    620    1242    1862     (621, 621, 6)
+      1    3    4    4    2482    621    621    1242    2482    620    1862    2482     (621, 621, 6)
+      2    0    4    4    2482    620    1242    1862    2482    621    0    621     (621, 621, 6)
+      2    1    4    4    2482    620    1242    1862    2482    621    621    1242     (621, 621, 6)
+      2    2    4    4    2482    620    1242    1862    2482    620    1242    1862     (621, 621, 6)
+      2    3    4    4    2482    620    1242    1862    2482    620    1862    2482     (621, 621, 6)
+      3    0    4    4    2482    620    1862    2482    2482    621    0    621     (621, 621, 6)
+      3    1    4    4    2482    620    1862    2482    2482    621    621    1242     (621, 621, 6)
+      3    2    4    4    2482    620    1862    2482    2482    620    1242    1862     (621, 621, 6)
+      3    3    4    4    2482    620    1862    2482    2482    620    1862    2482     (621, 621, 6)
+    Index map:
+    [[[   0  621  621    0  621  621]
+      [   0  621  621  621  621 1242]
+      [   0  621  621 1242  620 1862]
+      [   0  621  621 1862  620 2482]]
+    
+     [[ 621  621 1242    0  621  621]
+      [ 621  621 1242  621  621 1242]
+      [ 621  621 1242 1242  620 1862]
+      [ 621  621 1242 1862  620 2482]]
+    
+     [[1242  620 1862    0  621  621]
+      [1242  620 1862  621  621 1242]
+      [1242  620 1862 1242  620 1862]
+      [1242  620 1862 1862  620 2482]]
+    
+     [[1862  620 2482    0  621  621]
+      [1862  620 2482  621  621 1242]
+      [1862  620 2482 1242  620 1862]
+      [1862  620 2482 1862  620 2482]]]
+  
+  Memory usage (on process 0):
+    iorb_psir_map 0.00 MB
+    iorb_rhog_map 0.00 MB
+    I          17.65 MB
+  Total memory usage (on process 0): 56.51 MB
+  
+  
+  QEHDF5WavefunctionLoader: loading orbitals into memory... (memory mode: "critical")
+  
+  (process 0) 249 orbitals (10%) loaded in 1.939129s...
+  (process 0) 498 orbitals (20%) loaded in 0.127536s...
+  (process 0) 747 orbitals (30%) loaded in 0.128067s...
+  (process 0) 996 orbitals (40%) loaded in 0.128279s...
+  (process 0) 1245 orbitals (50%) loaded in 1.968713s...
+  (process 0) 1494 orbitals (60%) loaded in 0.127607s...
+  (process 0) 1743 orbitals (70%) loaded in 0.128225s...
+  (process 0) 1992 orbitals (80%) loaded in 0.128983s...
+  (process 0) 2241 orbitals (90%) loaded in 0.128428s...
+  QEHDF5WavefunctionLoader: root -> first column scattering
+  QEHDF5WavefunctionLoader: first column -> other column bcast
+  QEHDF5WavefunctionLoader: root -> first row scattering
+  QEHDF5WavefunctionLoader: first row -> other row bcast
+  
+  Memory usage (on process 0):
+    iorb_psir_map 0.00 MB
+    iorb_rhog_map 0.00 MB
+    I          17.65 MB
+  Total memory usage (on process 0): 7199.96 MB
+  
+  
+  Computing dipole-dipole interaction tensor in G space...
+  
+  
+  Memory usage (on process 0):
+    iorb_psir_map 0.00 MB
+    iorb_rhog_map 0.00 MB
+    ddig       21.36 MB
+    I          17.65 MB
+  Total memory usage (on process 0): 7199.96 MB
+  
+  
+  Iterating over pairs...
+  
+  (process 0) 1932 pairs (1%) computed in 481.124411s...
+  (process 0) 3864 pairs (2%) computed in 481.476207s...
+  (process 0) 5796 pairs (3%) computed in 481.511837s...
+  (process 0) 7728 pairs (4%) computed in 481.639176s...
+  (process 0) 9660 pairs (5%) computed in 481.608663s...
+  (process 0) 11592 pairs (6%) computed in 480.972951s...
+  (process 0) 13524 pairs (7%) computed in 479.917033s...
+  (process 0) 15456 pairs (8%) computed in 481.620574s...
+  (process 0) 17388 pairs (9%) computed in 481.257714s...
+  (process 0) 19320 pairs (10%) computed in 481.898625s...
+  (process 0) 21252 pairs (11%) computed in 481.440304s...
+  (process 0) 23184 pairs (12%) computed in 481.452530s...
+  (process 0) 25116 pairs (13%) computed in 482.134612s...
+  (process 0) 27048 pairs (14%) computed in 480.977686s...
+  (process 0) 28980 pairs (15%) computed in 481.510270s...
+  (process 0) 30912 pairs (16%) computed in 481.243931s...
+  (process 0) 32844 pairs (17%) computed in 480.758323s...
+  (process 0) 34776 pairs (18%) computed in 481.263076s...
+  (process 0) 36708 pairs (19%) computed in 480.585032s...
+  (process 0) 38640 pairs (20%) computed in 480.468395s...
+  (process 0) 40572 pairs (21%) computed in 480.138016s...
+  (process 0) 42504 pairs (22%) computed in 480.638424s...
+  (process 0) 44436 pairs (23%) computed in 481.420826s...
+  (process 0) 46368 pairs (24%) computed in 481.429696s...
+  (process 0) 48300 pairs (25%) computed in 481.333850s...
+  (process 0) 50232 pairs (26%) computed in 481.449020s...
+  (process 0) 52164 pairs (27%) computed in 481.093799s...
+  (process 0) 54096 pairs (28%) computed in 480.180764s...
+  (process 0) 56028 pairs (29%) computed in 481.479174s...
+  (process 0) 57960 pairs (30%) computed in 480.818427s...
+  (process 0) 59892 pairs (31%) computed in 480.757067s...
+  (process 0) 61824 pairs (32%) computed in 481.339144s...
+  (process 0) 63756 pairs (33%) computed in 480.914380s...
+  (process 0) 65688 pairs (34%) computed in 481.142079s...
+  (process 0) 67620 pairs (35%) computed in 480.778952s...
+  (process 0) 69552 pairs (36%) computed in 480.935713s...
+  (process 0) 71484 pairs (37%) computed in 480.635872s...
+  (process 0) 73416 pairs (38%) computed in 481.481204s...
+  (process 0) 75348 pairs (39%) computed in 480.633252s...
+  (process 0) 77280 pairs (40%) computed in 480.673651s...
+  (process 0) 79212 pairs (41%) computed in 480.793792s...
+  (process 0) 81144 pairs (42%) computed in 481.107274s...
+  (process 0) 83076 pairs (43%) computed in 480.878898s...
+  (process 0) 85008 pairs (44%) computed in 480.760919s...
+  (process 0) 86940 pairs (45%) computed in 480.511828s...
+  (process 0) 88872 pairs (46%) computed in 480.966894s...
+  (process 0) 90804 pairs (47%) computed in 480.329887s...
+  (process 0) 92736 pairs (48%) computed in 481.243185s...
+  (process 0) 94668 pairs (49%) computed in 480.755613s...
+  (process 0) 96600 pairs (50%) computed in 480.311009s...
+  (process 0) 98532 pairs (51%) computed in 480.807428s...
+  (process 0) 100464 pairs (52%) computed in 481.301201s...
+  (process 0) 102396 pairs (53%) computed in 480.687132s...
+  (process 0) 104328 pairs (54%) computed in 481.535761s...
+  (process 0) 106260 pairs (55%) computed in 481.408325s...
+  (process 0) 108192 pairs (56%) computed in 480.250480s...
+  (process 0) 110124 pairs (57%) computed in 480.421977s...
+  (process 0) 112056 pairs (58%) computed in 480.889768s...
+  (process 0) 113988 pairs (59%) computed in 480.398012s...
+  (process 0) 115920 pairs (60%) computed in 480.344901s...
+  (process 0) 117852 pairs (61%) computed in 480.978513s...
+  (process 0) 119784 pairs (62%) computed in 481.301434s...
+  (process 0) 121716 pairs (63%) computed in 481.049758s...
+  (process 0) 123648 pairs (64%) computed in 481.409986s...
+  (process 0) 125580 pairs (65%) computed in 481.370353s...
+  (process 0) 127512 pairs (66%) computed in 480.730523s...
+  (process 0) 129444 pairs (67%) computed in 481.089879s...
+  (process 0) 131376 pairs (68%) computed in 480.048718s...
+  (process 0) 133308 pairs (69%) computed in 480.882406s...
+  (process 0) 135240 pairs (70%) computed in 480.391070s...
+  (process 0) 137172 pairs (71%) computed in 481.445813s...
+  (process 0) 139104 pairs (72%) computed in 481.239027s...
+  (process 0) 141036 pairs (73%) computed in 481.736862s...
+  (process 0) 142968 pairs (74%) computed in 481.319738s...
+  (process 0) 144900 pairs (75%) computed in 479.691671s...
+  (process 0) 146832 pairs (76%) computed in 480.785324s...
+  (process 0) 148764 pairs (77%) computed in 480.468109s...
+  (process 0) 150696 pairs (78%) computed in 481.537982s...
+  (process 0) 152628 pairs (79%) computed in 481.268969s...
+  (process 0) 154560 pairs (80%) computed in 481.364824s...
+  (process 0) 156492 pairs (81%) computed in 480.943629s...
+  (process 0) 158424 pairs (82%) computed in 480.639590s...
+  (process 0) 160356 pairs (83%) computed in 481.649782s...
+  (process 0) 162288 pairs (84%) computed in 480.494834s...
+  (process 0) 164220 pairs (85%) computed in 480.490057s...
+  (process 0) 166152 pairs (86%) computed in 481.362565s...
+  (process 0) 168084 pairs (87%) computed in 480.550890s...
+  (process 0) 170016 pairs (88%) computed in 480.284738s...
+  (process 0) 171948 pairs (89%) computed in 480.173698s...
+  (process 0) 173880 pairs (90%) computed in 480.120529s...
+  (process 0) 175812 pairs (91%) computed in 479.413750s...
+  (process 0) 177744 pairs (92%) computed in 479.618252s...
+  (process 0) 179676 pairs (93%) computed in 480.167153s...
+  (process 0) 181608 pairs (94%) computed in 479.559739s...
+  (process 0) 183540 pairs (95%) computed in 479.224267s...
+  (process 0) 185472 pairs (96%) computed in 479.184033s...
+  (process 0) 187404 pairs (97%) computed in 479.000818s...
+  (process 0) 189336 pairs (98%) computed in 477.190035s...
+  (process 0) 191268 pairs (99%) computed in 475.776772s...
+  
+  
+  Total D tensor (MHz): 
+  [[-4.85673741e+03 -1.24009464e+01 -1.24758131e+01]
+   [-1.24009464e+01 -4.87124632e+03  7.48189085e+00]
+   [-1.24758131e+01  7.48189085e+00  9.72798373e+03]]
+  D eigenvalues (MHz): 
+  [ 9727.9982479  -4849.63937929 -4878.3588686 ]
+  D eigenvectors: 
+  [-8.55838012e-04  5.13211509e-04  9.99999502e-01]
+  [ 0.86745446 -0.49751559  0.00099773]
+  [-4.97515857e-01 -8.67454881e-01  1.93948560e-05]
+  Dx, Dy, Dz (|Dz| > |Dx| > |Dy|) (MHz): 
+   -4878.358868602597 -4849.639379286502 9727.998247897453
+  Scalar D = 14592.00 MHz, E = -14.36 MHz
+  
+  Memory usage (on process 0):
+    iorb_psir_map 0.00 MB
+    iorb_rhog_map 0.00 MB
+    ddig       21.36 MB
+    I          17.65 MB
+    Iglobal    282.00 MB
+  Total memory usage (on process 0): 7199.96 MB
+  
+  Time elapsed for pair iteration: 49178s

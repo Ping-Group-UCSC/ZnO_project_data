@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=orca
+#SBATCH --output=qe.%j
+#SBATCH --nodes=4
+#SBATCH --ntasks-per-node=8
+#SBATCH --time=24:00:00
+#SBATCH --partition=cpuq
+# SBATCH --dependency=afterany:48083
+#SBATCH --account=cpuq
+# SBATCH --account=cfn307395
+
+#module swap impi openmpi
+module load openmpi
+DIRORCA=/data/groups/ping/kli103/programs/orca/orca
+
+$DIRORCA/orca zfs.in > zfs.out

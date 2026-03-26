@@ -1,0 +1,27 @@
+path_gs = ../../../HSE_relax_gs
+path_ex = ../../../HSE_cdft_dn
+phonon_interface = phonopy
+file_phonon = ../../../2_Run_phonon_onlygamma/band.yaml
+zpl = 1.72
+
+#smearing and gamma
+smear = 0.003
+#smear_end = 0.0015
+gamma_ev = 0.005
+#hw_steps = 60000
+resolution = 5000
+hw_min = 0
+hw_max = 8
+
+#integral method
+cal_method = FFT
+#integral_method = quad_vec
+#limit = 1e-12
+#tolerance = 1e-18
+
+#plot option:
+PL_hw_xmin = 0
+PL_hw_xmax = 2.5
+S_hw_xmin = 0
+S_hw_xmax = 0.2
+

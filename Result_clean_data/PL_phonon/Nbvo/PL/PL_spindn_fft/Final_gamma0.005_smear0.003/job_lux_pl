@@ -1,0 +1,30 @@
+#!/bin/bash
+#SBATCH --job-name=pl
+#SBATCH --output=qe.%j
+##SBATCH --error=qe.%j
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --time=24:00:00
+#SBATCH --partition=windfall
+#SBATCH --account=windfall
+##SBATCH --dependency=afterany:286452
+
+module load intel/impi
+# module add intel/17.0.5.239 impi/2017
+
+export OMP_NUM_THREADS=1
+NCORES=$(($SLURM_NTASKS_PER_NODE * $SLURM_JOB_NUM_NODES))
+MPICMD="mpirun -n $SLURM_NTASKS"  #"mpirun -genv I_MPI_FABRICS shm:ofa -n $SLURM_NTASKS"
+
+VASPDIR="/data/groups/ping/kli103/programs/vasp/vasp.5.4.4-vtst/bin"  
+#VASPDIR="/export/data/share/wufeng/programs-intel2017.5/vasp/vasp.5.4.4-vtst/bin"
+
+echo "Start:"; date
+
+#PL_CODE='/jet/home/szhan213/code/PL-lineshape-code/code' #bridge
+PL_CODE='/data/groups/ping/szhan213/Programs/PL-lineshape-code_dev/code' #lux
+
+PYT='/home/szhan213/miniconda3/envs/west/bin/python3'
+$PYT -u $PL_CODE/main.py | tee pl.out 
+
+echo "Done:"; date

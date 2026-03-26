@@ -1,0 +1,57 @@
+#!/bin/bash
+#SBATCH --job-name=west
+#SBATCH --output=4992.%j
+#SBATCH --time=24:00:00
+#SBATCH --account=m4507
+#SBATCH --constraint=gpu
+#SBATCH --qos=regular
+#SBATCH --nodes=32
+#SBATCH --ntasks-per-node=4
+#SBATCH --gpus-per-task=1
+#SBATCH --gpu-bind=none
+#SBATCH --mail-user=szhan213@ucsc.edu
+#SBATCH --mail-type=ALL
+
+
+#-c, --cpus-per-task, for gpu node, should be 128/ntask-per-node;
+#if it is not a int, use 2*int(64/ntask-per-node)
+#usually ntask-per-node = gpus-per-node.
+#maximum numbers of GPU=4
+
+export LC_ALL=C
+module load gpu
+module load PrgEnv-nvidia
+module load nvidia/23.9
+module unload cray-libsci
+module unload darshan
+module load cudatoolkit/12.2
+module load craype-accel-nvidia80
+module load cray-python/3.11.5
+module load cray-fftw
+
+export LD_LIBRARY_PATH=/opt/cray/pe/python/3.11.5/lib:$LD_LIBRARY_PATH
+export OMP_NUM_THREADS=1
+export SLURM_CPU_BIND=cores
+export MPICH_GPU_SUPPORT_ENABLED=1
+
+MPICMD="srun -n $SLURM_NTASKS"
+WESTPW=/global/common/software/m4507/szhan213/WEST_GPU/qe-7.3-west6.0_compile2/bin
+
+###############################################################
+echo "Start:"; date
+#echo Run wstat
+#$MPICMD $WESTPW/wstat.x -nk 2 -ni 8 -i west_4992.in > wstat_4992.out
+#echo Done; cat wstat_4992.out | tail -5
+
+echo Run wfreq
+#$MPICMD $WESTPW/wfreq.x -nk 2 -ni 8 -i west_4992.in > wfreq_4992_2.out
+#$MPICMD $WESTPW/wfreq.x -nk 2 -ni 8 -i west_4992.in > wfreq_4992_3.out
+#rerun from scratch:
+#$MPICMD $WESTPW/wfreq.x -nk 2 -ni 8 -i west_4992.in > wfreq_4992_4.out
+
+$MPICMD $WESTPW/wfreq.x -ni 16 -i west_4992.in > wfreq_4992.out
+#$MPICMD $WESTPW/wfreq.x -nk 2 -ni 8 -i west_4992.in > wfreq_4992_re.out
+
+echo Done; 
+
+

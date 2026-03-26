@@ -1,0 +1,15 @@
+input_west:
+    west_prefix: pdep_4992
+wstat_control:
+    wstat_calculation: R
+    n_pdep_eigen: 4992
+    trev_pdep: 0.001
+    n_exx_lowrank: 2600
+    n_steps_write_restart: 0
+wfreq_control:
+    wfreq_calculation: XwGQH
+    macropol_calculation: C
+    n_pdep_eigen_to_use: 4992
+    qp_bands: [[1238, 1239, 1240, 1241, 1242, 1243, 1244, 1245, 1246, 1247, 1248], [1238, 1239, 1240, 1241, 1242, 1243, 1244, 1245, 1246, 1247, 1248]]
+    n_refreq: 300
+    ecut_refreq: 2.0

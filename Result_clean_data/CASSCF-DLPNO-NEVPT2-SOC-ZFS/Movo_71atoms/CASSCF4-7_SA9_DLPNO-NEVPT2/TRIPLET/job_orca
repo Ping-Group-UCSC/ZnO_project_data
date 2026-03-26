@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --job-name=orca
+#SBATCH --output=qe.%j
+#SBATCH --nodes=16
+#SBATCH --ntasks-per-node=4
+#SBATCH --time=48:00:00
+#SBATCH --partition=windfall
+# SBATCH --dependency=afterany:48083
+#SBATCH --account=windfall
+# SBATCH --account=cfn307395
+#SBATCH --requeue
+#module swap impi openmpi
+module load openmpi
+DIRORCA=/data/groups/ping/kli103/programs/orca/orca
+#DIRORCA=/data/groups/ping/eperez91/programs/orca/orca_5_0_1_linux_x86-64_shared_openmpi411
+
+$DIRORCA/orca DLPNO-NEVPT2.in > DLPNO-NEVPT2.out

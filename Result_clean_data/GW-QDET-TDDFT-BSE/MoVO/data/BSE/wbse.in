@@ -1,0 +1,23 @@
+input_west:
+    west_prefix: pdep_4992
+
+wbse_init_control:
+  wbse_init_calculation: S
+  bse_method: PDEP
+  n_pdep_eigen_to_use: 4992
+  localization: W
+  overlap_thr: 0.0001
+  chi_kernel: "CHI"
+
+wbse_control:
+  wbse_calculation: D
+  qp_correction: pdep_4992.wfreq.save/wfreq_2.json
+  n_liouville_eigen: 10
+  n_liouville_maxiter: 1000
+  trev_liouville: 0.0001
+  trev_liouville_rel: 0.001
+  l_preconditioning: True
+  l_pre_shift: False 
+  wbse_ipol: XYZ
+  wbse_epsinfty: 2.555
+  l_reduce_io: False

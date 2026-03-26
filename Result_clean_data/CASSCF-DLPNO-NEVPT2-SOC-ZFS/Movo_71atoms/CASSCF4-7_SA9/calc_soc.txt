@@ -1,0 +1,35 @@
+3E(ms=1) (z):  2865.986 GHz
+3E(ms=-1) (z):  2865.986 GHz
+root1 1E(ms=0) -> 3A2(ms=0), lambda x=  579.883 GHz
+(e->2a1) root1 3E(ms=0) -> 1E root1 (ms=1), lambda x=  7644.927 GHz
+(e->2a1) root2 3E(ms=0) -> 1E root1 (ms=1), lambda x=  7645.087 GHz
+root1 1E(ms=0) -> 3A2(ms=0), lambda z=  0.12 GHz
+(e->2a1) root1 3E(ms=0) -> 1E root1 (ms=0), lambda z=  4360.961 GHz
+(e->2a1) root2 3E(ms=0) -> 1E root1 (ms=0), lambda z=  2108.71 GHz
+root1 1E(ms=0) -> 3A2(ms=0), lambda y=  579.883 GHz
+(e->2a1) root1 3E(ms=0) -> 1E root1 (ms=-1), lambda y=  7644.927 GHz
+(e->2a1) root2 3E(ms=0) -> 1E root1 (ms=-1), lambda y=  7645.087 GHz
+root2 1E(ms=0) -> 3A2(ms=0), lambda x=  579.791 GHz
+(e->2a1) root1 3E(ms=0) -> 1E root2 (ms=1), lambda x=  7644.877 GHz
+(e->2a1) root2 3E(ms=0) -> 1E root2 (ms=1), lambda x=  7645.066 GHz
+(e->2a1) root2 3E(ms=0) -> 1E root2 (ms=-1), lambda y=  7645.066 GHz
+root2 1E(ms=0) -> 3A2(ms=0), lambda z=  0.06 GHz
+(e->2a1) root1 3E(ms=0) -> 1E root2 (ms=0), lambda z=  2108.74 GHz
+(e->2a1) root2 3E(ms=0) -> 1E root2 (ms=0), lambda z=  4360.391 GHz
+root2 1E(ms=0) -> 3A2(ms=0), lambda y=  579.791 GHz
+(e->2a1) root1 3E(ms=0) -> 1E root2 (ms=-1), lambda y=  7644.877 GHz
+1A1 (ms=0) -> 3A2(ms=1) -> 1A1(ms=0), lambda x=  0.247 GHz
+(1a1->e)root1 3E(ms=1) -> 1A1(ms=0), lambda x=  9390.16 GHz
+(1a1->e)root2 3E(ms=1) -> 1A1(ms=0), lambda x=  9390.35 GHz
+(e->2a1)root1 3E(ms=1) -> 1A1(ms=0), lambda x=  1503.62 GHz
+(e->2a1)root2 3E(ms=1) -> 1A1(ms=0), lambda x=  1504.345 GHz
+1A1 (ms=0) -> 3A2(ms=0), lambda z=  12237.648 GHz
+(1a1->e)root1 3E(ms=0) -> 1A1(ms=0), lambda z=  0.48 GHz
+(1a1->e)root2 3E(ms=0) -> 1A1(ms=0), lambda z=  0.24 GHz
+(e->2a1)root1 3E(ms=0) -> 1A1(ms=0), lambda z=  3.178 GHz
+(e->2a1)root2 3E(ms=0) -> 1A1(ms=0), lambda z=  0.6 GHz
+1A1 (ms=0) -> 3A2(ms=-1) -> 1A1(ms=0), lambda y=  0.247 GHz
+(1a1->e)root1 3E(ms=-1) -> 1A1(ms=0), lambda y=  9390.16 GHz
+(1a1->e)root2 3E(ms=-1) -> 1A1(ms=0), lambda y=  9390.35 GHz
+(e->2a1)root1 3E(ms=-1) -> 1A1(ms=0), lambda y=  1503.62 GHz
+(e->2a1)root2 3E(ms=-1) -> 1A1(ms=0), lambda y=  1504.345 GHz
